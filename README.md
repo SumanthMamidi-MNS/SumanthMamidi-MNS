@@ -115,9 +115,9 @@
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="195" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&theme=tokyonight&hide_border=true" height="195" alt="GitHub Streak" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&layout=compact" height="195" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" /><br/>
+  <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&theme=tokyonight&hide_border=true" alt="GitHub Streak" /><br/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" />
 </p>
 
 ---
