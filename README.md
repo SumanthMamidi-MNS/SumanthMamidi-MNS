@@ -2,127 +2,122 @@
 <!--      GITHUB PROFILE      -->
 <!-- ========================= -->
 
-<h1 align="center">Hi, I'm Sumanth Mamidi</h1>
-
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=850&lines=AI+%26+ML+Engineer;Full-Stack+Developer;Hackathon+Builder;Turning+Innovative+Ideas+into+Practical+Software+Solutions." alt="Typing SVG" />
-  </a>
+  <img src="tokyo_night_banner.png" alt="Sumanth Mamidi - Banner" width="100%">
 </p>
 
 <p align="center">
-  <b>AI & ML Engineering Student • Full-Stack Developer • Open Source Enthusiast</b>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&duration=3500&pause=1000&color=7aa2f7&center=true&vCenter=true&width=850&lines=Building+AI-Powered+Applications.;Designing+Scalable+Systems.;Exploring+Quantum+Computing.;Contributing+to+Open+Source.;Always+Learning.+Always+Building." alt="Typing SVG" />
+  </a>
 </p>
 
 ---
 
 <h2 align="center">💫 About Me</h2>
 
-🔭 I'm currently working on **AI-powered real-world applications and Full-Stack projects**
-
-🤝 I'm looking to collaborate on **AI/ML, Open Source, and Innovative Software Projects**
-
-🛠️ I'm looking for help with **System Design, MLOps, and Scalable AI Solutions**
-
-📚 I'm currently learning **Advanced AI/ML, Deep Learning, LLMs, and Cloud Technologies**
-
-💬 Ask me about **Python, AI/ML, Computer Vision, Full-Stack Development, and Hackathons**
-
-✨ Fun fact **I love turning crazy ideas into real working products.**
+<table align="center">
+  <tr>
+    <td>
+      🔭 I am currently working on <b>AI-powered real-world applications</b> and <b>Full-Stack projects</b>.<br/>
+      🤝 I am looking to collaborate on <b>AI/ML, Open Source</b>, and <b>Innovative Software Projects</b>.<br/>
+      🛠️ I am looking for help with <b>System Design, MLOps</b>, and <b>Scalable AI Solutions</b>.<br/>
+      📚 I am currently learning <b>Advanced AI/ML, Deep Learning, LLMs</b>, and <b>Cloud Technologies</b>.<br/>
+      💬 Ask me about <b>Python, AI/ML, Computer Vision, Full-Stack Development</b>, and <b>Hackathons</b>.<br/>
+      ✨ Fun fact: <b>I love turning crazy ideas into real working products.</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
 <h2 align="center">🌐 Socials</h2>
 
 <p align="center">
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_m_n_s_sumanth_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mns-sumanth)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mamidinagasaisumanth@gmail.com)
-
+  <a href="https://linkedin.com/in/mns-sumanth" target="_blank">
+    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" />
+  </a>
+  <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-1a1b26?style=for-the-badge&logo=instagram&logoColor=f7768e" alt="Instagram" />
+  </a>
+  <a href="mailto:mamidinagasaisumanth@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=ff9e64" alt="Email" />
+  </a>
 </p>
 
 ---
 
 <h2 align="center">💻 Tech Stack</h2>
 
-### 💻 Languages
+<h3 align="center">💻 Languages</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/C-1a1b26?style=for-the-badge&logo=c&logoColor=7aa2f7" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-1a1b26?style=for-the-badge&logo=cplusplus&logoColor=7aa2f7" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-1a1b26?style=for-the-badge&logo=openjdk&logoColor=7aa2f7" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-1a1b26?style=for-the-badge&logo=python&logoColor=7aa2f7" alt="Python" />
+  <img src="https://img.shields.io/badge/HTML5-1a1b26?style=for-the-badge&logo=html5&logoColor=7aa2f7" alt="HTML5" />
+  <img src="https://custom-icon-badges.demolab.com/badge/CSS3-1a1b26?style=for-the-badge&logo=css3&logoColor=7aa2f7" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-1a1b26?style=for-the-badge&logo=javascript&logoColor=7aa2f7" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Markdown-1a1b26?style=for-the-badge&logo=markdown&logoColor=7aa2f7" alt="Markdown" />
+</p>
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+<h3 align="center">⚙️ Frameworks & Libraries</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-1a1b26?style=for-the-badge&logo=fastapi&logoColor=7aa2f7" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Streamlit-1a1b26?style=for-the-badge&logo=streamlit&logoColor=7aa2f7" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/React-1a1b26?style=for-the-badge&logo=react&logoColor=7aa2f7" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-1a1b26?style=for-the-badge&logo=nextdotjs&logoColor=7aa2f7" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TailwindCSS-1a1b26?style=for-the-badge&logo=tailwindcss&logoColor=7aa2f7" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Node.js-1a1b26?style=for-the-badge&logo=nodedotjs&logoColor=7aa2f7" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Vite-1a1b26?style=for-the-badge&logo=vite&logoColor=7aa2f7" alt="Vite" />
+  <img src="https://img.shields.io/badge/OpenCV-1a1b26?style=for-the-badge&logo=opencv&logoColor=7aa2f7" alt="OpenCV" />
+</p>
 
----
+<h3 align="center">🗄️ Databases & Cloud</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-1a1b26?style=for-the-badge&logo=mongodb&logoColor=7aa2f7" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-1a1b26?style=for-the-badge&logo=postgresql&logoColor=7aa2f7" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-1a1b26?style=for-the-badge&logo=sqlite&logoColor=7aa2f7" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Supabase-1a1b26?style=for-the-badge&logo=supabase&logoColor=7aa2f7" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Firebase-1a1b26?style=for-the-badge&logo=firebase&logoColor=7aa2f7" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Vercel-1a1b26?style=for-the-badge&logo=vercel&logoColor=7aa2f7" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Render-1a1b26?style=for-the-badge&logo=render&logoColor=7aa2f7" alt="Render" />
+  <img src="https://custom-icon-badges.demolab.com/badge/AWS-1a1b26?style=for-the-badge&logo=amazonwebservices&logoColor=7aa2f7" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-1a1b26?style=for-the-badge&logo=docker&logoColor=7aa2f7" alt="Docker" />
+</p>
 
-### ⚙️ Frameworks & Libraries
+<h3 align="center">🤖 AI / Machine Learning</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/NumPy-1a1b26?style=for-the-badge&logo=numpy&logoColor=7aa2f7" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-1a1b26?style=for-the-badge&logo=pandas&logoColor=7aa2f7" alt="Pandas" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-1a1b26?style=for-the-badge&logo=matplotlib&logoColor=7aa2f7" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Plotly-1a1b26?style=for-the-badge&logo=plotly&logoColor=7aa2f7" alt="Plotly" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-1a1b26?style=for-the-badge&logo=scikitlearn&logoColor=7aa2f7" alt="Scikit-Learn" />
+</p>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Streamlit](https://img.shields.io/badge/Streamlit-FE4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next JS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-FFFFFF?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
+<h3 align="center">🎨 Design</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Figma-1a1b26?style=for-the-badge&logo=figma&logoColor=7aa2f7" alt="Figma" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Canva-1a1b26?style=for-the-badge&logo=canva&logoColor=7aa2f7" alt="Canva" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Adobe%20Photoshop-1a1b26?style=for-the-badge&logo=adobephotoshop&logoColor=7aa2f7" alt="Adobe Photoshop" />
+</p>
 
----
-
-### 🗄️ Databases & Cloud
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
----
-
-### 🤖 AI / Machine Learning
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-FFFFFF?style=for-the-badge&logo=plotly&logoColor=black)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-
----
-
-### 🎨 Design
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-
----
-
-### 🛠️ Tools
-
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+<h3 align="center">🛠️ Tools</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-1a1b26?style=for-the-badge&logo=git&logoColor=7aa2f7" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=7aa2f7" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Postman-1a1b26?style=for-the-badge&logo=postman&logoColor=7aa2f7" alt="Postman" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Arduino-1a1b26?style=for-the-badge&logo=arduino&logoColor=7aa2f7" alt="Arduino" />
+</p>
 
 ---
 
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180"/>
-
-<img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&theme=tokyonight&hide_border=true" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&layout=compact" height="180"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&layout=compact" height="180" alt="Top Languages" />
 </p>
 
 ---
@@ -130,7 +125,7 @@
 <h2 align="center">📈 Contribution Graph</h2>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=tokyo-night&hide_border=true&radius=12&height=220"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=tokyo-night&hide_border=true&radius=12&height=220" alt="Contribution Graph" />
 </p>
 
 ---
@@ -138,7 +133,11 @@
 <h2 align="center">🐍 Watch the Snake Eat My Contributions</h2>
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
 </p>
 
 ---
@@ -146,17 +145,29 @@
 <h2 align="center">💭 Dev Quote</h2>
 
 <p align="center">
-
-> **"First, solve the problem. Then, write the code."**
-
-> **— John Johnson**
-
+  <font size="4">
+    <i>"First, solve the problem. Then, write the code."</i>
+  </font>
+  <br>
+  <b>— John Johnson</b>
 </p>
 
 ---
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&label=Profile%20Views&style=for-the-badge&color=61dafb" alt="Profile Views" />
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&label=Profile%20Views&style=for-the-badge&color=61dafb"/>
+---
 
+<h2 align="center">💙 Thanks for Visiting</h2>
+
+<p align="center">
+  <i>"See you in the next commit."</i>
+</p>
+
+---
+
+<p align="center">
+  <sub>Built with ❤️, curiosity, and countless cups of coffee.</sub>
 </p>
