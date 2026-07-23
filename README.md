@@ -19,7 +19,7 @@
 <table align="center">
   <tr>
     <td>
-      🔭 I am currently working on <b>AI-powered real-world applications</b> and <b>Full-Stack projects</b>.<br/>
+      🔬 I am currently working on <b>AI-powered real-world applications</b> and <b>Full-Stack projects</b>.<br/>
       🤝 I am looking to collaborate on <b>AI/ML, Open Source</b>, and <b>Innovative Software Projects</b>.<br/>
       🛠️ I am looking for help with <b>System Design, MLOps</b>, and <b>Scalable AI Solutions</b>.<br/>
       📚 I am currently learning <b>Advanced AI/ML, Deep Learning, LLMs</b>, and <b>Cloud Technologies</b>.<br/>
@@ -115,9 +115,9 @@
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&layout=compact" height="180" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&layout=compact" height="180" alt="Top Languages" />
 </p>
 
 ---
