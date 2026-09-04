@@ -17,21 +17,23 @@ jobs:
     timeout-minutes: 5
     
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       # Generates a game of snake from a github user contributions graph, output a svg animation at <svg_out_path>
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%2373daca&color_dots=%231a1b26,%232e3047,%23434975,%237aa2f7,%237dcfff
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%2373daca&color_dots=%2316161e,%232e3047,%23434975,%237aa2f7,%237dcfff
+            assets/github-contribution-grid-snake.svg?color_snake=%2373daca&color_dots=%231a1b26,%232e3047,%23434975,%237aa2f7,%237dcfff
+            assets/github-contribution-grid-snake-dark.svg?color_snake=%2373daca&color_dots=%2316161e,%232e3047,%23434975,%237aa2f7,%237dcfff
           
-      # Push the content of <build_dir> to a branch
-      # The content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file>
-      - name: Push github-contribution-grid-snake.svg to the output branch
+      # Push the content of assets to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

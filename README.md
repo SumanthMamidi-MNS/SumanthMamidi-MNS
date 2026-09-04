@@ -35,7 +35,7 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/mns-sumanth" target="_blank">
-    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=data%3Aimage/svg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzdhYTJmNyI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjI1VjEwLjlINi40Nk03Ljg2IDYuNTRhMS42MyAxLjYzIDAgMSAwIDAgMy4yNiAxLjYzIDEuNjMgMCAwIDAgMC0zLjI2WiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" />
   </a>
   <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-1a1b26?style=for-the-badge&logo=instagram&logoColor=f7768e" alt="Instagram" />
@@ -59,6 +59,15 @@
   <img src="https://custom-icon-badges.demolab.com/badge/CSS3-1a1b26?style=for-the-badge&logo=css3&logoColor=7aa2f7" alt="CSS3" />
   <img src="https://img.shields.io/badge/JavaScript-1a1b26?style=for-the-badge&logo=javascript&logoColor=7aa2f7" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Markdown-1a1b26?style=for-the-badge&logo=markdown&logoColor=7aa2f7" alt="Markdown" />
+</p>
+
+<h3 align="center">🤖 AI / Machine Learning</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/NumPy-1a1b26?style=for-the-badge&logo=numpy&logoColor=7aa2f7" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-1a1b26?style=for-the-badge&logo=pandas&logoColor=7aa2f7" alt="Pandas" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-1a1b26?style=for-the-badge&logo=matplotlib&logoColor=7aa2f7" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Plotly-1a1b26?style=for-the-badge&logo=plotly&logoColor=7aa2f7" alt="Plotly" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-1a1b26?style=for-the-badge&logo=scikitlearn&logoColor=7aa2f7" alt="Scikit-Learn" />
 </p>
 
 <h3 align="center">⚙️ Frameworks & Libraries</h3>
@@ -86,22 +95,6 @@
   <img src="https://img.shields.io/badge/Docker-1a1b26?style=for-the-badge&logo=docker&logoColor=7aa2f7" alt="Docker" />
 </p>
 
-<h3 align="center">🤖 AI / Machine Learning</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/NumPy-1a1b26?style=for-the-badge&logo=numpy&logoColor=7aa2f7" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-1a1b26?style=for-the-badge&logo=pandas&logoColor=7aa2f7" alt="Pandas" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-1a1b26?style=for-the-badge&logo=matplotlib&logoColor=7aa2f7" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/Plotly-1a1b26?style=for-the-badge&logo=plotly&logoColor=7aa2f7" alt="Plotly" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-1a1b26?style=for-the-badge&logo=scikitlearn&logoColor=7aa2f7" alt="Scikit-Learn" />
-</p>
-
-<h3 align="center">🎨 Design</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Figma-1a1b26?style=for-the-badge&logo=figma&logoColor=7aa2f7" alt="Figma" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Canva-1a1b26?style=for-the-badge&logo=canva&logoColor=7aa2f7" alt="Canva" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Adobe%20Photoshop-1a1b26?style=for-the-badge&logo=adobephotoshop&logoColor=7aa2f7" alt="Adobe Photoshop" />
-</p>
-
 <h3 align="center">🛠️ Tools</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Git-1a1b26?style=for-the-badge&logo=git&logoColor=7aa2f7" alt="Git" />
@@ -122,52 +115,29 @@
 
 ---
 
-<h2 align="center">📈 Contribution Graph</h2>
+<h2 align="center">📈 Activity & Contribution Timeline</h2>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=tokyo-night&hide_border=true&radius=12&height=220" alt="Contribution Graph" />
+  <img width="100%" src="https://activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=tokyo-night&hide_border=true&radius=12&height=220" alt="Contribution Graph" />
+</p>
+
+<p align="center">
+  <img src="assets/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
 </p>
 
 ---
 
-<h2 align="center">⚡ Contribution Timeline</h2>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
-</p>
-
----
-
-<h2 align="center">💭 Dev Quote</h2>
-
-<p align="center">
-  <font size="4">
-    <i>"First, solve the problem. Then, write the code."</i>
-  </font>
-  <br>
-  <b>— John Johnson</b>
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&label=Profile%20Views&style=for-the-badge&color=61dafb" alt="Profile Views" />
-</p>
-
----
-
-<h2 align="center">💙 Thanks for Visiting</h2>
-
-<p align="center">
-  <i>"See you in the next commit."</i>
-</p>
-
----
-
-<p align="center">
-  <sub>Built with ❤️, curiosity, and countless cups of coffee.</sub>
-</p>
+<!-- UNIFIED FOOTER: Perfectly balanced spacing, no extra lines -->
+<div align="center">
+  <p>
+    <i>"First, solve the problem. Then, write the code."</i><br/>
+    <b>— John Johnson</b>
+  </p>
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&label=Profile%20Views&style=for-the-badge&color=7aa2f7" alt="Profile Views" />
+  </p>
+  <p>
+    <i>"See you in the next commit."</i><br/>
+    <sub>Built with ❤️, curiosity, and countless cups of coffee.</sub>
+  </p>
+</div>
