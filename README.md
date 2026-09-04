@@ -3,7 +3,7 @@
 <!-- ========================= -->
 
 <p align="center">
-  <img src="tokyo_night_banner.png" alt="Sumanth Mamidi - Banner" width="100%">
+  <img src="tokyo_night_animated_banner.gif" alt="Sumanth Mamidi - Banner" width="100%">
 </p>
 
 <p align="center">
