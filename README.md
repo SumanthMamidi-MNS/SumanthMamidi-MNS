@@ -13,8 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/mns-sumanth" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>&nbsp;
-  <a href="https://linktr.ee/mns_sumanth" target="_blank"><img src="https://img.shields.io/badge/Linktree-161b22?style=for-the-badge&logo=linktree&logoColor=43E660" alt="Linktree" /></a>&nbsp;
+  <a href="https://linkedin.com/in/mns-sumanth" target="_blank"><img src="assets/badge_linkedin.svg" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:mamidinagasaisumanth@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>&nbsp;
   <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank"><img src="https://img.shields.io/badge/Instagram-161b22?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
 </p>
