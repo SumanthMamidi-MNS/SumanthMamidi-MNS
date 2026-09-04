@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 215" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 175" width="100%">
   <defs>
     <linearGradient id="p-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0c101d"/>
@@ -21,77 +21,77 @@
   </defs>
 
   <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #38bdf8; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15.5px; font-weight: 700; fill: #38bdf8; }
     .badge-rect { fill: #facc15; fill-opacity: 0.12; stroke: #facc15; stroke-opacity: 0.4; stroke-width: 1px; rx: 4px; }
-    .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9.5px; font-weight: 700; fill: #facc15; letter-spacing: 0.8px; }
-    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; }
-    .tag { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; fill: #cbd5e1; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9px; font-weight: 700; fill: #facc15; letter-spacing: 0.6px; text-anchor: middle; dominant-baseline: middle; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #94a3b8; line-height: 1.4; }
+    .tag { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 10.5px; fill: #cbd5e1; dominant-baseline: middle; }
     .tag-bg { fill: #1e293b; rx: 4px; }
     .divider { stroke: #21262d; stroke-width: 1px; }
   </style>
 
   <!-- Card Background -->
-  <rect x="2" y="2" width="896" height="211" rx="10" fill="url(#p-bg)" stroke="url(#p-border)" stroke-width="1.5"/>
-  <rect x="2" y="2" width="896" height="211" rx="10" fill="url(#glow-left)"/>
-  <rect x="2" y="2" width="896" height="211" rx="10" fill="url(#glow-right)"/>
+  <rect x="2" y="2" width="896" height="171" rx="10" fill="url(#p-bg)" stroke="url(#p-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="896" height="171" rx="10" fill="url(#glow-left)"/>
+  <rect x="2" y="2" width="896" height="171" rx="10" fill="url(#glow-right)"/>
 
   <!-- Column 1: Neural & Agent Systems -->
-  <g transform="translate(30, 24)">
-    <text x="0" y="0" class="title">🧠 Neural &amp; Agent Systems</text>
-    <rect x="0" y="12" width="160" height="18" class="badge-rect"/>
-    <text x="7" y="25" class="badge-text">MULTI-AGENT INTELLIGENCE</text>
-    <text x="0" y="54" class="desc">
-      <tspan x="0" dy="0">Architecting autonomous multi-agent</tspan>
-      <tspan x="0" dy="18">pipelines, LLM benchmark testbeds,</tspan>
-      <tspan x="0" dy="18">prompt defense &amp; RL workflows.</tspan>
+  <g transform="translate(25, 20)">
+    <text x="0" y="14" class="title">🧠 Neural &amp; Agent Systems</text>
+    <rect x="0" y="24" width="168" height="17" class="badge-rect"/>
+    <text x="84" y="33" class="badge-text">MULTI-AGENT INTELLIGENCE</text>
+    <text x="0" y="58" class="desc">
+      <tspan x="0" dy="0">Architecting autonomous multi-agent pipelines,</tspan>
+      <tspan x="0" dy="16">LLM benchmark testbeds, prompt injection</tspan>
+      <tspan x="0" dy="16">defense &amp; continuous RL workflows.</tspan>
     </text>
-    <g transform="translate(0, 126)">
-      <rect x="0" y="0" width="115" height="22" class="tag-bg"/>
-      <text x="8" y="15" class="tag">Autonomous Agents</text>
-      <rect x="123" y="0" width="110" height="22" class="tag-bg"/>
-      <text x="131" y="15" class="tag">LLM Benchmarks</text>
+    <g transform="translate(0, 106)">
+      <rect x="0" y="0" width="115" height="20" class="tag-bg"/>
+      <text x="8" y="10" class="tag">Autonomous Agents</text>
+      <rect x="122" y="0" width="110" height="20" class="tag-bg"/>
+      <text x="130" y="10" class="tag">LLM Benchmarks</text>
     </g>
   </g>
 
   <!-- Divider 1 -->
-  <line x1="305" y1="20" x2="305" y2="195" class="divider"/>
+  <line x1="300" y1="18" x2="300" y2="157" class="divider"/>
 
   <!-- Column 2: Scalable AI Infrastructure -->
-  <g transform="translate(335, 24)">
-    <text x="0" y="0" class="title">⚡ Scalable AI Infrastructure</text>
-    <rect x="0" y="12" width="155" height="18" class="badge-rect"/>
-    <text x="7" y="25" class="badge-text">HIGH-THROUGHPUT SYSTEMS</text>
-    <text x="0" y="54" class="desc">
-      <tspan x="0" dy="0">Engineering high-throughput inference</tspan>
-      <tspan x="0" dy="18">APIs with FastAPI, Docker container</tspan>
-      <tspan x="0" dy="18">pipelines &amp; cloud orchestration.</tspan>
+  <g transform="translate(325, 20)">
+    <text x="0" y="14" class="title">⚡ Scalable AI Infrastructure</text>
+    <rect x="0" y="24" width="176" height="17" class="badge-rect"/>
+    <text x="88" y="33" class="badge-text">HIGH-THROUGHPUT SYSTEMS</text>
+    <text x="0" y="58" class="desc">
+      <tspan x="0" dy="0">Engineering high-throughput inference APIs</tspan>
+      <tspan x="0" dy="16">with FastAPI, Docker container pipelines,</tspan>
+      <tspan x="0" dy="16">and scalable cloud orchestration.</tspan>
     </text>
-    <g transform="translate(0, 126)">
-      <rect x="0" y="0" width="90" height="22" class="tag-bg"/>
-      <text x="8" y="15" class="tag">Async FastAPI</text>
-      <rect x="98" y="0" width="125" height="22" class="tag-bg"/>
-      <text x="106" y="15" class="tag">Docker Pipelines</text>
+    <g transform="translate(0, 106)">
+      <rect x="0" y="0" width="92" height="20" class="tag-bg"/>
+      <text x="8" y="10" class="tag">Async FastAPI</text>
+      <rect x="100" y="0" width="118" height="20" class="tag-bg"/>
+      <text x="108" y="10" class="tag">Docker Pipelines</text>
     </g>
   </g>
 
   <!-- Divider 2 -->
-  <line x1="605" y1="20" x2="605" y2="195" class="divider"/>
+  <line x1="600" y1="18" x2="600" y2="157" class="divider"/>
 
   <!-- Column 3: Vision & Spatial Computing -->
-  <g transform="translate(635, 24)">
-    <text x="0" y="0" class="title">👁️ Vision &amp; Spatial Computing</text>
-    <rect x="0" y="12" width="140" height="18" class="badge-rect"/>
-    <text x="7" y="25" class="badge-text">SPATIAL &amp; 3D VISION</text>
-    <text x="0" y="54" class="desc">
+  <g transform="translate(625, 20)">
+    <text x="0" y="14" class="title">👁️ Vision &amp; Spatial Computing</text>
+    <rect x="0" y="24" width="150" height="17" class="badge-rect"/>
+    <text x="75" y="33" class="badge-text">SPATIAL &amp; 3D VISION</text>
+    <text x="0" y="58" class="desc">
       <tspan x="0" dy="0">Developing real-time vision pipelines,</tspan>
-      <tspan x="0" dy="18">webcam hand-gesture tracking with</tspan>
-      <tspan x="0" dy="18">MediaPipe &amp; 3D Three.js graphics.</tspan>
+      <tspan x="0" dy="16">webcam hand-gesture tracking with</tspan>
+      <tspan x="0" dy="16">MediaPipe &amp; 3D Three.js graphics.</tspan>
     </text>
-    <g transform="translate(0, 126)">
-      <rect x="0" y="0" width="105" height="22" class="tag-bg"/>
-      <text x="8" y="15" class="tag">MediaPipe Vision</text>
-      <rect x="113" y="0" width="100" height="22" class="tag-bg"/>
-      <text x="121" y="15" class="tag">Three.js 3D</text>
+    <g transform="translate(0, 106)">
+      <rect x="0" y="0" width="105" height="20" class="tag-bg"/>
+      <text x="8" y="10" class="tag">MediaPipe Vision</text>
+      <rect x="113" y="0" width="95" height="20" class="tag-bg"/>
+      <text x="121" y="10" class="tag">Three.js 3D</text>
     </g>
   </g>
 </svg>

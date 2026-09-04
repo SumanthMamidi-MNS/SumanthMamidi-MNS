@@ -13,17 +13,10 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/mns-sumanth" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:mamidinagasaisumanth@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-161b22?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
-  </a>
+  <a href="https://linkedin.com/in/mns-sumanth" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://linktr.ee/mns_sumanth" target="_blank"><img src="https://img.shields.io/badge/Linktree-161b22?style=for-the-badge&logo=linktree&logoColor=43E660" alt="Linktree" /></a>&nbsp;
+  <a href="mailto:mamidinagasaisumanth@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>&nbsp;
+  <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank"><img src="https://img.shields.io/badge/Instagram-161b22?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
 </p>
 
 ---
@@ -39,20 +32,16 @@
 <h2 align="center">🚀 Flagship AI Systems & Engineering</h2>
 
 <p align="center">
-  <a href="https://github.com/SumanthMamidi-MNS/OMNIFIX">
-    <img src="assets/card_omnifix.svg" width="425" alt="OMNIFIX Card" />
-  </a>
-  <a href="https://github.com/SumanthMamidi-MNS/EmailEnv">
-    <img src="assets/card_emailenv.svg" width="425" alt="EmailEnv Card" />
-  </a>
+  <a href="https://github.com/SumanthMamidi-MNS/OMNIFIX"><img src="assets/card_omnifix.svg" width="100%" alt="OMNIFIX System Card" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/SumanthMamidi-MNS/AirForge">
-    <img src="assets/card_airforge.svg" width="425" alt="AirForge Card" />
-  </a>
-  <a href="https://github.com/SumanthMamidi-MNS/DeepFocus">
-    <img src="assets/card_deepfocus.svg" width="425" alt="DeepFocus Card" />
-  </a>
+  <a href="https://github.com/SumanthMamidi-MNS/EmailEnv"><img src="assets/card_emailenv.svg" width="100%" alt="EmailEnv System Card" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/SumanthMamidi-MNS/AirForge"><img src="assets/card_airforge.svg" width="100%" alt="AirForge System Card" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/SumanthMamidi-MNS/DeepFocus"><img src="assets/card_deepfocus.svg" width="100%" alt="DeepFocus System Card" /></a>
 </p>
 
 ---
@@ -85,10 +74,10 @@
   <img src="https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Streamlit-161b22?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
   <img src="https://img.shields.io/badge/OpenCV-161b22?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" /><br/>
-  <img src="https://img.shields.io/badge/React-161b22?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/React-161b22?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /><br/>
   <img src="https://img.shields.io/badge/Next.js-161b22?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
   <img src="https://img.shields.io/badge/TailwindCSS-161b22?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
   <img src="https://img.shields.io/badge/Vite-161b22?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
 </p>
 

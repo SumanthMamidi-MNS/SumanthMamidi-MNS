@@ -1,44 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 195" width="440" height="195">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 118" width="100%">
   <defs>
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0c101d"/>
-      <stop offset="100%" stop-color="#121726"/>
+      <stop offset="60%" stop-color="#111625"/>
+      <stop offset="100%" stop-color="#0c101d"/>
     </linearGradient>
-    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="border-stream" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#30363d" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#30363d" stop-opacity="0.2"/>
+      <stop offset="35%" stop-color="#30363d" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#1f293d" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0.7"/>
     </linearGradient>
-    <radialGradient id="top-glow" cx="15%" cy="15%" r="45%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12"/>
+    <radialGradient id="card-glow" cx="8%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.14"/>
       <stop offset="100%" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
+  <style>
+    @keyframes pulse-dot {
+      0% { r: 3.5px; opacity: 1; }
+      50% { r: 5px; opacity: 0.4; }
+      100% { r: 3.5px; opacity: 1; }
+    }
+    @keyframes border-shimmer {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 2000; }
+    }
+    .pulse-circle {
+      animation: pulse-dot 2.5s infinite ease-in-out;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 19px;
+      font-weight: 700;
+      fill: #38bdf8;
+    }
+    .badge-rect {
+      fill: #facc15;
+      fill-opacity: 0.12;
+      stroke: #facc15;
+      stroke-opacity: 0.4;
+      stroke-width: 1px;
+      rx: 3px;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 9.5px;
+      font-weight: 700;
+      fill: #facc15;
+      letter-spacing: 0.6px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+    .desc-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 12.5px;
+      fill: #94a3b8;
+      line-height: 1.5;
+    }
+    .tag-box {
+      fill: #1e293b;
+      rx: 4px;
+    }
+    .tag-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 10.5px;
+      fill: #e2e8f0;
+      dominant-baseline: middle;
+    }
+    .divider-line {
+      stroke: #21262d;
+      stroke-width: 1px;
+    }
+    .status-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 9px;
+      font-weight: 600;
+      fill: #22c55e;
+      letter-spacing: 0.5px;
+      dominant-baseline: middle;
+    }
+    .arrow {
+      fill: #38bdf8;
+      font-family: -apple-system, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+
   <!-- Container -->
-  <rect x="2" y="2" width="436" height="191" rx="10" fill="url(#card-bg)" stroke="url(#card-border)" stroke-width="1.5"/>
-  <rect x="2" y="2" width="436" height="191" rx="10" fill="url(#top-glow)"/>
+  <rect x="2" y="2" width="896" height="114" rx="10" fill="url(#card-bg)" stroke="url(#border-stream)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="896" height="114" rx="10" fill="url(#card-glow)"/>
 
-  <!-- Header -->
-  <g transform="translate(24, 26)">
-    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#38bdf8">🖐️ AirForge</text>
-    <rect x="0" y="12" width="171.5" height="17" rx="3" fill="#facc15" fill-opacity="0.12" stroke="#facc15" stroke-opacity="0.4" stroke-width="1"/>
-    <text x="7" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#facc15" letter-spacing="0.6px">SPATIAL GESTURE 3D ENGINE</text>
-    
-    <!-- Description -->
-    <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">
-      <tspan x="0" dy="0">Browser-based spatial computing environment. Enables real-time</tspan>
-      <tspan x="0" dy="18">drawing in 2D luminous ink and building in 3D voxel space</tspan>
-      <tspan x="0" dy="18">using webcam hand tracking via MediaPipe &amp; Three.js.</tspan>
+  <!-- Left: Title, Badge & Live Pulse Status -->
+  <g transform="translate(24, 24)">
+    <!-- Status Dot & Label -->
+    <circle cx="4" cy="4" r="3.5" fill="#22c55e" class="pulse-circle"/>
+    <text x="14" y="5" class="status-text">ACTIVE REPOSITORY</text>
+
+    <!-- Title -->
+    <text x="0" y="32" class="title-text">🖐️ AirForge</text>
+
+    <!-- Badge -->
+    <rect x="0" y="44" width="176.5" height="18" class="badge-rect"/>
+    <text x="88.25" y="54" class="badge-text">SPATIAL GESTURE 3D ENGINE</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="245" y1="18" x2="245" y2="100" class="divider-line"/>
+
+  <!-- Center: High-Contrast Description -->
+  <g transform="translate(265, 42)">
+    <text x="0" y="0" class="desc-text">
+      <tspan x="0" dy="0">Browser-based spatial computing environment for 2D luminous ink</tspan>
+      <tspan x="0" dy="21">and 3D voxel construction using MediaPipe &amp; Three.js.</tspan>
     </text>
+  </g>
 
-    <!-- Tags -->
-    <g transform="translate(0, 120)">
-      <rect x="0" y="0" width="91.0" height="22" rx="4" fill="#1e293b"/>
-<text x="8" y="15" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#e2e8f0">JavaScript</text>\n<rect x="99.0" y="0" width="76.0" height="22" rx="4" fill="#1e293b"/>
-<text x="107.0" y="15" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#e2e8f0">Three.js</text>\n<rect x="183.0" y="0" width="83.5" height="22" rx="4" fill="#1e293b"/>
-<text x="191.0" y="15" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#e2e8f0">MediaPipe</text>\n<rect x="274.5" y="0" width="91.0" height="22" rx="4" fill="#1e293b"/>
-<text x="282.5" y="15" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#e2e8f0">Spatial UI</text>
-    </g>
+  <!-- Divider 2 -->
+  <line x1="640" y1="18" x2="640" y2="100" class="divider-line"/>
+
+  <!-- Right: 4 Monospace Tech Pills -->
+  <g transform="translate(658, 28)">
+    <!-- Row 1 Tags -->
+    <rect x="0" y="0" width="86.0" height="22" class="tag-box"/>
+    <text x="7" y="11" class="tag-text">JavaScript</text>
+    
+    <rect x="94.0" y="0" width="71.6" height="22" class="tag-box"/>
+    <text x="101.0" y="11" class="tag-text">Three.js</text>
+
+    <!-- Row 2 Tags -->
+    <rect x="0" y="32" width="78.8" height="22" class="tag-box"/>
+    <text x="7" y="43" class="tag-text">MediaPipe</text>
+
+    <rect x="86.8" y="32" width="86.0" height="22" class="tag-box"/>
+    <text x="93.8" y="43" class="tag-text">Spatial UI</text>
   </g>
 </svg>
