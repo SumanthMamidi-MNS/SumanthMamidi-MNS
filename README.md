@@ -34,14 +34,23 @@
   <tr>
     <td width="33%" align="center" valign="top">
       <h3>🧠 Neural & Agent Systems</h3>
+      <p>
+        <img src="https://img.shields.io/badge/PILLAR-Multi--Agent_Intelligence-facc15?style=flat-square&labelColor=161b22" alt="Neural & Agent Systems" />
+      </p>
       <p>Architecting autonomous multi-agent pipelines, LLM benchmark testbeds, prompt injection defense, and continuous reinforcement workflows.</p>
     </td>
     <td width="33%" align="center" valign="top">
       <h3>⚡ Scalable AI Infrastructure</h3>
+      <p>
+        <img src="https://img.shields.io/badge/PILLAR-High--Throughput_Systems-facc15?style=flat-square&labelColor=161b22" alt="Scalable AI Infrastructure" />
+      </p>
       <p>Engineering asynchronous high-throughput inference APIs with FastAPI, containerized deployments with Docker, and cloud orchestration.</p>
     </td>
     <td width="33%" align="center" valign="top">
       <h3>👁️ Vision & Spatial Computing</h3>
+      <p>
+        <img src="https://img.shields.io/badge/PILLAR-Spatial_%26_3D_Vision-facc15?style=flat-square&labelColor=161b22" alt="Vision & Spatial Computing" />
+      </p>
       <p>Developing real-time computer vision applications, webcam hand-gesture tracking with MediaPipe, and 3D interactive graphics via Three.js.</p>
     </td>
   </tr>
@@ -55,7 +64,9 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SumanthMamidi-MNS/OMNIFIX">🛡️ OMNIFIX</a></h3>
-      <p><b>Autonomous Multi-Agent Vulnerability Repair System</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/CORE_FOCUS-Autonomous_Multi--Agent_Repair-facc15?style=flat-square&labelColor=161b22" alt="Autonomous Multi-Agent Vulnerability Repair System" />
+      </p>
       <p>Autonomous multi-agent system utilizing <b>Llama 3.1</b> to detect, analyze, and repair Python security vulnerabilities with automated CWE classification, AST validation, and exploit PoC verification.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
@@ -65,7 +76,9 @@
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SumanthMamidi-MNS/EmailEnv">✉️ EmailEnv</a></h3>
-      <p><b>Autonomous Agent Flight Simulator & Safety Benchmark</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/CORE_FOCUS-Agent_Flight_Simulator_%26_Safety-facc15?style=flat-square&labelColor=161b22" alt="Autonomous Agent Flight Simulator & Safety Benchmark" />
+      </p>
       <p>OpenEnv-compliant evaluation harness and simulated flight deck for autonomous email agents. Features multi-tier LLM benchmark suites, prompt injection defense, and continuous learning safety filters.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
@@ -74,10 +87,14 @@
       </p>
     </td>
   </tr>
+</table>
+<table align="center" width="100%">
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SumanthMamidi-MNS/AirForge">🖐️ AirForge</a></h3>
-      <p><b>Spatial Gesture Computing & 3D Voxel Engine</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/CORE_FOCUS-Spatial_Gesture_Computing_%26_3D_Voxel-facc15?style=flat-square&labelColor=161b22" alt="Spatial Gesture Computing & 3D Voxel Engine" />
+      </p>
       <p>Browser-based spatial computing environment. Enables real-time drawing in 2D luminous ink and building in 3D voxel space using webcam hand gestures powered by MediaPipe and Three.js.</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
@@ -87,7 +104,9 @@
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SumanthMamidi-MNS/DeepFocus">🎧 DeepFocus</a></h3>
-      <p><b>Adaptive Psychoacoustic Flow Workspace</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/CORE_FOCUS-Adaptive_Psychoacoustic_Workspace-facc15?style=flat-square&labelColor=161b22" alt="Adaptive Psychoacoustic Flow Workspace" />
+      </p>
       <p>Offline-first ambient workspace synthesizing real-time procedural acoustics, precision focus cycles, and cognitive distraction grounding—engineered with zero external dependencies.</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
