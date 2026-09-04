@@ -3,12 +3,12 @@
 <!-- ========================= -->
 
 <p align="center">
-  <img src="tokyo_night_animated_banner.gif" alt="Sumanth Mamidi - Banner" width="100%">
+  <img src="tokyo_night_animated_banner.svg" alt="Sumanth Mamidi - Banner" width="100%">
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&duration=3500&pause=1000&color=7aa2f7&center=true&vCenter=true&width=850&lines=Building+AI-Powered+Applications.;Designing+Scalable+Systems.;Exploring+Quantum+Computing.;Contributing+to+Open+Source.;Always+Learning.+Always+Building." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&duration=3500&pause=1000&color=7aa2f7&center=true&vCenter=true&width=850&lines=AI+Systems+Engineer.;Machine+Learning+%26+Deep+Learning.;Architecting+Scalable+AI+Systems.;Full-Stack+Developer.;Building+Intelligent+Applications." alt="Typing SVG" />
   </a>
 </p>
 
