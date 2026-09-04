@@ -161,9 +161,9 @@
 <h2 align="center">📊 GitHub Telemetry & Stats</h2>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff&icon_color=facc15&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" />
+  <img height="195" src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&card_width=360&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff&icon_color=facc15&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&layout=compact&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff" alt="Top Languages" />
+  <img height="195" src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&layout=compact&langs_count=8&card_width=360&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff" alt="Top Languages" />
   <br/><br/>
   <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&background=0d1117&border=30363d&stroke=30363d&border_radius=10&ring=facc15&fire=facc15&currStreakNum=38bdf8&currStreakLabel=facc15&sideNums=ffffff&sideLabels=cbd5e1&dates=38bdf8" alt="GitHub Streak" />
 </p>
