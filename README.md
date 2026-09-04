@@ -12,38 +12,91 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://linkedin.com/in/mns-sumanth" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:mamidinagasaisumanth@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-161b22?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
+  </a>
+</p>
+
 ---
 
-<h2 align="center">💫 About Me</h2>
+<h2 align="center">⚡ Architectural Focus & Engineering Pillars</h2>
 
-<table align="center">
+<table align="center" width="100%">
   <tr>
-    <td>
-      🔭 I am currently working on <b>AI-powered real-world applications</b> and <b>Full-Stack projects</b>.<br/>
-      🤝 I am looking to collaborate on <b>AI/ML, Open Source</b>, and <b>Innovative Software Projects</b>.<br/>
-      🛠️ I am looking for help with <b>System Design, MLOps</b>, and <b>Scalable AI Solutions</b>.<br/>
-      📚 I am currently learning <b>Advanced AI/ML, Deep Learning, LLMs</b>, and <b>Cloud Technologies</b>.<br/>
-      💬 Ask me about <b>Python, AI/ML, Computer Vision, Full-Stack Development</b>, and <b>Hackathons</b>.<br/>
-      ✨ Fun fact: <b>I love turning crazy ideas into real working products.</b>
+    <td width="33%" align="center" valign="top">
+      <h3>🧠 Neural & Agent Systems</h3>
+      <p>Architecting autonomous multi-agent pipelines, LLM benchmark testbeds, prompt injection defense, and continuous reinforcement workflows.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>⚡ Scalable AI Infrastructure</h3>
+      <p>Engineering asynchronous high-throughput inference APIs with FastAPI, containerized deployments with Docker, and cloud orchestration.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>👁️ Vision & Spatial Computing</h3>
+      <p>Developing real-time computer vision applications, webcam hand-gesture tracking with MediaPipe, and 3D interactive graphics via Three.js.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-<h2 align="center">🌐 Socials</h2>
+<h2 align="center">🚀 Flagship AI Systems & Engineering</h2>
 
-<p align="center">
-  <a href="https://linkedin.com/in/mns-sumanth" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=data%3Aimage/svg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzdhYTJmNyI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjI1VjEwLjlINi40Nk03Ljg2IDYuNTRhMS42MyAxLjYzIDAgMSAwIDAgMy4yNiAxLjYzIDEuNjMgMCAwIDAgMC0zLjI2WiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" />
-  </a>
-  <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-1a1b26?style=for-the-badge&logo=instagram&logoColor=f7768e" alt="Instagram" />
-  </a>
-  <a href="mailto:mamidinagasaisumanth@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=ff9e64" alt="Email" />
-  </a>
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SumanthMamidi-MNS/OMNIFIX">🛡️ OMNIFIX</a></h3>
+      <p><b>Autonomous Multi-Agent Vulnerability Repair System</b></p>
+      <p>Autonomous multi-agent system utilizing <b>Llama 3.1</b> to detect, analyze, and repair Python security vulnerabilities with automated CWE classification, AST validation, and exploit PoC verification.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+        <img src="https://img.shields.io/badge/Llama_3.1-161b22?style=flat-square&logo=meta&logoColor=0467DF" alt="Llama 3.1" />
+        <img src="https://img.shields.io/badge/Multi--Agent-161b22?style=flat-square&logo=openai&logoColor=412991" alt="Multi-Agent" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SumanthMamidi-MNS/EmailEnv">✉️ EmailEnv</a></h3>
+      <p><b>Autonomous Agent Flight Simulator & Safety Benchmark</b></p>
+      <p>OpenEnv-compliant evaluation harness and simulated flight deck for autonomous email agents. Features multi-tier LLM benchmark suites, prompt injection defense, and continuous learning safety filters.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+        <img src="https://img.shields.io/badge/LLM_Benchmark-161b22?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="LLM Benchmark" />
+        <img src="https://img.shields.io/badge/AI_Safety-161b22?style=flat-square&logo=shield&logoColor=facc15" alt="AI Safety" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SumanthMamidi-MNS/AirForge">🖐️ AirForge</a></h3>
+      <p><b>Spatial Gesture Computing & 3D Voxel Engine</b></p>
+      <p>Browser-based spatial computing environment. Enables real-time drawing in 2D luminous ink and building in 3D voxel space using webcam hand gestures powered by MediaPipe and Three.js.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Three.js-161b22?style=flat-square&logo=threedotjs&logoColor=ffffff" alt="Three.js" />
+        <img src="https://img.shields.io/badge/MediaPipe-161b22?style=flat-square&logo=google&logoColor=4285F4" alt="MediaPipe" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SumanthMamidi-MNS/DeepFocus">🎧 DeepFocus</a></h3>
+      <p><b>Adaptive Psychoacoustic Flow Workspace</b></p>
+      <p>Offline-first ambient workspace synthesizing real-time procedural acoustics, precision focus cycles, and cognitive distraction grounding—engineered with zero external dependencies.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Web_Audio_API-161b22?style=flat-square&logo=audacity&logoColor=0000EB" alt="Web Audio API" />
+        <img src="https://img.shields.io/badge/Offline--First-161b22?style=flat-square&logo=pwa&logoColor=5A0FC8" alt="Offline-First" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -105,12 +158,14 @@
 
 ---
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h2 align="center">📊 GitHub Telemetry & Stats</h2>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff&icon_color=facc15&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" /><br/>
-  <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&background=0d1117&border=30363d&stroke=30363d&border_radius=10&ring=facc15&fire=facc15&currStreakNum=38bdf8&currStreakLabel=facc15&sideNums=ffffff&sideLabels=cbd5e1&dates=38bdf8" alt="GitHub Streak" /><br/>
+  <img src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff&icon_color=facc15&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" />
+  &nbsp;&nbsp;
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&layout=compact&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff" alt="Top Languages" />
+  <br/><br/>
+  <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&background=0d1117&border=30363d&stroke=30363d&border_radius=10&ring=facc15&fire=facc15&currStreakNum=38bdf8&currStreakLabel=facc15&sideNums=ffffff&sideLabels=cbd5e1&dates=38bdf8" alt="GitHub Streak" />
 </p>
 
 ---
