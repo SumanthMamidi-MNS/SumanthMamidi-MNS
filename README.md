@@ -30,45 +30,30 @@
 
 <h2 align="center">⚡ Architectural Focus & Engineering Pillars</h2>
 
-> ### 🧠 Neural & Agent Systems
-> Architecting autonomous multi-agent pipelines, LLM benchmark testbeds, prompt injection defense, and continuous reinforcement workflows.  
-> `Autonomous Agents` • `LLM Benchmarking` • `Adversarial Robustness` • `Reinforcement Learning`
-
-> ### ⚡ Scalable AI Infrastructure
-> Engineering asynchronous high-throughput inference APIs with FastAPI, containerized deployments with Docker, and production cloud orchestration.  
-> `Async FastAPI` • `High-Throughput APIs` • `Docker Containerization` • `Cloud Infrastructure`
-
-> ### 👁️ Vision & Spatial Computing
-> Developing real-time computer vision applications, low-latency webcam gesture tracking with MediaPipe, and 3D spatial voxel graphics via Three.js.  
-> `Computer Vision` • `MediaPipe Vision` • `Three.js 3D Engine` • `Low-Latency Inference`
+<p align="center">
+  <img src="assets/card_architectural_pillars.svg" width="100%" alt="Architectural Focus & Engineering Pillars" />
+</p>
 
 ---
 
 <h2 align="center">🚀 Flagship AI Systems & Engineering</h2>
 
-> ### 🛡️ [OMNIFIX](https://github.com/SumanthMamidi-MNS/OMNIFIX)
-> **Autonomous Multi-Agent Vulnerability Repair System**  
-> End-to-end multi-agent security pipeline powered by **Llama 3.1** to detect, classify, and automatically patch Python security vulnerabilities with automated CWE classification, AST validation, and exploit PoC verification.  
->  
-> [![Python](https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=3776AB)](https://github.com/SumanthMamidi-MNS/OMNIFIX) &nbsp; [![Llama 3.1](https://img.shields.io/badge/Llama_3.1-161b22?style=flat-square&logo=meta&logoColor=0467DF)](https://github.com/SumanthMamidi-MNS/OMNIFIX) &nbsp; [![Multi-Agent](https://img.shields.io/badge/Multi--Agent-161b22?style=flat-square&logo=openai&logoColor=412991)](https://github.com/SumanthMamidi-MNS/OMNIFIX) &nbsp; [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-161b22?style=flat-square&logo=shield&logoColor=38bdf8)](https://github.com/SumanthMamidi-MNS/OMNIFIX)
-
-> ### ✉️ [EmailEnv](https://github.com/SumanthMamidi-MNS/EmailEnv)
-> **Autonomous Agent Flight Simulator & Safety Benchmark**  
-> OpenEnv-compliant evaluation harness and simulated flight deck for autonomous email agents. Features multi-tier LLM benchmark suites, prompt injection defense, and continuous learning safety filters.  
->  
-> [![Python](https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=3776AB)](https://github.com/SumanthMamidi-MNS/EmailEnv) &nbsp; [![LLM Benchmark](https://img.shields.io/badge/LLM_Benchmark-161b22?style=flat-square&logo=pytorch&logoColor=EE4C2C)](https://github.com/SumanthMamidi-MNS/EmailEnv) &nbsp; [![AI Safety](https://img.shields.io/badge/AI_Safety-161b22?style=flat-square&logo=shield&logoColor=38bdf8)](https://github.com/SumanthMamidi-MNS/EmailEnv) &nbsp; [![Autonomous Agents](https://img.shields.io/badge/Autonomous_Agents-161b22?style=flat-square&logo=openai&logoColor=412991)](https://github.com/SumanthMamidi-MNS/EmailEnv)
-
-> ### 🖐️ [AirForge](https://github.com/SumanthMamidi-MNS/AirForge)
-> **Spatial Gesture Computing & 3D Voxel Engine**  
-> Browser-based spatial computing environment. Enables real-time drawing in 2D luminous ink and building in 3D voxel space using webcam hand gestures powered by MediaPipe and Three.js.  
->  
-> [![JavaScript](https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=F7DF1E)](https://github.com/SumanthMamidi-MNS/AirForge) &nbsp; [![Three.js](https://img.shields.io/badge/Three.js-161b22?style=flat-square&logo=threedotjs&logoColor=ffffff)](https://github.com/SumanthMamidi-MNS/AirForge) &nbsp; [![MediaPipe](https://img.shields.io/badge/MediaPipe-161b22?style=flat-square&logo=google&logoColor=4285F4)](https://github.com/SumanthMamidi-MNS/AirForge) &nbsp; [![Spatial UI](https://img.shields.io/badge/Spatial_UI-161b22?style=flat-square&logo=webgl&logoColor=990000)](https://github.com/SumanthMamidi-MNS/AirForge)
-
-> ### 🎧 [DeepFocus](https://github.com/SumanthMamidi-MNS/DeepFocus)
-> **Adaptive Psychoacoustic Flow Workspace**  
-> Offline-first ambient workspace synthesizing real-time procedural acoustics, precision focus cycles, and cognitive distraction grounding—engineered with zero external dependencies.  
->  
-> [![JavaScript](https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=F7DF1E)](https://github.com/SumanthMamidi-MNS/DeepFocus) &nbsp; [![Web Audio API](https://img.shields.io/badge/Web_Audio_API-161b22?style=flat-square&logo=audacity&logoColor=0000EB)](https://github.com/SumanthMamidi-MNS/DeepFocus) &nbsp; [![Offline--First](https://img.shields.io/badge/Offline--First-161b22?style=flat-square&logo=pwa&logoColor=5A0FC8)](https://github.com/SumanthMamidi-MNS/DeepFocus) &nbsp; [![Psychoacoustics](https://img.shields.io/badge/Psychoacoustics-161b22?style=flat-square&logo=soundcharts&logoColor=38bdf8)](https://github.com/SumanthMamidi-MNS/DeepFocus)
+<p align="center">
+  <a href="https://github.com/SumanthMamidi-MNS/OMNIFIX">
+    <img src="assets/card_omnifix.svg" width="425" alt="OMNIFIX Card" />
+  </a>
+  <a href="https://github.com/SumanthMamidi-MNS/EmailEnv">
+    <img src="assets/card_emailenv.svg" width="425" alt="EmailEnv Card" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/SumanthMamidi-MNS/AirForge">
+    <img src="assets/card_airforge.svg" width="425" alt="AirForge Card" />
+  </a>
+  <a href="https://github.com/SumanthMamidi-MNS/DeepFocus">
+    <img src="assets/card_deepfocus.svg" width="425" alt="DeepFocus Card" />
+  </a>
+</p>
 
 ---
 
