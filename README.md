@@ -51,56 +51,56 @@
 
 <h3 align="center">💻 Languages</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/C-1a1b26?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C" />
-  <img src="https://img.shields.io/badge/C%2B%2B-1a1b26?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
-  <img src="https://img.shields.io/badge/Java-1a1b26?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-1a1b26?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-  <img src="https://img.shields.io/badge/HTML5-1a1b26?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://custom-icon-badges.demolab.com/badge/CSS3-1a1b26?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-1a1b26?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Markdown-1a1b26?style=for-the-badge&logo=markdown&logoColor=ffffff" alt="Markdown" />
+  <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-161b22?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-161b22?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+  <img src="https://img.shields.io/badge/HTML5-161b22?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
+  <img src="https://custom-icon-badges.demolab.com/badge/CSS3-161b22?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Markdown-161b22?style=for-the-badge&logo=markdown&logoColor=ffffff" alt="Markdown" />
 </p>
 
 <h3 align="center">🤖 AI / Machine Learning</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/NumPy-1a1b26?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-1a1b26?style=for-the-badge&logo=pandas&logoColor=E70488" alt="Pandas" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-1a1b26?style=for-the-badge&logo=matplotlib&logoColor=11557c" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/Plotly-1a1b26?style=for-the-badge&logo=plotly&logoColor=3F4F75" alt="Plotly" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-1a1b26?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/NumPy-161b22?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-161b22?style=for-the-badge&logo=pandas&logoColor=E70488" alt="Pandas" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-161b22?style=for-the-badge&logo=matplotlib&logoColor=11557c" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Plotly-161b22?style=for-the-badge&logo=plotly&logoColor=3F4F75" alt="Plotly" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-161b22?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Scikit-Learn" />
 </p>
 
 <h3 align="center">⚙️ Frameworks & Libraries</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-1a1b26?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Streamlit-1a1b26?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/React-1a1b26?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-1a1b26?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TailwindCSS-1a1b26?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/Node.js-1a1b26?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Vite-1a1b26?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
-  <img src="https://img.shields.io/badge/OpenCV-1a1b26?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Streamlit-161b22?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/React-161b22?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-161b22?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TailwindCSS-161b22?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Vite-161b22?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
+  <img src="https://img.shields.io/badge/OpenCV-161b22?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
 </p>
 
 <h3 align="center">🗄️ Databases & Cloud</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/MongoDB-1a1b26?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/PostgreSQL-1a1b26?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/SQLite-1a1b26?style=for-the-badge&logo=sqlite&logoColor=003B57" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Supabase-1a1b26?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Firebase-1a1b26?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Vercel-1a1b26?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Render-1a1b26?style=for-the-badge&logo=render&logoColor=46E3B7" alt="Render" />
-  <img src="https://custom-icon-badges.demolab.com/badge/AWS-1a1b26?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-1a1b26?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/MongoDB-161b22?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-161b22?style=for-the-badge&logo=sqlite&logoColor=003B57" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Supabase-161b22?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Firebase-161b22?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Vercel-161b22?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Render-161b22?style=for-the-badge&logo=render&logoColor=46E3B7" alt="Render" />
+  <img src="https://custom-icon-badges.demolab.com/badge/AWS-161b22?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-161b22?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
 </p>
 
 <h3 align="center">🛠️ Tools</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Git-1a1b26?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Postman-1a1b26?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Arduino-1a1b26?style=for-the-badge&logo=arduino&logoColor=00979D" alt="Arduino" />
+  <img src="https://img.shields.io/badge/Git-161b22?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Postman-161b22?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Arduino-161b22?style=for-the-badge&logo=arduino&logoColor=00979D" alt="Arduino" />
 </p>
 
 ---
@@ -108,9 +108,9 @@
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true&bg_color=00000000&title_color=38bdf8&text_color=ffffff&icon_color=facc15" alt="GitHub Stats" /><br/>
-  <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&background=00000000&ring=facc15&fire=facc15&currStreakNum=38bdf8&sideNums=ffffff&sideLabels=cbd5e1&dates=38bdf8" alt="GitHub Streak" /><br/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&theme=tokyonight&hide_border=true&layout=compact&bg_color=00000000&title_color=38bdf8&text_color=ffffff" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff&icon_color=facc15&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" /><br/>
+  <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&background=0d1117&border=30363d&stroke=30363d&border_radius=10&ring=facc15&fire=facc15&currStreakNum=38bdf8&currStreakLabel=facc15&sideNums=ffffff&sideLabels=cbd5e1&dates=38bdf8" alt="GitHub Streak" /><br/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&layout=compact&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff" alt="Top Languages" />
 </p>
 
 ---
@@ -118,7 +118,7 @@
 <h2 align="center">📈 Activity & Contribution Timeline</h2>
 
 <p align="center">
-  <img width="100%" src="https://activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=react&hide_border=true&radius=12&height=220&bg_color=00000000&color=38bdf8&line=38bdf8&point=facc15" alt="Contribution Graph" />
+  <img width="100%" src="https://activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=react&hide_border=true&radius=12&height=220&bg_color=0d1117&color=38bdf8&line=38bdf8&point=facc15" alt="Contribution Graph" />
 </p>
 
 <p align="center">
