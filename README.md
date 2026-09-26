@@ -114,7 +114,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
+  <img src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
 </p>
 
 ---
