@@ -1,135 +1,64 @@
-<!-- ========================= -->
-<!--      GITHUB PROFILE      -->
-<!-- ========================= -->
+<p align="center">
+  <img src="tokyo_night_animated_banner.svg" alt="Sumanth Mamidi" width="100%">
+</p>
+
+<h1 align="center">Sumanth Mamidi</h1>
 
 <p align="center">
-  <img src="tokyo_night_animated_banner.svg" alt="Sumanth Mamidi - Banner" width="100%">
+  <b>AI &amp; ML engineering student</b> building applied machine-learning and LLM-agent systems<br/>
+  B.Tech CSE (AI &amp; ML) · SRMIST, Chennai · <b>Open to internships</b> in AI systems, ML and full-stack engineering
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=26&duration=3000&pause=1000&color=facc15&center=true&vCenter=true&width=800&lines=AI+Systems+Engineer.;Machine+Learning+%26+Deep+Learning.;Architecting+Scalable+AI+Systems.;Full-Stack+Developer.;Building+Intelligent+Applications." alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/mns-sumanth" target="_blank"><img src="assets/badge_linkedin.svg" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:mamidinagasaisumanth@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>&nbsp;
-  <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank"><img src="https://img.shields.io/badge/Instagram-161b22?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
-</p>
-
----
-
-<h2 align="center">💫 About Me</h2>
-
-<table align="center">
-  <tr>
-    <td>
-      🔭 &nbsp; I am currently working on <b>AI-powered real-world applications</b> and <b>Full-Stack projects</b>.<br/>
-      🤝 &nbsp; I am looking to collaborate on <b>AI/ML, Open Source</b>, and <b>Innovative Software Projects</b>.<br/>
-      🛠️ &nbsp; I am looking for help with <b>System Design, MLOps</b>, and <b>Scalable AI Solutions</b>.<br/>
-      📚 &nbsp; I am currently learning <b>Advanced AI/ML, Deep Learning, LLMs</b>, and <b>Cloud Technologies</b>.<br/>
-      💬 &nbsp; Ask me about <b>Python, AI/ML, Computer Vision, Full-Stack Development</b>, and <b>Hackathons</b>.<br/>
-      ✨ &nbsp; Fun fact: <i>I love turning crazy ideas into real working products.</i>
-    </td>
-  </tr>
-</table>
-
----
-
-<h2 align="center">💻 Tech Stack</h2>
-
-<h3 align="center">💻 Languages</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-161b22?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
-  <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C" />
-  <img src="https://img.shields.io/badge/Java-161b22?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" /><br/>
-  <img src="https://img.shields.io/badge/HTML5-161b22?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://custom-icon-badges.demolab.com/badge/CSS3-161b22?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Markdown-161b22?style=for-the-badge&logo=markdown&logoColor=ffffff" alt="Markdown" />
-</p>
-
-<h3 align="center">🤖 AI / Machine Learning</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/NumPy-161b22?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-161b22?style=for-the-badge&logo=pandas&logoColor=E70488" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-161b22?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/Plotly-161b22?style=for-the-badge&logo=plotly&logoColor=3F4F75" alt="Plotly" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-161b22?style=for-the-badge&logo=matplotlib&logoColor=11557c" alt="Matplotlib" />
-</p>
-
-<h3 align="center">⚙️ Frameworks & Libraries</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Streamlit-161b22?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/OpenCV-161b22?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/React-161b22?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-161b22?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js" /><br/>
-  <img src="https://img.shields.io/badge/TailwindCSS-161b22?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Vite-161b22?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
-</p>
-
-<h3 align="center">🗄️ Databases & Cloud</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-161b22?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/SQLite-161b22?style=for-the-badge&logo=sqlite&logoColor=003B57" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Supabase-161b22?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Firebase-161b22?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" /><br/>
-  <img src="https://custom-icon-badges.demolab.com/badge/AWS-161b22?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-161b22?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Vercel-161b22?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Render-161b22?style=for-the-badge&logo=render&logoColor=46E3B7" alt="Render" />
-</p>
-
-<h3 align="center">🛠️ Tools</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-161b22?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Postman-161b22?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Arduino-161b22?style=for-the-badge&logo=arduino&logoColor=00979D" alt="Arduino" />
+  <a href="https://sumanth-portfolio-delta.vercel.app"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Portfolio" /></a>
+  <a href="https://sumanth-portfolio-delta.vercel.app/assets/resume/Sumanth_Mamidi_Resume.pdf"><img src="https://img.shields.io/badge/Resume-161b22?style=for-the-badge&logo=readme&logoColor=38bdf8" alt="Resume" /></a>
+  <a href="https://doi.org/10.64091/ATICS.2026.000283"><img src="https://img.shields.io/badge/Published%20Paper-161b22?style=for-the-badge&logo=doi&logoColor=facc15" alt="Published paper" /></a>
+  <a href="https://www.linkedin.com/in/mns-sumanth"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  <a href="mailto:sumanthmamidi77@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
 </p>
 
 ---
 
-<h2 align="center">📊 GitHub Telemetry & Stats</h2>
+## What I build
 
-<p align="center">
-  <img height="195" src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&card_width=360&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff&icon_color=facc15&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img height="195" src="https://github-stats-extended.vercel.app/api/top-langs/?username=SumanthMamidi-MNS&layout=compact&langs_count=8&card_width=360&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff" alt="Top Languages" />
-  <br/><br/>
-  <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&background=0d1117&border=30363d&stroke=30363d&border_radius=10&ring=facc15&fire=facc15&currStreakNum=38bdf8&currStreakLabel=facc15&sideNums=ffffff&sideLabels=cbd5e1&dates=38bdf8" alt="GitHub Streak" />
-</p>
+Systems that turn messy real-world data into something a person can trust: satellite data into ocean-temperature maps, noisy camera reads into vehicle tracks, legal text into cited answers. Each project below is measured against independent ground truth, not demo data.
+
+## Featured work
+
+| Project | What it does | Result | Built with |
+|---|---|---|---|
+| [**OceanEmbed**](https://github.com/SumanthMamidi-MNS/OceanEmbed) | Reconstructs daily 3D ocean temperature (15 depths, down to 1,000 m) from satellite surface data | Within about 1 °C of real ocean measurements | PyTorch, Vision Transformer, FastAPI, React |
+| [**UrbanTrace**](https://github.com/SumanthMamidi-MNS/UrbanTrace) | Tracks vehicles across city cameras and flags cloned plates in real time | 97% vehicle-identity accuracy across cameras | YOLOv8, Min-Cost Flow, FastAPI, WebSockets |
+| [**TrueCite**](https://github.com/SumanthMamidi-MNS/TrueCite) | Legal Q&amp;A assistant that cites its sources and checks every claim against the statute | 0 false answers on benchmark questions | RAG, ChromaDB, BGE-M3, FastAPI |
+| [**FieldCast**](https://github.com/SumanthMamidi-MNS/FieldCast) | Turns block-level weather forecasts into village-level forecasts with calibrated confidence | Forecasts for 9,802 villages | LightGBM, MapLibre GL, FastAPI, React |
+| [**OMNIFIX**](https://github.com/SumanthMamidi-MNS/OMNIFIX) | Multi-agent system that finds, patches and re-validates Python security flaws in a closed loop | Prototype behind my published study | Python, LLM agents, Bandit |
+
+**Also built:** [AirForge](https://air-forge.vercel.app) (gesture-controlled 2D/3D workspace) · [QubitScope](https://qubitscope.vercel.app) (quantum Bloch-sphere simulator) · [DeepFocus](https://deep-focus-three.vercel.app) (offline-first focus workspace) · [EmailEnv](https://m-n-s-ai-email-agent.hf.space/) (AI email-agent simulator)
+
+## Published research
+
+**SECUREPATCH: Specialized Multi-Agent Architecture with Automated Validation for Security Vulnerability Repair**
+*AVE Trends in Intelligent Computing Systems, Vol. 3, No. 1, pp. 23–47 (2026)* · [DOI 10.64091/ATICS.2026.000283](https://doi.org/10.64091/ATICS.2026.000283)
+
+99.4% repair success on 160 Python vulnerabilities across 8 CWE categories. I built the initial multi-agent prototype (OMNIFIX) that the study extends. More papers are in preparation.
+
+## Stack
+
+| Area | Tools I have used in the projects above |
+|---|---|
+| **Machine learning** | PyTorch, Vision Transformers, CNNs, LightGBM, scikit-learn, YOLOv8, OpenCV, NumPy, pandas |
+| **LLMs, RAG &amp; agents** | RAG pipelines, BGE-M3, ChromaDB, hybrid search (BM25), Claude &amp; Gemini APIs, Ollama, multi-agent systems |
+| **Backend &amp; web** | FastAPI, REST, WebSockets, PostgreSQL, Supabase, React, Next.js, TypeScript, Tailwind CSS, Three.js |
+| **Data &amp; tools** | NetCDF/Xarray, satellite &amp; Argo data, geospatial analysis, Docker, Git, Vercel, Hugging Face Spaces |
+
+## Education &amp; credentials
+
+- **B.Tech, Computer Science &amp; Engineering (AI &amp; ML)**, SRM Institute of Science and Technology · 2025–2029 · CGPA 10.0 / 10.0
+- **19 certifications**, including Google, Anthropic (Claude API, Claude Code, MCP, subagents), Scaler, BCG X and Walmart job simulations. [See them all →](https://sumanth-portfolio-delta.vercel.app/#certifications)
 
 ---
 
-<h2 align="center">📈 Activity & Contribution Timeline</h2>
-
 <p align="center">
-  <img width="100%" src="https://activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=react&hide_border=true&radius=12&height=220&bg_color=0d1117&color=38bdf8&line=38bdf8&point=facc15" alt="Contribution Graph" />
+  <b>Looking for an intern who ships measured, working systems?</b><br/>
+  <a href="mailto:sumanthmamidi77@gmail.com">sumanthmamidi77@gmail.com</a> · <a href="https://sumanth-portfolio-delta.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/mns-sumanth">LinkedIn</a>
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
-</p>
-
----
-
-<!-- UNIFIED FOOTER: Perfectly balanced spacing, no extra lines -->
-<div align="center">
-  <p>
-    <i>"First, solve the problem. Then, write the code."</i><br/>
-    <b>— John Johnson</b>
-  </p>
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&label=Profile%20Views&style=for-the-badge&color=38bdf8" alt="Profile Views" />
-  </p>
-  <p>
-    <i>"See you in the next commit."</i><br/>
-    <sub>Built with ❤️, curiosity, and countless cups of coffee.</sub>
-  </p>
-</div>
