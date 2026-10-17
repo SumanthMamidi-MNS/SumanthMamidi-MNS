@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
+  <a href="https://sumanth-portfolio-delta.vercel.app" target="_blank"><img src="assets/badge_portfolio.svg" alt="Portfolio" /></a>&nbsp;
   <a href="https://linkedin.com/in/mns-sumanth" target="_blank"><img src="assets/badge_linkedin.svg" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:sumanthmamidi77@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>&nbsp;
-  <a href="https://instagram.com/_m_n_s_sumanth_" target="_blank"><img src="https://img.shields.io/badge/Instagram-161b22?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
+  <a href="mailto:sumanthmamidi77@gmail.com" target="_blank"><img src="assets/badge_email.svg" alt="Email" /></a>
 </p>
 
 ---
@@ -34,6 +34,34 @@
     </td>
   </tr>
 </table>
+
+---
+
+<h2 align="center">🚀 Featured AI Systems &amp; Engineering</h2>
+
+<p align="center">
+  <a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank">
+    <img src="assets/card_truecite.svg" alt="TrueCite" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/SumanthMamidi-MNS/UrbanTrace" target="_blank">
+    <img src="assets/card_urbantrace.svg" alt="UrbanTrace" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/SumanthMamidi-MNS/FieldCast" target="_blank">
+    <img src="assets/card_fieldcast.svg" alt="FieldCast" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/SumanthMamidi-MNS/OceanEmbed" target="_blank">
+    <img src="assets/card_oceanembed.svg" alt="OceanEmbed" width="100%" />
+  </a>
+</p>
 
 ---
 
@@ -110,7 +138,7 @@
 <h2 align="center">📈 Activity & Contribution Timeline</h2>
 
 <p align="center">
-  <img width="100%" src="https://activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=react&hide_border=true&radius=12&height=220&bg_color=0d1117&color=38bdf8&line=38bdf8&point=facc15" alt="Contribution Graph" />
+  <img width="100%" src="https://activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=react&hide_border=true&radius=12&height=320&bg_color=0d1117&color=38bdf8&line=38bdf8&point=facc15" alt="Contribution Graph" />
 </p>
 
 <p align="center">
@@ -126,7 +154,7 @@
     <b>— John Johnson</b>
   </p>
   <p>
-    <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&label=Profile%20Views&style=for-the-badge&color=38bdf8" alt="Profile Views" />
+    <a href="https://github.com/SumanthMamidi-MNS"><img src="https://hits.sh/github.com/SumanthMamidi-MNS.svg?style=for-the-badge&color=38bdf8&labelColor=161b22&label=PROFILE+VIEWS" alt="Profile Views" /></a>
   </p>
   <p>
     <i>"See you in the next commit."</i><br/>

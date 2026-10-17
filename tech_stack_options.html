@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Stack & Portfolio Badge Styles · Official Brand Icons</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --cyan: #38bdf8;
+      --gold: #facc15;
+      --green: #22c55e;
+      --text: #f0f6fc;
+      --text-muted: #8b949e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 45px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .tag-badge {
+      display: inline-block;
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--cyan);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 34px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 15px;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    /* Section Cards */
+    .style-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 36px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .style-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .style-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--cyan);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .style-desc {
+      color: var(--text-muted);
+      font-size: 13.5px;
+      margin-top: 4px;
+    }
+
+    .badge-status {
+      font-family: 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: #21262d;
+      color: var(--gold);
+      border: 1px solid rgba(250, 204, 21, 0.3);
+    }
+
+    .category-group {
+      margin-bottom: 22px;
+    }
+
+    .cat-title {
+      font-family: 'Fira Code', monospace;
+      font-size: 12px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .code-preview {
+      background: #090d16;
+      border: 1px solid #21262d;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-top: 18px;
+      font-family: 'Fira Code', monospace;
+      font-size: 12px;
+      color: #94a3b8;
+      overflow-x: auto;
+      position: relative;
+    }
+
+    .copy-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #21262d;
+      color: var(--cyan);
+      border: 1px solid #30363d;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .copy-button:hover {
+      background: var(--cyan);
+      color: #0d1117;
+    }
+
+    /* Special styling for Portfolio badge options */
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .portfolio-card {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .portfolio-card:hover {
+      border-color: var(--cyan);
+    }
+
+    .portfolio-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: #e6edf3;
+    }
+
+    .portfolio-sub {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="tag-badge">Official Brand Logos · 100% Vector</div>
+      <h1>Tech Stack &amp; Portfolio Badge Options</h1>
+      <p class="subtitle">
+        Curated design styles using authentic official vector logos (SimpleIcons) across Languages, AI/ML, Frameworks, Cloud, and Portfolio. Choose your favorite style for your profile!
+      </p>
+    </header>
+
+    <!-- ========================================================================= -->
+    <!-- STYLE OPTION 1: SKILLICONS SQUIRCLE TILES                                  -->
+    <!-- ========================================================================= -->
+    <div class="style-card">
+      <div class="style-header">
+        <div>
+          <div class="style-title">🚀 Option 1: Modern App-Icon Squircles (SkillIcons)</div>
+          <div class="style-desc">Crisp, official vector brand icons arranged in sleek rounded app-store tiles. Extremely popular among high-profile GitHub developers.</div>
+        </div>
+        <div class="badge-status">TOP TRENDING</div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">Languages &amp; Core</div>
+        <div class="badge-row">
+          <img src="https://skillicons.dev/icons?i=py,cpp,c,java,js,html,css,md" alt="Languages" />
+        </div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">AI / Machine Learning &amp; Vision</div>
+        <div class="badge-row">
+          <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,scikitlearn" alt="AI ML" />
+        </div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">Frameworks &amp; Full-Stack</div>
+        <div class="badge-row">
+          <img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,tailwind,nodejs,vite" alt="Frameworks" />
+        </div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">Databases, Cloud &amp; Tools</div>
+        <div class="badge-row">
+          <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,supabase,firebase,aws,docker,vercel,git,github,postman" alt="Cloud and Tools" />
+        </div>
+      </div>
+
+      <div class="code-preview">
+        <button class="copy-button" onclick="copyCode('code-opt-1')">Copy Markdown</button>
+        <span id="code-opt-1">&lt;p align="center"&gt;
+  &lt;a href="https://skillicons.dev"&gt;
+    &lt;img src="https://skillicons.dev/icons?i=py,cpp,c,java,js,html,css,md" /&gt;&lt;br/&gt;
+    &lt;img src="https://skillicons.dev/icons?i=pytorch,fastapi,react,nextjs,tailwind,nodejs,vite" /&gt;&lt;br/&gt;
+    &lt;img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,docker,aws,vercel,git,github" /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;</span>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- STYLE OPTION 2: AUTHENTIC BRAND COLOR BADGES (FOR-THE-BADGE)               -->
+    <!-- ========================================================================= -->
+    <div class="style-card">
+      <div class="style-header">
+        <div>
+          <div class="style-title">🎨 Option 2: Vibrant Authentic Brand Badges</div>
+          <div class="style-desc">Each technology uses its true corporate/open-source brand color with white official logos instead of uniform dull grey. High contrast &amp; punchy.</div>
+        </div>
+        <div class="badge-status">HIGH CONTRAST</div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">Languages</div>
+        <div class="badge-row">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+          <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=1c2833" />
+          <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+        </div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">AI / Machine Learning</div>
+        <div class="badge-row">
+          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+          <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+          <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+          <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+          <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
+        </div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">Frameworks &amp; Cloud</div>
+        <div class="badge-row">
+          <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+          <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+          <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+          <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+          <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+        </div>
+      </div>
+
+      <div class="code-preview">
+        <button class="copy-button" onclick="copyCode('code-opt-2')">Copy Markdown</button>
+        <span id="code-opt-2">&lt;img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /&gt;
+&lt;img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /&gt;
+&lt;img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" /&gt;
+&lt;img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /&gt;</span>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- STYLE OPTION 3: SLEEK FLAT-SQUARE PILLS (MINIMALIST TECH)                 -->
+    <!-- ========================================================================= -->
+    <div class="style-card">
+      <div class="style-header">
+        <div>
+          <div class="style-title">📐 Option 3: Modern Flat-Square Micro Badges</div>
+          <div class="style-desc">Compact, clean rectangular profile with subtle 2-tone split: dark label on left, vibrant brand tag on right with official logo.</div>
+        </div>
+        <div class="badge-status">SLEEK &amp; COMPACT</div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">All-Star Selection</div>
+        <div class="badge-row">
+          <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/Core-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+          <img src="https://img.shields.io/badge/AI-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+          <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+          <img src="https://img.shields.io/badge/UI-React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+          <img src="https://img.shields.io/badge/Styling-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+          <img src="https://img.shields.io/badge/DB-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+          <img src="https://img.shields.io/badge/DevOps-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+          <img src="https://img.shields.io/badge/Cloud-Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+        </div>
+      </div>
+
+      <div class="code-preview">
+        <button class="copy-button" onclick="copyCode('code-opt-3')">Copy Markdown</button>
+        <span id="code-opt-3">&lt;img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white" /&gt;
+&lt;img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /&gt;
+&lt;img src="https://img.shields.io/badge/AI-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /&gt;</span>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- STYLE OPTION 4: TOKYO NIGHT MONOCHROME WITH LUMINOUS BRAND ICONS          -->
+    <!-- ========================================================================= -->
+    <div class="style-card">
+      <div class="style-header">
+        <div>
+          <div class="style-title">🌙 Option 4: Tokyo Night Slate with Full-Color Logos</div>
+          <div class="style-desc">Uniform obsidian `#0d1117` badges where the badge container blends with GitHub dark background, allowing the colored official SVG brand logos to pop.</div>
+        </div>
+        <div class="badge-status">PROFILE COHESIVE</div>
+      </div>
+
+      <div class="category-group">
+        <div class="cat-title">Curated Stack</div>
+        <div class="badge-row">
+          <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=38bdf8" />
+          <img src="https://img.shields.io/badge/C%2B%2B-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00599c" />
+          <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+          <img src="https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
+          <img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=009688" />
+          <img src="https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8" />
+          <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB" />
+          <img src="https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+          <img src="https://img.shields.io/badge/Tailwind-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" />
+          <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED" />
+          <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
+          <img src="https://img.shields.io/badge/Vercel-0d1117?style=for-the-badge&logo=vercel&logoColor=white" />
+        </div>
+      </div>
+
+      <div class="code-preview">
+        <button class="copy-button" onclick="copyCode('code-opt-4')">Copy Markdown</button>
+        <span id="code-opt-4">&lt;img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=38bdf8" /&gt;
+&lt;img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=009688" /&gt;
+&lt;img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB" /&gt;</span>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION: PORTFOLIO BADGE OPTIONS                                           -->
+    <!-- ========================================================================= -->
+    <div class="style-card">
+      <div class="style-header">
+        <div>
+          <div class="style-title">🌐 Portfolio Badge Styles (for Socials Row)</div>
+          <div class="style-desc">Multiple bespoke badge designs for your live portfolio (<code>sumanth-portfolio-delta.vercel.app</code>) using official Vercel, Globe, and Cyber Web icons.</div>
+        </div>
+        <div class="badge-status">SOCIALS ROW</div>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Portfolio Option A -->
+        <div class="portfolio-card">
+          <div class="portfolio-label">Option A: Vercel Delta Black &amp; White</div>
+          <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Vercel" />
+          <div class="portfolio-sub">Official Vercel Delta triangle logo on dark badge</div>
+        </div>
+
+        <!-- Portfolio Option B -->
+        <div class="portfolio-card">
+          <div class="portfolio-label">Option B: Tokyo Night Cyan Luminous</div>
+          <img src="assets/badge_portfolio.svg" height="28" alt="Portfolio Local SVG" />
+          <div class="portfolio-sub">Local vector SVG with cyan wireframe globe &amp; bold typography</div>
+        </div>
+
+        <!-- Portfolio Option C -->
+        <div class="portfolio-card">
+          <div class="portfolio-label">Option C: Electric Blue Dual-Tone</div>
+          <img src="https://img.shields.io/badge/Live-Portfolio-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=161b22" alt="Live Portfolio" />
+          <div class="portfolio-sub">Dual-tone split: dark label + cyan highlight</div>
+        </div>
+
+        <!-- Portfolio Option D -->
+        <div class="portfolio-card">
+          <div class="portfolio-label">Option D: Golden Amber Highlight</div>
+          <img src="https://img.shields.io/badge/Portfolio-facc15?style=for-the-badge&logo=safari&logoColor=0d1117&labelColor=161b22" alt="Portfolio Gold" />
+          <div class="portfolio-sub">High-visibility gold badge matching your typing SVG header</div>
+        </div>
+      </div>
+
+      <div class="code-preview">
+        <button class="copy-button" onclick="copyCode('code-opt-p')">Copy Selected Portfolio Badge</button>
+        <span id="code-opt-p">&lt;a href="https://sumanth-portfolio-delta.vercel.app" target="_blank"&gt;
+  &lt;img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /&gt;
+&lt;/a&gt;</span>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function copyCode(id) {
+      const code = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert('Badge markdown copied to clipboard!');
+      });
+    }
+  </script>
+</body>
+</html>
