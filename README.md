@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://sumanth-portfolio-delta.vercel.app" target="_blank"><img src="assets/badge_portfolio.svg" alt="Portfolio" /></a>&nbsp;
   <a href="https://linkedin.com/in/mns-sumanth" target="_blank"><img src="assets/badge_linkedin.svg" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:sumanthmamidi77@gmail.com" target="_blank"><img src="assets/badge_email.svg" alt="Email" /></a>
+  <a href="mailto:sumanthmamidi77@gmail.com" target="_blank"><img src="assets/badge_email.svg" alt="Email" /></a>&nbsp;
+  <a href="https://sumanth-portfolio-delta.vercel.app" target="_blank"><img src="assets/badge_portfolio.svg" alt="Portfolio" /></a>
 </p>
 
 ---
@@ -154,7 +154,7 @@
     <b>— John Johnson</b>
   </p>
   <p>
-    <a href="https://github.com/SumanthMamidi-MNS"><img src="https://hits.sh/github.com/SumanthMamidi-MNS.svg?style=for-the-badge&color=38bdf8&labelColor=161b22&label=PROFILE+VIEWS" alt="Profile Views" /></a>
+    <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&style=for-the-badge&color=38bdf8" alt="Profile Views" />
   </p>
   <p>
     <i>"See you in the next commit."</i><br/>

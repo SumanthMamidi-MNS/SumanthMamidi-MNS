@@ -1,14 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="126" height="28" role="img" aria-label="Portfolio">
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="28" role="img" aria-label="Portfolio">
   <title>Portfolio</title>
+  <defs>
+    <linearGradient id="port-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="prism-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
   <g shape-rendering="crispEdges">
-    <rect width="126" height="28" fill="#161b22" rx="4"/>
+    <rect width="130" height="28" fill="#161b22" rx="4"/>
+  </g>
+  <!-- Stylized Vercel Delta Prism Logo with Luminous Accent -->
+  <g transform="translate(10, 6)">
+    <!-- Base Delta Triangle -->
+    <path d="M8 2 L15.5 15 L0.5 15 Z" fill="url(#prism-grad)"/>
+    <!-- Subtle Inner Geometry Shadow -->
+    <path d="M8 2 L15.5 15 L8 12 Z" fill="#0284c7" opacity="0.45"/>
   </g>
   <g fill="#fff" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" text-rendering="geometricPrecision">
-    <svg x="10" y="6" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="10"/>
-      <line x1="2" y1="12" x2="22" y2="12"/>
-      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-    </svg>
-    <text x="71" y="18" fill="#ffffff" font-size="11" font-weight="700" letter-spacing="0.6">PORTFOLIO</text>
+    <text x="74" y="18" fill="#ffffff" font-size="11" font-weight="700" letter-spacing="0.7">PORTFOLIO</text>
+    <!-- Arrow indicator -->
+    <text x="117" y="17.5" fill="#38bdf8" font-size="11" font-weight="700">↗</text>
   </g>
 </svg>
