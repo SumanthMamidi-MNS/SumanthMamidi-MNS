@@ -3,20 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sumanth Mamidi · 5 Grand Design Variations (Projects & Tech Stack)</title>
+  <title>Sumanth Mamidi · Master Design Suite (5 Project Variations & 5 Tech Stack Styles)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #090d16;
-      --panel-bg: #0f1623;
+      --bg: #070a12;
+      --card-bg: #0d1322;
       --border-subtle: #1e293b;
       --cyan: #38bdf8;
       --gold: #facc15;
       --green: #22c55e;
-      --purple: #c084fc;
-      --rose: #fb7185;
+      --purple: #a855f7;
+      --rose: #f43f5e;
+      --amber: #f59e0b;
       --text: #f8fafc;
       --text-muted: #94a3b8;
     }
@@ -27,11 +28,11 @@
       background-color: var(--bg);
       color: var(--text);
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      padding: 40px 24px;
+      padding: 40px 20px;
       line-height: 1.6;
       background-image: 
         radial-gradient(circle at 10% 10%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
-        radial-gradient(circle at 90% 70%, rgba(192, 132, 252, 0.08) 0%, transparent 45%);
+        radial-gradient(circle at 90% 70%, rgba(168, 85, 247, 0.08) 0%, transparent 45%);
     }
 
     .container {
@@ -39,11 +40,10 @@
       margin: 0 auto;
     }
 
-    /* Master Header */
     header {
       text-align: center;
-      margin-bottom: 36px;
-      padding-bottom: 28px;
+      margin-bottom: 40px;
+      padding-bottom: 30px;
       border-bottom: 1px solid var(--border-subtle);
     }
 
@@ -51,7 +51,7 @@
       display: inline-block;
       padding: 5px 16px;
       border-radius: 999px;
-      font-size: 12px;
+      font-size: 11.5px;
       font-weight: 700;
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -64,7 +64,7 @@
     h1 {
       font-family: 'Space Grotesk', sans-serif;
       font-size: 38px;
-      font-weight: 700;
+      font-weight: 800;
       background: linear-gradient(135deg, #ffffff 40%, var(--cyan) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -73,218 +73,185 @@
 
     .header-desc {
       color: var(--text-muted);
-      font-size: 16px;
-      max-width: 820px;
-      margin: 0 auto 20px;
+      font-size: 15.5px;
+      max-width: 860px;
+      margin: 0 auto 24px;
     }
 
-    /* Sticky Navigation Bar */
-    .style-nav {
+    /* Tab Switcher */
+    .tab-bar {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      gap: 10px;
-      margin-bottom: 40px;
-      position: sticky;
-      top: 16px;
-      z-index: 100;
-      background: rgba(9, 13, 22, 0.92);
-      backdrop-filter: blur(14px);
-      padding: 12px 16px;
-      border-radius: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      box-shadow: 0 12px 36px rgba(0,0,0,0.6);
+      gap: 12px;
+      margin-bottom: 30px;
     }
 
-    .nav-btn {
-      background: #131c2e;
+    .tab-btn {
+      background: #111827;
       color: var(--text-muted);
-      border: 1px solid #222f47;
-      padding: 10px 18px;
-      border-radius: 10px;
-      font-weight: 600;
-      font-size: 13.5px;
+      border: 1px solid #1f2937;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 15px;
       cursor: pointer;
-      transition: all 0.2s ease;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      transition: all 0.2s;
     }
 
-    .nav-btn:hover {
-      background: #1c2942;
-      color: #fff;
-      border-color: var(--cyan);
-    }
-
-    .nav-btn.active {
+    .tab-btn.active {
       background: linear-gradient(135deg, #0284c7, #38bdf8);
       color: #fff;
       border-color: #38bdf8;
-      box-shadow: 0 0 18px rgba(56, 189, 248, 0.45);
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
     }
 
-    /* Variation Container */
-    .variation-block {
-      background: var(--panel-bg);
+    /* Sub-nav for variations */
+    .sub-nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 36px;
+      position: sticky;
+      top: 14px;
+      z-index: 100;
+      background: rgba(7, 10, 18, 0.94);
+      backdrop-filter: blur(14px);
+      padding: 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    }
+
+    .sub-btn {
+      background: #131c2e;
+      color: var(--text-muted);
+      border: 1px solid #222f47;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .sub-btn:hover { background: #1c2942; color: #fff; border-color: var(--cyan); }
+    .sub-btn.active {
+      background: var(--cyan);
+      color: #070a12;
+      border-color: var(--cyan);
+      font-weight: 700;
+    }
+
+    .section-block {
+      background: var(--card-bg);
       border: 1px solid var(--border-subtle);
       border-radius: 20px;
-      padding: 40px;
-      margin-bottom: 56px;
+      padding: 36px;
+      margin-bottom: 50px;
       box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-      position: relative;
     }
 
-    .variation-header {
+    .concept-header {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      margin-bottom: 30px;
-      padding-bottom: 20px;
+      margin-bottom: 26px;
+      padding-bottom: 18px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
-    .variation-badge {
+    .concept-pill {
       font-family: 'Fira Code', monospace;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 700;
       color: var(--gold);
       background: rgba(250, 204, 21, 0.12);
       border: 1px solid rgba(250, 204, 21, 0.3);
-      padding: 4px 12px;
+      padding: 4px 10px;
       border-radius: 6px;
+      margin-bottom: 6px;
       display: inline-block;
-      margin-bottom: 8px;
     }
 
-    .variation-title {
+    .concept-title {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 26px;
+      font-size: 24px;
       font-weight: 700;
       color: #fff;
     }
 
-    .variation-desc {
+    .concept-desc {
       color: var(--text-muted);
-      font-size: 14.5px;
-      margin-top: 6px;
+      font-size: 14px;
+      margin-top: 4px;
       max-width: 800px;
     }
 
-    .section-subtitle {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 19px;
-      font-weight: 700;
-      color: var(--cyan);
-      margin: 32px 0 18px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
     /* ========================================================================= */
-    /* VARIATION 1: SILICON VALLEY BENTO GRID                                    */
+    /* 1. PROJECT VARIATION A: SILICON VALLEY BENTO GRID                         */
     /* ========================================================================= */
     .bento-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
-      margin-bottom: 30px;
     }
-
-    @media (max-width: 900px) {
-      .bento-grid { grid-template-columns: 1fr; }
-    }
+    @media (max-width: 900px) { .bento-grid { grid-template-columns: 1fr; } }
 
     .bento-card {
-      background: #0b101b;
-      border: 1px solid #1f293d;
-      border-radius: 14px;
-      padding: 26px;
+      background: #090e1a;
+      border: 1px solid #1c273c;
+      border-radius: 16px;
+      padding: 24px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       transition: all 0.25s ease;
       position: relative;
-      overflow: hidden;
     }
-
     .bento-card:hover {
       border-color: var(--cyan);
       transform: translateY(-3px);
-      box-shadow: 0 12px 30px rgba(56, 189, 248, 0.15);
+      box-shadow: 0 10px 30px rgba(56, 189, 248, 0.18);
     }
 
-    .bento-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; height: 2px;
-      background: linear-gradient(90deg, transparent, var(--cyan), transparent);
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-    .bento-card:hover::before { opacity: 1; }
-
-    .bento-top {
+    .bento-logo-wrap {
+      background: #040811;
+      border: 1px solid #162033;
+      border-radius: 12px;
+      padding: 12px 18px;
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 14px;
+      margin-bottom: 16px;
     }
 
-    .bento-title-group {
-      display: flex;
-      align-items: center;
-      gap: 12px;
+    .bento-logo-wrap img {
+      max-height: 38px;
+      width: auto;
+      object-fit: contain;
     }
 
-    .bento-icon-box {
-      width: 42px;
-      height: 42px;
-      border-radius: 10px;
-      background: #162032;
-      border: 1px solid #28354d;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-    }
-
-    .bento-title {
-      font-size: 19px;
+    .bento-badge-metric {
+      font-family: 'Fira Code', monospace;
+      font-size: 10px;
       font-weight: 700;
-      color: #fff;
-    }
-
-    .bento-category {
-      font-family: 'Fira Code', monospace;
-      font-size: 11px;
-      color: var(--cyan);
-      letter-spacing: 0.5px;
-    }
-
-    .bento-metric-pill {
-      font-family: 'Fira Code', monospace;
-      font-size: 10.5px;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: 999px;
-      background: rgba(34, 197, 94, 0.12);
       color: var(--green);
+      background: rgba(34, 197, 94, 0.12);
       border: 1px solid rgba(34, 197, 94, 0.3);
+      padding: 3px 8px;
+      border-radius: 999px;
     }
 
     .bento-desc {
       font-size: 13.5px;
       color: #cbd5e1;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
       line-height: 1.55;
     }
 
-    /* Pipeline Flow Ribbon */
     .pipeline-ribbon {
-      background: #070c14;
-      border: 1px solid #1a2538;
+      background: #050a14;
+      border: 1px solid #172236;
       border-radius: 8px;
       padding: 8px 12px;
       font-family: 'Fira Code', monospace;
@@ -296,35 +263,30 @@
       overflow-x: auto;
       margin-bottom: 18px;
     }
-    .pipeline-ribbon span.step { color: #e2e8f0; font-weight: 600; }
-    .pipeline-ribbon span.arrow { color: var(--gold); }
+    .pipeline-ribbon span.step { color: #f1f5f9; font-weight: 600; }
+    .pipeline-ribbon span.arr { color: var(--gold); }
 
-    .bento-bottom {
+    .bento-footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-top: 1px solid #1a2436;
-      padding-top: 14px;
+      border-top: 1px solid #162033;
+      padding-top: 12px;
       margin-top: auto;
     }
 
-    .bento-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
+    .bento-tags { display: flex; flex-wrap: wrap; gap: 6px; }
     .bento-tag {
-      background: #141d2d;
-      border: 1px solid #23314a;
+      background: #111a2c;
+      border: 1px solid #1e2c45;
       color: #94a3b8;
       font-family: 'Fira Code', monospace;
       font-size: 11px;
-      padding: 3px 8px;
-      border-radius: 5px;
+      padding: 2px 7px;
+      border-radius: 4px;
     }
 
-    .bento-link {
+    .repo-btn {
       color: var(--cyan);
       font-size: 12px;
       font-weight: 700;
@@ -332,66 +294,44 @@
       display: flex;
       align-items: center;
       gap: 4px;
-      transition: color 0.2s;
     }
-    .bento-link:hover { color: #fff; }
+    .repo-btn:hover { color: #fff; }
 
     /* ========================================================================= */
-    /* VARIATION 2: CYBER HUD / TACTICAL TELEMETRY                              */
+    /* 2. PROJECT VARIATION B: CYBER HUD / TELEMETRY CONSOLE                    */
     /* ========================================================================= */
-    .hud-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 18px;
-    }
+    .hud-stack { display: flex; flex-direction: column; gap: 16px; }
 
     .hud-card {
-      background: #080c14;
-      border: 1px solid #1e293b;
-      border-left: 4px solid var(--cyan);
+      background: #05080f;
+      border: 1px solid #1b263b;
+      border-left: 4px solid var(--amber);
       border-radius: 8px;
-      padding: 22px 26px;
-      position: relative;
-      font-family: 'Inter', sans-serif;
+      padding: 20px 24px;
     }
 
-    .hud-top-telemetry {
+    .hud-strip {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       font-family: 'Fira Code', monospace;
       font-size: 11px;
-      color: var(--gold);
-      margin-bottom: 12px;
-      padding-bottom: 8px;
+      color: var(--amber);
       border-bottom: 1px dashed #1e293b;
+      padding-bottom: 8px;
+      margin-bottom: 14px;
     }
 
-    .hud-middle {
+    .hud-body {
       display: grid;
-      grid-template-columns: 260px 1fr 220px;
-      gap: 24px;
+      grid-template-columns: 200px 1fr 220px;
+      gap: 22px;
       align-items: center;
     }
+    @media (max-width: 950px) { .hud-body { grid-template-columns: 1fr; } }
 
-    @media (max-width: 950px) {
-      .hud-middle { grid-template-columns: 1fr; gap: 14px; }
-    }
-
-    .hud-title {
-      font-size: 20px;
-      font-weight: 700;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .hud-spec-tag {
-      font-family: 'Fira Code', monospace;
-      font-size: 10.5px;
-      color: var(--cyan);
-      margin-top: 4px;
+    .hud-logo-col img {
+      max-height: 42px;
+      width: auto;
     }
 
     .hud-desc {
@@ -400,1086 +340,938 @@
       line-height: 1.5;
     }
 
-    .hud-telemetry-box {
-      background: #04070d;
-      border: 1px solid #1e293b;
+    .hud-matrix {
+      background: #020408;
+      border: 1px solid #172236;
       border-radius: 6px;
       padding: 10px;
       font-family: 'Fira Code', monospace;
       font-size: 10.5px;
       color: #94a3b8;
     }
-    .hud-telemetry-row {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 4px;
-    }
-    .hud-telemetry-row:last-child { margin-bottom: 0; }
+    .hud-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
     .hud-val { color: var(--cyan); font-weight: 600; }
 
     /* ========================================================================= */
-    /* VARIATION 3: TOKYO NIGHT LUMINOUS GLASS                                  */
+    /* 3. PROJECT VARIATION C: TOKYO NIGHT AURORA                                */
     /* ========================================================================= */
-    .luminous-stack {
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-    }
+    .aurora-stack { display: flex; flex-direction: column; gap: 18px; }
 
-    .luminous-card {
-      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(12, 16, 29, 0.95));
-      border: 1px solid rgba(56, 189, 248, 0.25);
+    .aurora-card {
+      background: linear-gradient(135deg, rgba(13, 20, 36, 0.95), rgba(8, 12, 22, 0.95));
+      border: 1px solid rgba(56, 189, 248, 0.3);
       border-radius: 14px;
-      padding: 24px 28px;
+      padding: 22px 28px;
+      display: grid;
+      grid-template-columns: 220px 1fr auto;
+      gap: 24px;
+      align-items: center;
+      transition: all 0.3s;
       position: relative;
       overflow: hidden;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
-      transition: all 0.3s ease;
+    }
+    @media (max-width: 950px) { .aurora-card { grid-template-columns: 1fr; } }
+
+    .aurora-card:hover {
+      border-color: var(--purple);
+      box-shadow: 0 0 25px rgba(168, 85, 247, 0.25);
     }
 
-    .luminous-card:hover {
-      border-color: var(--cyan);
-      box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+    .aurora-logo img {
+      max-height: 40px;
+      width: auto;
     }
 
-    .luminous-card::after {
-      content: '';
-      position: absolute;
-      top: -50%; left: -50%; width: 200%; height: 200%;
-      background: radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.08), transparent 40%);
-      pointer-events: none;
-    }
-
-    .luminous-inner {
-      display: grid;
-      grid-template-columns: 240px 1fr auto;
-      gap: 28px;
-      align-items: center;
-      position: relative;
-      z-index: 1;
-    }
-
-    @media (max-width: 950px) {
-      .luminous-inner { grid-template-columns: 1fr; gap: 16px; }
-    }
-
-    .luminous-title {
-      font-size: 21px;
-      font-weight: 700;
-      color: var(--cyan);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .luminous-arch-pill {
-      display: inline-block;
-      margin-top: 6px;
-      padding: 3px 10px;
-      border-radius: 4px;
-      background: rgba(250, 204, 21, 0.12);
-      border: 1px solid rgba(250, 204, 21, 0.35);
-      color: var(--gold);
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 10.5px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-    }
-
-    .luminous-desc {
+    .aurora-desc {
       font-size: 13.5px;
       color: #e2e8f0;
       line-height: 1.55;
     }
 
-    .luminous-tag-cluster {
+    .aurora-chips {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 6px;
       align-items: flex-end;
     }
-
-    .luminous-tag-row {
-      display: flex;
-      gap: 6px;
-    }
-
-    .luminous-chip {
-      background: #1e293b;
-      border: 1px solid #334155;
-      color: #f1f5f9;
+    .aurora-chip-row { display: flex; gap: 6px; }
+    .aurora-chip {
+      background: #151f33;
+      border: 1px solid #283957;
+      color: #f8fafc;
       font-family: 'Fira Code', monospace;
       font-size: 11px;
-      padding: 4px 10px;
-      border-radius: 6px;
+      padding: 4px 9px;
+      border-radius: 5px;
     }
 
     /* ========================================================================= */
-    /* VARIATION 4: SYSTEMS ARCHITECTURE BLUEPRINT                              */
+    /* 4. PROJECT VARIATION D: ARCHITECTURE SCHEMATIC PIPELINE                   */
     /* ========================================================================= */
-    .blueprint-card {
-      background: #070c14;
-      border: 1px solid #1a273b;
+    .schematic-card {
+      background: #060b13;
+      border: 1px solid #162234;
       border-radius: 12px;
-      padding: 24px;
-      margin-bottom: 20px;
-      position: relative;
+      padding: 22px;
+      margin-bottom: 18px;
     }
 
-    .blueprint-header {
+    .schematic-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
+    .schematic-top img { max-height: 36px; }
 
-    .blueprint-name {
-      font-size: 20px;
-      font-weight: 700;
-      color: #fff;
-    }
-
-    .blueprint-meta {
-      font-family: 'Fira Code', monospace;
-      font-size: 11px;
-      color: var(--gold);
-    }
-
-    /* Architecture Flow Chart Inside Card */
-    .flow-diagram {
+    .schematic-flow {
       display: flex;
       align-items: center;
       gap: 8px;
-      background: #0a111d;
-      border: 1px solid #1b263b;
+      background: #09101b;
+      border: 1px solid #172438;
       border-radius: 8px;
-      padding: 14px 18px;
-      margin: 14px 0;
+      padding: 12px 16px;
+      margin: 12px 0;
       overflow-x: auto;
     }
-
-    .flow-node {
-      background: #111a2c;
+    .flow-box {
+      background: #101b2d;
       border: 1px solid var(--cyan);
-      color: #f8fafc;
+      color: #f1f5f9;
       font-family: 'Fira Code', monospace;
-      font-size: 11.5px;
+      font-size: 11px;
       font-weight: 600;
-      padding: 6px 12px;
+      padding: 6px 10px;
       border-radius: 6px;
       white-space: nowrap;
-      text-align: center;
     }
-    .flow-node.core {
-      background: rgba(56, 189, 248, 0.15);
-      border-color: #38bdf8;
-      color: #38bdf8;
-    }
-    .flow-node.target {
+    .flow-box.highlight {
       background: rgba(34, 197, 94, 0.15);
-      border-color: #22c55e;
-      color: #22c55e;
+      border-color: var(--green);
+      color: var(--green);
     }
-
-    .flow-connector {
-      color: var(--gold);
-      font-size: 14px;
-      font-weight: 700;
-    }
+    .flow-arr { color: var(--gold); font-size: 13px; font-weight: 700; }
 
     /* ========================================================================= */
-    /* VARIATION 5: SWISS EDITORIAL MONOLITH                                     */
+    /* 5. PROJECT VARIATION E: SWISS EDITORIAL MONOLITH                          */
     /* ========================================================================= */
-    .editorial-stack {
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-    }
-
+    .editorial-stack { display: flex; flex-direction: column; gap: 16px; }
     .editorial-card {
-      background: #090d14;
-      border: 1px solid #1c2638;
-      border-radius: 12px;
-      padding: 24px 30px;
+      background: #000000;
+      border: 1px solid #1f2937;
+      border-radius: 10px;
+      padding: 22px 28px;
       display: grid;
-      grid-template-columns: 80px 220px 1fr 180px;
+      grid-template-columns: 60px 180px 1fr 140px;
       gap: 20px;
       align-items: center;
-      transition: all 0.2s ease;
+      transition: all 0.2s;
     }
-
-    @media (max-width: 950px) {
-      .editorial-card { grid-template-columns: 1fr; gap: 12px; }
-    }
-
-    .editorial-card:hover {
-      border-color: #fff;
-      background: #0f1522;
-    }
+    @media (max-width: 950px) { .editorial-card { grid-template-columns: 1fr; } }
+    .editorial-card:hover { border-color: #fff; background: #080a0f; }
 
     .editorial-num {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 36px;
+      font-size: 32px;
       font-weight: 800;
-      color: #243048;
-      line-height: 1;
+      color: #374151;
     }
+    .editorial-logo img { max-height: 38px; width: auto; }
+    .editorial-desc { font-size: 13.5px; color: #9ca3af; line-height: 1.5; }
 
-    .editorial-title {
-      font-size: 20px;
-      font-weight: 700;
-      color: #fff;
-    }
-    .editorial-domain {
-      font-family: 'Fira Code', monospace;
-      font-size: 11px;
-      color: var(--cyan);
-      margin-top: 4px;
-    }
-
-    .editorial-desc {
-      font-size: 13.5px;
-      color: #94a3b8;
-      line-height: 1.5;
-    }
-
-    .editorial-right {
+    /* ========================================================================= */
+    /* TECH STACK VARIATIONS STYLING (UPGRADED STACK)                             */
+    /* ========================================================================= */
+    .tech-grid-wrapper {
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
-      gap: 8px;
+      gap: 28px;
     }
 
-    /* ========================================================================= */
-    /* TECH STACK STYLES GALLERY                                                 */
-    /* ========================================================================= */
-    .tech-showcase-box {
-      background: #070b12;
-      border: 1px solid #1a2538;
-      border-radius: 12px;
-      padding: 22px;
-      margin-top: 14px;
+    .tech-cat-title {
+      font-family: 'Fira Code', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--cyan);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
     }
 
-    .badge-flex {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-    }
+    .badge-wrap { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 
-    /* Style 1: SkillIcons Squircles */
-    .skillicons-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    /* Style 2: Obsidian Glow Pills */
-    .pill-obsidian {
+    /* Style 1: Obsidian Luminous Glow Pills (Refinement of Concept 1) */
+    .pill-glow {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: #0e1524;
-      border: 1px solid #23314a;
+      background: #0b111e;
+      border: 1px solid #1f2b42;
       padding: 6px 14px;
       border-radius: 8px;
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 600;
       color: #f1f5f9;
       transition: all 0.2s;
     }
-    .pill-obsidian:hover {
+    .pill-glow:hover {
       border-color: var(--cyan);
-      box-shadow: 0 0 12px rgba(56, 189, 248, 0.3);
+      box-shadow: 0 0 14px rgba(56, 189, 248, 0.35);
       transform: translateY(-2px);
     }
-    .pill-obsidian img { width: 16px; height: 16px; }
+    .pill-glow img { width: 16px; height: 16px; }
 
-    /* Style 3: Monospace Split Matrix */
-    .badge-split {
+    /* Style 2: Laser Border Beam Badges */
+    .pill-laser {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #0d1527;
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      padding: 6px 13px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+    }
+    .pill-laser img { width: 15px; height: 15px; }
+
+    /* Style 3: Dual-Tone Monospace Matrix */
+    .pill-matrix {
       display: inline-flex;
       border-radius: 6px;
       overflow: hidden;
       font-family: 'Fira Code', monospace;
-      font-size: 12px;
-      border: 1px solid #23314a;
+      font-size: 11.5px;
+      border: 1px solid #1e293b;
     }
-    .badge-split-icon {
-      background: #141c2d;
-      padding: 6px 10px;
+    .matrix-icon-cell {
+      background: #141f33;
+      padding: 5px 9px;
       display: flex;
       align-items: center;
-      border-right: 1px solid #23314a;
+      border-right: 1px solid #1e293b;
     }
-    .badge-split-icon img { width: 15px; height: 15px; }
-    .badge-split-text {
-      background: #0b101c;
-      padding: 6px 12px;
+    .matrix-icon-cell img { width: 14px; height: 14px; }
+    .matrix-text-cell {
+      background: #090e18;
+      padding: 5px 10px;
       color: #e2e8f0;
       font-weight: 600;
     }
 
-    /* ========================================================================= */
-    /* PORTFOLIO BADGE GALLERY                                                   */
-    /* ========================================================================= */
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-      margin-top: 14px;
+    /* Style 4: Minimal Frosted Glass */
+    .pill-glass {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #f8fafc;
     }
+    .pill-glass img { width: 15px; height: 15px; }
 
-    .portfolio-item {
-      background: #090d16;
+    /* Style 5: Categorized Bento Tiles */
+    .bento-tiles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 12px;
+    }
+    .bento-tech-tile {
+      background: #090e1a;
       border: 1px solid #1c273c;
       border-radius: 10px;
-      padding: 18px;
-      text-align: center;
+      padding: 12px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 10px;
-      transition: all 0.2s;
+      gap: 6px;
+      text-align: center;
     }
-    .portfolio-item:hover {
-      border-color: var(--cyan);
-      transform: translateY(-2px);
-    }
-
-    .portfolio-title {
-      font-size: 13px;
-      font-weight: 700;
-      color: #fff;
-    }
-    .portfolio-desc {
-      font-size: 11.5px;
-      color: var(--text-muted);
-    }
-
-    /* Code Box */
-    .code-box {
-      background: #05080e;
-      border: 1px solid #182233;
-      border-radius: 8px;
-      padding: 12px 16px;
-      margin-top: 14px;
-      font-family: 'Fira Code', monospace;
-      font-size: 11.5px;
-      color: #cbd5e1;
-      position: relative;
-    }
-    .copy-btn {
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      background: #1c273c;
-      color: var(--cyan);
-      border: 1px solid #2b3b57;
-      padding: 4px 10px;
-      border-radius: 5px;
-      font-size: 11px;
-      cursor: pointer;
-      font-weight: 600;
-    }
-    .copy-btn:hover { background: var(--cyan); color: #000; }
+    .bento-tech-tile img { width: 22px; height: 22px; }
+    .bento-tech-tile .name { font-size: 12px; font-weight: 700; color: #fff; }
+    .bento-tech-tile .cat { font-family: 'Fira Code', monospace; font-size: 10px; color: var(--cyan); }
   </style>
 </head>
 <body>
 
   <div class="container">
     <header>
-      <div class="tag-pill">Executive Design Suite · 5 Grand Concepts</div>
-      <h1>Project Presentation &amp; Tech Stack Showcase</h1>
+      <div class="tag-pill">Executive Design Suite · Real Project Logos Embedded</div>
+      <h1>Sumanth Mamidi · Master Design Suite</h1>
       <p class="header-desc">
-        Engineered specifically for Sumanth Mamidi's AI Systems Engineer profile. Below are 5 completely different, production-grade design languages. Choose the direction that resonates with your vision!
+        Featuring your <b>official SVG logos</b> for <b>TrueCite</b>, <b>UrbanTrace</b>, <b>FieldCast</b>, and <b>OceanEmbed</b>, plus your <b>upgraded tech stack</b> from these 4 systems. Select between Projects and Tech Stack tabs below!
       </p>
 
-      <!-- Jump Nav -->
-      <div class="style-nav">
-        <button class="nav-btn active" onclick="jumpTo('v1')">🌟 1. Silicon Valley Bento</button>
-        <button class="nav-btn" onclick="jumpTo('v2')">⚡ 2. Cyber HUD Systems</button>
-        <button class="nav-btn" onclick="jumpTo('v3')">🌙 3. Tokyo Night Glass</button>
-        <button class="nav-btn" onclick="jumpTo('v4')">📐 4. Architecture Blueprint</button>
-        <button class="nav-btn" onclick="jumpTo('v5')">🏛️ 5. Swiss Monolith</button>
+      <!-- Main Section Tabs -->
+      <div class="tab-bar">
+        <button class="tab-btn active" onclick="switchView('projects')">🚀 5 Project Presentation Variations</button>
+        <button class="tab-btn" onclick="switchView('techstack')">💻 5 Upgraded Tech Stack Styles</button>
+      </div>
+
+      <!-- Projects Sub-Nav -->
+      <div id="projects-subnav" class="sub-nav">
+        <button class="sub-btn active" onclick="jumpTo('p-v1')">🌟 1. Silicon Valley Bento</button>
+        <button class="sub-btn" onclick="jumpTo('p-v2')">⚡ 2. Cyber HUD Telemetry</button>
+        <button class="sub-btn" onclick="jumpTo('p-v3')">🌙 3. Tokyo Night Aurora</button>
+        <button class="sub-btn" onclick="jumpTo('p-v4')">📐 4. Architecture Blueprint</button>
+        <button class="sub-btn" onclick="jumpTo('p-v5')">🏛️ 5. Swiss Monolith</button>
+      </div>
+
+      <!-- Tech Stack Sub-Nav -->
+      <div id="tech-subnav" class="sub-nav" style="display: none;">
+        <button class="sub-btn active" onclick="jumpTo('t-v1')">⚡ 1. Obsidian Luminous Pills</button>
+        <button class="sub-btn" onclick="jumpTo('t-v2')">💫 2. Laser Border Beams</button>
+        <button class="sub-btn" onclick="jumpTo('t-v3')">📟 3. Dual-Tone Monospace Matrix</button>
+        <button class="sub-btn" onclick="jumpTo('t-v4')">🔮 4. Minimal Frosted Glass</button>
+        <button class="sub-btn" onclick="jumpTo('t-v5')">🗂️ 5. Modular Bento Tiles</button>
       </div>
     </header>
 
     <!-- ========================================================================= -->
-    <!-- VARIATION 1: SILICON VALLEY BENTO GRID                                    -->
+    <!-- VIEW 1: PROJECTS SHOWCASE                                                  -->
     <!-- ========================================================================= -->
-    <section id="v1" class="variation-block">
-      <div class="variation-header">
-        <div>
-          <div class="variation-badge">CONCEPT 01 · LINEAR / VERCEL STYLE</div>
-          <div class="variation-title">🌟 Silicon Valley Bento Grid</div>
-          <div class="variation-desc">
-            Breaks away from repetitive single-row banners. Arranges your 4 major systems into a high-density, interactive 2x2 Bento Grid with live architectural flow ribbons, metrics badges, and direct repository links.
-          </div>
-        </div>
-      </div>
+    <div id="view-projects">
 
-      <div class="bento-grid">
-        <!-- Card 1: TrueCite -->
-        <div class="bento-card">
+      <!-- PROJECT VARIATION 1 -->
+      <section id="p-v1" class="section-block">
+        <div class="concept-header">
           <div>
-            <div class="bento-top">
-              <div class="bento-title-group">
-                <div class="bento-icon-box">⚖️</div>
-                <div>
-                  <div class="bento-title">TrueCite</div>
-                  <div class="bento-category">CITATION-VERIFIED RAG</div>
-                </div>
-              </div>
-              <div class="bento-metric-pill">100% ATTRIBUTED</div>
+            <div class="concept-pill">VARIATION 1 · LINEAR / VERCEL STYLE</div>
+            <div class="concept-title">🌟 Silicon Valley Bento Grid (Your Top Pick)</div>
+            <div class="concept-desc">
+              Features your official SVG logos in dedicated header bays, with real-time pipeline flow ribbons, metric tags, and direct repository links. No empty space or boring dividers.
             </div>
-            <div class="bento-desc">
-              Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance. Every statement is checked against its source before synthesis and display.
-            </div>
-            <div class="pipeline-ribbon">
-              <span class="step">Corpus</span> <span class="arrow">➔</span>
-              <span class="step">Hybrid Search</span> <span class="arrow">➔</span>
-              <span class="step">Source Verifier</span> <span class="arrow">➔</span>
-              <span class="step">Verified Output</span>
-            </div>
-          </div>
-          <div class="bento-bottom">
-            <div class="bento-tags">
-              <span class="bento-tag">Python</span>
-              <span class="bento-tag">RAG</span>
-              <span class="bento-tag">Legal AI</span>
-              <span class="bento-tag">AI Safety</span>
-            </div>
-            <a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank" class="bento-link">Repository ↗</a>
           </div>
         </div>
 
-        <!-- Card 2: UrbanTrace -->
-        <div class="bento-card">
+        <div class="bento-grid">
+          <!-- TrueCite -->
+          <div class="bento-card">
+            <div>
+              <div class="bento-logo-wrap">
+                <img src="assets/logo_truecite.svg" alt="TrueCite Logo" />
+                <span class="bento-badge-metric">100% ATTRIBUTION</span>
+              </div>
+              <div class="bento-desc">
+                Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance — verifying every attribution directly against source corpora before synthesis.
+              </div>
+              <div class="pipeline-ribbon">
+                <span class="step">Corpus</span> <span class="arr">➔</span>
+                <span class="step">Hybrid Index</span> <span class="arr">➔</span>
+                <span class="step">Citation Verifier</span> <span class="arr">➔</span>
+                <span class="step">Attributed Output</span>
+              </div>
+            </div>
+            <div class="bento-footer">
+              <div class="bento-tags">
+                <span class="bento-tag">Python</span>
+                <span class="bento-tag">FastAPI</span>
+                <span class="bento-tag">RAG</span>
+                <span class="bento-tag">Legal AI</span>
+              </div>
+              <a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank" class="repo-btn">Repository ↗</a>
+            </div>
+          </div>
+
+          <!-- UrbanTrace -->
+          <div class="bento-card">
+            <div>
+              <div class="bento-logo-wrap">
+                <img src="assets/logo_urbantrace.svg" alt="UrbanTrace Logo" />
+                <span class="bento-badge-metric">MULTI-CAMERA RE-ID</span>
+              </div>
+              <div class="bento-desc">
+                City-wide ANPR network engine fusing noisy plate reads, vehicle appearance embeddings, and travel times to reconstruct vehicle journeys and real-time security alerts.
+              </div>
+              <div class="pipeline-ribbon">
+                <span class="step">CCTV Feeds</span> <span class="arr">➔</span>
+                <span class="step">YOLOv8</span> <span class="arr">➔</span>
+                <span class="step">DeepSORT</span> <span class="arr">➔</span>
+                <span class="step">Journey Graph</span>
+              </div>
+            </div>
+            <div class="bento-footer">
+              <div class="bento-tags">
+                <span class="bento-tag">Python</span>
+                <span class="bento-tag">YOLOv8</span>
+                <span class="bento-tag">DeepSORT</span>
+                <span class="bento-tag">CV</span>
+              </div>
+              <a href="https://github.com/SumanthMamidi-MNS/UrbanTrace" target="_blank" class="repo-btn">Repository ↗</a>
+            </div>
+          </div>
+
+          <!-- FieldCast -->
+          <div class="bento-card">
+            <div>
+              <div class="bento-logo-wrap">
+                <img src="assets/logo_fieldcast.svg" alt="FieldCast Logo" />
+                <span class="bento-badge-metric">SIH26074 · MOES</span>
+              </div>
+              <div class="bento-desc">
+                Hyperlocal weather downscaling for agro-met advisories with calibrated uncertainty quantification for gram panchayat disaster management.
+              </div>
+              <div class="pipeline-ribbon">
+                <span class="step">NWP Grids</span> <span class="arr">➔</span>
+                <span class="step">LightGBM</span> <span class="arr">➔</span>
+                <span class="step">Uncertainty</span> <span class="arr">➔</span>
+                <span class="step">GP Advisory</span>
+              </div>
+            </div>
+            <div class="bento-footer">
+              <div class="bento-tags">
+                <span class="bento-tag">Python</span>
+                <span class="bento-tag">LightGBM</span>
+                <span class="bento-tag">Geospatial</span>
+                <span class="bento-tag">MapLibre</span>
+              </div>
+              <a href="https://github.com/SumanthMamidi-MNS/FieldCast" target="_blank" class="repo-btn">Repository ↗</a>
+            </div>
+          </div>
+
+          <!-- OceanEmbed -->
+          <div class="bento-card">
+            <div>
+              <div class="bento-logo-wrap">
+                <img src="assets/logo_oceanembed.svg" alt="OceanEmbed Logo" />
+                <span class="bento-badge-metric">15 DEPTHS (0-1000m)</span>
+              </div>
+              <div class="bento-desc">
+                Deep-learning reconstruction of subsurface ocean temperature from daily satellite surface fields, validated against GLORYS and Argo floats with a React explorer.
+              </div>
+              <div class="pipeline-ribbon">
+                <span class="step">Satellite Surface</span> <span class="arr">➔</span>
+                <span class="step">Transformer</span> <span class="arr">➔</span>
+                <span class="step">Subsurface 3D</span> <span class="arr">➔</span>
+                <span class="step">React UI</span>
+              </div>
+            </div>
+            <div class="bento-footer">
+              <div class="bento-tags">
+                <span class="bento-tag">PyTorch</span>
+                <span class="bento-tag">Transformers</span>
+                <span class="bento-tag">FastAPI</span>
+                <span class="bento-tag">React</span>
+              </div>
+              <a href="https://github.com/SumanthMamidi-MNS/OceanEmbed" target="_blank" class="repo-btn">Repository ↗</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT VARIATION 2 -->
+      <section id="p-v2" class="section-block">
+        <div class="concept-header">
           <div>
-            <div class="bento-top">
-              <div class="bento-title-group">
-                <div class="bento-icon-box">🚦</div>
-                <div>
-                  <div class="bento-title">UrbanTrace</div>
-                  <div class="bento-category">CITY-SCALE ANPR &amp; RE-ID</div>
-                </div>
-              </div>
-              <div class="bento-metric-pill">MULTI-CAMERA</div>
+            <div class="concept-pill">VARIATION 2 · TACTICAL HUD CONSOLE</div>
+            <div class="concept-title">⚡ Cyber HUD &amp; Systems Console</div>
+            <div class="concept-desc">
+              Hardcore telemetry console with technical telemetry strips, real official project logos, and hardware/algorithmic telemetry boxes.
             </div>
-            <div class="bento-desc">
-              AI engine for ANPR camera networks fusing noisy plate reads, vehicle appearance, and travel time to reconstruct vehicle journeys with real-time alerts.
-            </div>
-            <div class="pipeline-ribbon">
-              <span class="step">CCTV Feeds</span> <span class="arrow">➔</span>
-              <span class="step">YOLOv8</span> <span class="arrow">➔</span>
-              <span class="step">DeepSORT</span> <span class="arrow">➔</span>
-              <span class="step">Trajectory Graph</span>
-            </div>
-          </div>
-          <div class="bento-bottom">
-            <div class="bento-tags">
-              <span class="bento-tag">Python</span>
-              <span class="bento-tag">YOLOv8</span>
-              <span class="bento-tag">DeepSORT</span>
-              <span class="bento-tag">CV</span>
-            </div>
-            <a href="https://github.com/SumanthMamidi-MNS/UrbanTrace" target="_blank" class="bento-link">Repository ↗</a>
           </div>
         </div>
 
-        <!-- Card 3: FieldCast -->
-        <div class="bento-card">
+        <div class="hud-stack">
+          <!-- TrueCite HUD -->
+          <div class="hud-card">
+            <div class="hud-strip">
+              <span>[MODULE: TRUECITE_IP]</span>
+              <span>DOMAIN: LEGAL RAG &amp; AYURVEDA</span>
+              <span style="color:var(--green);">● SYSTEM ONLINE</span>
+            </div>
+            <div class="hud-body">
+              <div class="hud-logo-col"><img src="assets/logo_truecite.svg" /></div>
+              <div class="hud-desc">
+                Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance — verifying every attribution directly against source corpora before synthesis.
+              </div>
+              <div class="hud-matrix">
+                <div class="hud-row"><span>RETRIEVAL</span><span class="hud-val">HYBRID_DENSE_BM25</span></div>
+                <div class="hud-row"><span>GROUNDING</span><span class="hud-val">STRICT_ATTRIBUTION</span></div>
+                <div class="hud-row"><span>REPO</span><span class="hud-val"><a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank" style="color:var(--cyan);text-decoration:none;">VIEW_SRC ↗</a></span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- UrbanTrace HUD -->
+          <div class="hud-card">
+            <div class="hud-strip">
+              <span>[MODULE: URBAN_TRACE_AI]</span>
+              <span>DOMAIN: CITY ANPR &amp; RE-ID</span>
+              <span style="color:var(--green);">● SYSTEM ONLINE</span>
+            </div>
+            <div class="hud-body">
+              <div class="hud-logo-col"><img src="assets/logo_urbantrace.svg" /></div>
+              <div class="hud-desc">
+                City-wide ANPR network engine fusing noisy plate reads, vehicle appearance embeddings, and travel times to reconstruct vehicle journeys and real-time security alerts.
+              </div>
+              <div class="hud-matrix">
+                <div class="hud-row"><span>DETECTION</span><span class="hud-val">YOLOv8</span></div>
+                <div class="hud-row"><span>TRACKING</span><span class="hud-val">DeepSORT_MULTI_CAM</span></div>
+                <div class="hud-row"><span>REPO</span><span class="hud-val"><a href="https://github.com/SumanthMamidi-MNS/UrbanTrace" target="_blank" style="color:var(--cyan);text-decoration:none;">VIEW_SRC ↗</a></span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FieldCast HUD -->
+          <div class="hud-card">
+            <div class="hud-strip">
+              <span>[MODULE: FIELDCAST_NWP]</span>
+              <span>DOMAIN: SIH26074 · MOES</span>
+              <span style="color:var(--green);">● SYSTEM ONLINE</span>
+            </div>
+            <div class="hud-body">
+              <div class="hud-logo-col"><img src="assets/logo_fieldcast.svg" /></div>
+              <div class="hud-desc">
+                Hyperlocal weather downscaling for agro-met advisories with calibrated uncertainty quantification for gram panchayat disaster management.
+              </div>
+              <div class="hud-matrix">
+                <div class="hud-row"><span>MODEL</span><span class="hud-val">LightGBM_QUANTILE</span></div>
+                <div class="hud-row"><span>GEO_MAP</span><span class="hud-val">MAPLIBRE_ENGINE</span></div>
+                <div class="hud-row"><span>REPO</span><span class="hud-val"><a href="https://github.com/SumanthMamidi-MNS/FieldCast" target="_blank" style="color:var(--cyan);text-decoration:none;">VIEW_SRC ↗</a></span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- OceanEmbed HUD -->
+          <div class="hud-card">
+            <div class="hud-strip">
+              <span>[MODULE: OCEAN_EMBED_3D]</span>
+              <span>DOMAIN: EARTH OBSERVATION</span>
+              <span style="color:var(--green);">● SYSTEM ONLINE</span>
+            </div>
+            <div class="hud-body">
+              <div class="hud-logo-col"><img src="assets/logo_oceanembed.svg" /></div>
+              <div class="hud-desc">
+                Deep-learning reconstruction of subsurface ocean temperature from daily satellite surface fields, validated against GLORYS and Argo floats with a React explorer.
+              </div>
+              <div class="hud-matrix">
+                <div class="hud-row"><span>BACKBONE</span><span class="hud-val">PyTorch_ATTENTION</span></div>
+                <div class="hud-row"><span>DEPTHS</span><span class="hud-val">15_TIERS_1000M</span></div>
+                <div class="hud-row"><span>REPO</span><span class="hud-val"><a href="https://github.com/SumanthMamidi-MNS/OceanEmbed" target="_blank" style="color:var(--cyan);text-decoration:none;">VIEW_SRC ↗</a></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT VARIATION 3 -->
+      <section id="p-v3" class="section-block">
+        <div class="concept-header">
           <div>
-            <div class="bento-top">
-              <div class="bento-title-group">
-                <div class="bento-icon-box">🌾</div>
-                <div>
-                  <div class="bento-title">FieldCast</div>
-                  <div class="bento-category">AGROMET DOWNSCALING</div>
-                </div>
-              </div>
-              <div class="bento-metric-pill">SIH26074 · MOES</div>
+            <div class="concept-pill">VARIATION 3 · TOKYO NIGHT LUMINOUS</div>
+            <div class="concept-title">🌙 Tokyo Night Aurora Cards</div>
+            <div class="concept-desc">
+              Full-width ambient cards with cyan-purple glowing borders, prominent official logo crests, and high-density tech clusters.
             </div>
-            <div class="bento-desc">
-              Downscales block-level weather forecasts to every gram panchayat for agro-met advisories, with calibrated uncertainty quantification and confidence metrics.
-            </div>
-            <div class="pipeline-ribbon">
-              <span class="step">NWP Forecasts</span> <span class="arrow">➔</span>
-              <span class="step">LightGBM</span> <span class="arrow">➔</span>
-              <span class="step">Uncertainty</span> <span class="arrow">➔</span>
-              <span class="step">GP Advisory</span>
-            </div>
-          </div>
-          <div class="bento-bottom">
-            <div class="bento-tags">
-              <span class="bento-tag">Python</span>
-              <span class="bento-tag">LightGBM</span>
-              <span class="bento-tag">Geospatial</span>
-              <span class="bento-tag">MapLibre</span>
-            </div>
-            <a href="https://github.com/SumanthMamidi-MNS/FieldCast" target="_blank" class="bento-link">Repository ↗</a>
           </div>
         </div>
 
-        <!-- Card 4: OceanEmbed -->
-        <div class="bento-card">
+        <div class="aurora-stack">
+          <!-- Card 1 -->
+          <div class="aurora-card">
+            <div class="aurora-logo"><img src="assets/logo_truecite.svg" /></div>
+            <div class="aurora-desc">
+              Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance — verifying every attribution directly against source corpora before synthesis.
+            </div>
+            <div class="aurora-chips">
+              <div class="aurora-chip-row"><span class="aurora-chip">Python</span><span class="aurora-chip">RAG</span></div>
+              <div class="aurora-chip-row"><span class="aurora-chip">Legal AI</span><span class="aurora-chip">FastAPI</span></div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="aurora-card">
+            <div class="aurora-logo"><img src="assets/logo_urbantrace.svg" /></div>
+            <div class="aurora-desc">
+              City-wide ANPR engine fusing noisy plate reads, appearance features, and travel times to reconstruct vehicle journeys and real-time security alerts.
+            </div>
+            <div class="aurora-chips">
+              <div class="aurora-chip-row"><span class="aurora-chip">YOLOv8</span><span class="aurora-chip">DeepSORT</span></div>
+              <div class="aurora-chip-row"><span class="aurora-chip">OpenCV</span><span class="aurora-chip">PyTorch</span></div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="aurora-card">
+            <div class="aurora-logo"><img src="assets/logo_fieldcast.svg" /></div>
+            <div class="aurora-desc">
+              Hyperlocal weather downscaling for agro-met advisories with calibrated uncertainty quantification for gram panchayat disaster management (SIH26074 · MoES).
+            </div>
+            <div class="aurora-chips">
+              <div class="aurora-chip-row"><span class="aurora-chip">LightGBM</span><span class="aurora-chip">Geospatial</span></div>
+              <div class="aurora-chip-row"><span class="aurora-chip">MapLibre</span><span class="aurora-chip">FastAPI</span></div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="aurora-card">
+            <div class="aurora-logo"><img src="assets/logo_oceanembed.svg" /></div>
+            <div class="aurora-desc">
+              Deep-learning reconstruction of subsurface ocean temperature (15 depth tiers, 0–1000m) from satellite fields with interactive React explorer.
+            </div>
+            <div class="aurora-chips">
+              <div class="aurora-chip-row"><span class="aurora-chip">PyTorch</span><span class="aurora-chip">Transformers</span></div>
+              <div class="aurora-chip-row"><span class="aurora-chip">FastAPI</span><span class="aurora-chip">React</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT VARIATION 4 -->
+      <section id="p-v4" class="section-block">
+        <div class="concept-header">
           <div>
-            <div class="bento-top">
-              <div class="bento-title-group">
-                <div class="bento-icon-box">🌊</div>
-                <div>
-                  <div class="bento-title">OceanEmbed</div>
-                  <div class="bento-category">SATELLITE TRANSFORMERS</div>
-                </div>
-              </div>
-              <div class="bento-metric-pill">15 DEPTHS (0-1000m)</div>
-            </div>
-            <div class="bento-desc">
-              Deep-learning reconstruction of subsurface ocean temperature from daily satellite surface fields over the North Indian Ocean, with a React + FastAPI explorer.
-            </div>
-            <div class="pipeline-ribbon">
-              <span class="step">Satellite Surface</span> <span class="arrow">➔</span>
-              <span class="step">Transformer</span> <span class="arrow">➔</span>
-              <span class="step">Subsurface 3D</span> <span class="arrow">➔</span>
-              <span class="step">React UI</span>
-            </div>
-          </div>
-          <div class="bento-bottom">
-            <div class="bento-tags">
-              <span class="bento-tag">PyTorch</span>
-              <span class="bento-tag">Transformers</span>
-              <span class="bento-tag">FastAPI</span>
-              <span class="bento-tag">React</span>
-            </div>
-            <a href="https://github.com/SumanthMamidi-MNS/OceanEmbed" target="_blank" class="bento-link">Repository ↗</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tech Stack Style for V1 -->
-      <div class="section-subtitle">💻 Matching Tech Stack: Obsidian Glass Micro-Pills</div>
-      <div class="tech-showcase-box">
-        <div class="badge-flex">
-          <div class="pill-obsidian"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</div>
-          <div class="pill-obsidian"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" /> C++</div>
-          <div class="pill-obsidian"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</div>
-          <div class="pill-obsidian"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</div>
-          <div class="pill-obsidian"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</div>
-          <div class="pill-obsidian"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" /> Next.js</div>
-          <div class="pill-obsidian"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</div>
-          <div class="pill-obsidian"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /> PostgreSQL</div>
-        </div>
-      </div>
-
-      <!-- Portfolio Badge for V1 -->
-      <div class="section-subtitle">🌐 Matching Portfolio Badge: Vercel Delta Prism</div>
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <div class="portfolio-title">Vercel Delta Prism Badge</div>
-          <img src="assets/badge_portfolio.svg" height="28" />
-          <div class="portfolio-desc">Equilateral delta prism with external link indicator and cyan halo</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================= -->
-    <!-- VARIATION 2: CYBER HUD / TACTICAL TELEMETRY                              -->
-    <!-- ========================================================================= -->
-    <section id="v2" class="variation-block">
-      <div class="variation-header">
-        <div>
-          <div class="variation-badge">CONCEPT 02 · AI SYSTEMS HUD</div>
-          <div class="variation-title">⚡ Cyber HUD &amp; Tactical Telemetry</div>
-          <div class="variation-desc">
-            A hardcore systems engineering aesthetic with live telemetry readouts, technical data-flow blocks, monospace specifications, and cyberpunk border accents.
-          </div>
-        </div>
-      </div>
-
-      <div class="hud-grid">
-        <!-- HUD 1: TrueCite -->
-        <div class="hud-card">
-          <div class="hud-top-telemetry">
-            <span>[MODULE: TRUCITE_CORE]</span>
-            <span>DOMAIN: LEGAL AI &amp; IP</span>
-            <span style="color: var(--green);">● SYSTEM ONLINE</span>
-          </div>
-          <div class="hud-middle">
-            <div>
-              <div class="hud-title">⚖️ TrueCite</div>
-              <div class="hud-spec-tag">ARCHITECTURE: CITATION RAG</div>
-            </div>
-            <div class="hud-desc">
-              Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance. Rigorously cross-checks each generated claim against verified legal/botanical sources before synthesizing responses.
-            </div>
-            <div class="hud-telemetry-box">
-              <div class="hud-telemetry-row"><span>PIPELINE</span><span class="hud-val">HYBRID_BM25_DENSE</span></div>
-              <div class="hud-telemetry-row"><span>SAFETY</span><span class="hud-val">STRICT_GROUNDING</span></div>
-              <div class="hud-telemetry-row"><span>REPO</span><span class="hud-val"><a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank" style="color:var(--cyan);text-decoration:none;">VIEW_SRC ↗</a></span></div>
+            <div class="concept-pill">VARIATION 4 · ARCHITECTURE SCHEMATICS</div>
+            <div class="concept-title">📐 Systems Architecture Blueprint</div>
+            <div class="concept-desc">
+              Visualizes the concrete dataflow, algorithmic steps, and outputs of your 4 systems. Proves deep architecture competence.
             </div>
           </div>
         </div>
 
-        <!-- HUD 2: UrbanTrace -->
-        <div class="hud-card">
-          <div class="hud-top-telemetry">
-            <span>[MODULE: URBAN_TRACE_AI]</span>
-            <span>DOMAIN: COMPUTER VISION</span>
-            <span style="color: var(--green);">● SYSTEM ONLINE</span>
+        <div class="schematic-card">
+          <div class="schematic-top">
+            <img src="assets/logo_truecite.svg" />
+            <a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank" class="repo-btn">View Code ↗</a>
           </div>
-          <div class="hud-middle">
-            <div>
-              <div class="hud-title">🚦 UrbanTrace</div>
-              <div class="hud-spec-tag">ARCHITECTURE: ANPR &amp; RE-ID</div>
-            </div>
-            <div class="hud-desc">
-              City-wide ANPR network engine that fuses noisy license plate OCR, vehicle appearance feature embeddings, and spatiotemporal graph travel times to reconstruct vehicle journeys.
-            </div>
-            <div class="hud-telemetry-box">
-              <div class="hud-telemetry-row"><span>DETECTION</span><span class="hud-val">YOLOv8</span></div>
-              <div class="hud-telemetry-row"><span>TRACKING</span><span class="hud-val">DeepSORT_MULTI</span></div>
-              <div class="hud-telemetry-row"><span>REPO</span><span class="hud-val"><a href="https://github.com/SumanthMamidi-MNS/UrbanTrace" target="_blank" style="color:var(--cyan);text-decoration:none;">VIEW_SRC ↗</a></span></div>
-            </div>
+          <div class="schematic-flow">
+            <div class="flow-box">Raw Ayurvedic Corpora</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box">Dense + BM25 Hybrid Index</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box highlight">Sentence-Level Verifier</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box highlight">Attributed Clinical Guidance</div>
           </div>
         </div>
 
-        <!-- HUD 3: FieldCast -->
-        <div class="hud-card">
-          <div class="hud-top-telemetry">
-            <span>[MODULE: FIELDCAST_NWP]</span>
-            <span>DOMAIN: SIH26074 · MOES</span>
-            <span style="color: var(--green);">● SYSTEM ONLINE</span>
+        <div class="schematic-card">
+          <div class="schematic-top">
+            <img src="assets/logo_urbantrace.svg" />
+            <a href="https://github.com/SumanthMamidi-MNS/UrbanTrace" target="_blank" class="repo-btn">View Code ↗</a>
           </div>
-          <div class="hud-middle">
-            <div>
-              <div class="hud-title">🌾 FieldCast</div>
-              <div class="hud-spec-tag">ARCHITECTURE: AGROMET DOWNSCALING</div>
-            </div>
-            <div class="hud-desc">
-              Downscales block-level weather forecasts to every gram panchayat for disaster management and precision agriculture, with calibrated uncertainty quantification.
-            </div>
-            <div class="hud-telemetry-box">
-              <div class="hud-telemetry-row"><span>MODEL</span><span class="hud-val">LightGBM_QUANTILE</span></div>
-              <div class="hud-telemetry-row"><span>GEO</span><span class="hud-val">MAPLIBRE_ENGINE</span></div>
-              <div class="hud-telemetry-row"><span>REPO</span><span class="hud-val"><a href="https://github.com/SumanthMamidi-MNS/FieldCast" target="_blank" style="color:var(--cyan);text-decoration:none;">VIEW_SRC ↗</a></span></div>
-            </div>
+          <div class="schematic-flow">
+            <div class="flow-box">Multi-Camera Streams</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box">YOLOv8 Detection</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box highlight">DeepSORT Appearance Re-ID</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box highlight">Reconstructed Journey &amp; Alert</div>
           </div>
         </div>
 
-        <!-- HUD 4: OceanEmbed -->
-        <div class="hud-card">
-          <div class="hud-top-telemetry">
-            <span>[MODULE: OCEAN_EMBED_DL]</span>
-            <span>DOMAIN: EARTH OBSERVATION</span>
-            <span style="color: var(--green);">● SYSTEM ONLINE</span>
+        <div class="schematic-card">
+          <div class="schematic-top">
+            <img src="assets/logo_fieldcast.svg" />
+            <a href="https://github.com/SumanthMamidi-MNS/FieldCast" target="_blank" class="repo-btn">View Code ↗</a>
           </div>
-          <div class="hud-middle">
-            <div>
-              <div class="hud-title">🌊 OceanEmbed</div>
-              <div class="hud-spec-tag">ARCHITECTURE: TRANSFORMER 3D</div>
-            </div>
-            <div class="hud-desc">
-              Deep-learning reconstruction of subsurface ocean temperatures (0–1000m, 15 depth tiers) from daily satellite surface fields, validated against GLORYS and Argo floats.
-            </div>
-            <div class="hud-telemetry-box">
-              <div class="hud-telemetry-row"><span>BACKBONE</span><span class="hud-val">PyTorch_ATTENTION</span></div>
-              <div class="hud-telemetry-row"><span>DEPTHS</span><span class="hud-val">15_TIERS_1000M</span></div>
-              <div class="hud-telemetry-row"><span>REPO</span><span class="hud-val"><a href="https://github.com/SumanthMamidi-MNS/OceanEmbed" target="_blank" style="color:var(--cyan);text-decoration:none;">VIEW_SRC ↗</a></span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tech Stack Style for V2 -->
-      <div class="section-subtitle">💻 Matching Tech Stack: Dual-Tone Monospace Matrix</div>
-      <div class="tech-showcase-box">
-        <div class="badge-flex">
-          <div class="badge-split">
-            <div class="badge-split-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /></div>
-            <div class="badge-split-text">Python <span style="color:var(--cyan);">v3.12</span></div>
-          </div>
-          <div class="badge-split">
-            <div class="badge-split-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /></div>
-            <div class="badge-split-text">PyTorch <span style="color:var(--cyan);">CUDA</span></div>
-          </div>
-          <div class="badge-split">
-            <div class="badge-split-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /></div>
-            <div class="badge-split-text">FastAPI <span style="color:var(--cyan);">Async</span></div>
-          </div>
-          <div class="badge-split">
-            <div class="badge-split-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /></div>
-            <div class="badge-split-text">React <span style="color:var(--cyan);">SPA</span></div>
-          </div>
-          <div class="badge-split">
-            <div class="badge-split-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /></div>
-            <div class="badge-split-text">Docker <span style="color:var(--cyan);">Engine</span></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio Badge for V2 -->
-      <div class="section-subtitle">🌐 Matching Portfolio Badge: Cyber Hologram Portal</div>
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <div class="portfolio-title">Cyber Terminal Portal</div>
-          <img src="https://img.shields.io/badge/PORTFOLIO-090d16?style=for-the-badge&logo=googlechrome&logoColor=38bdf8&label=LIVE%20DEPLOY&labelColor=161b22" />
-          <div class="portfolio-desc">High-contrast split HUD badge with browser engine logo</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================= -->
-    <!-- VARIATION 3: TOKYO NIGHT LUMINOUS GLASS                                  -->
-    <!-- ========================================================================= -->
-    <section id="v3" class="variation-block">
-      <div class="variation-header">
-        <div>
-          <div class="variation-badge">CONCEPT 03 · TOKYO NIGHT THEME</div>
-          <div class="variation-title">🌙 Tokyo Night Luminous Glass</div>
-          <div class="variation-desc">
-            Matches your animated header banner with deep sapphire tones, electric cyan illumination, and frosted glass depth.
-          </div>
-        </div>
-      </div>
-
-      <div class="luminous-stack">
-        <!-- Card 1 -->
-        <div class="luminous-card">
-          <div class="luminous-inner">
-            <div>
-              <div class="luminous-title">⚖️ TrueCite</div>
-              <div class="luminous-arch-pill">CITATION-VERIFIED RAG</div>
-            </div>
-            <div class="luminous-desc">
-              Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance. Every citation is checked against its source before synthesis and display.
-            </div>
-            <div class="luminous-tag-cluster">
-              <div class="luminous-tag-row">
-                <span class="luminous-chip">Python</span>
-                <span class="luminous-chip">RAG</span>
-              </div>
-              <div class="luminous-tag-row">
-                <span class="luminous-chip">Legal AI</span>
-                <span class="luminous-chip">FastAPI</span>
-              </div>
-            </div>
+          <div class="schematic-flow">
+            <div class="flow-box">Block-Level NWP Grids</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box">LightGBM Quantile Regressors</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box highlight">Calibrated Confidence Bounds</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box highlight">Gram Panchayat Advisory</div>
           </div>
         </div>
 
-        <!-- Card 2 -->
-        <div class="luminous-card">
-          <div class="luminous-inner">
-            <div>
-              <div class="luminous-title">🚦 UrbanTrace</div>
-              <div class="luminous-arch-pill">CITY ANPR &amp; RE-ID</div>
-            </div>
-            <div class="luminous-desc">
-              City-wide ANPR engine fusing noisy plate reads, vehicle appearance, and travel times to reconstruct vehicle journeys and real-time security alerts.
-            </div>
-            <div class="luminous-tag-cluster">
-              <div class="luminous-tag-row">
-                <span class="luminous-chip">Python</span>
-                <span class="luminous-chip">YOLOv8</span>
-              </div>
-              <div class="luminous-tag-row">
-                <span class="luminous-chip">DeepSORT</span>
-                <span class="luminous-chip">Vision</span>
-              </div>
-            </div>
+        <div class="schematic-card">
+          <div class="schematic-top">
+            <img src="assets/logo_oceanembed.svg" />
+            <a href="https://github.com/SumanthMamidi-MNS/OceanEmbed" target="_blank" class="repo-btn">View Code ↗</a>
+          </div>
+          <div class="schematic-flow">
+            <div class="flow-box">Daily Satellite SST/SSH</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box">PyTorch Spatial Transformer</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box highlight">Validation vs GLORYS/Argo</div>
+            <div class="flow-arr">➔</div>
+            <div class="flow-box highlight">FastAPI + React 3D Explorer</div>
           </div>
         </div>
+      </section>
 
-        <!-- Card 3 -->
-        <div class="luminous-card">
-          <div class="luminous-inner">
-            <div>
-              <div class="luminous-title">🌾 FieldCast</div>
-              <div class="luminous-arch-pill">AGROMET DOWNSCALING</div>
-            </div>
-            <div class="luminous-desc">
-              Downscales block-level weather forecasts to gram panchayat resolution for agro-met advisories with calibrated uncertainty quantification (SIH26074 · MoES).
-            </div>
-            <div class="luminous-tag-cluster">
-              <div class="luminous-tag-row">
-                <span class="luminous-chip">Python</span>
-                <span class="luminous-chip">LightGBM</span>
-              </div>
-              <div class="luminous-tag-row">
-                <span class="luminous-chip">Geospatial</span>
-                <span class="luminous-chip">MapLibre</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="luminous-card">
-          <div class="luminous-inner">
-            <div>
-              <div class="luminous-title">🌊 OceanEmbed</div>
-              <div class="luminous-arch-pill">SATELLITE TRANSFORMERS</div>
-            </div>
-            <div class="luminous-desc">
-              Deep-learning reconstruction of subsurface ocean temperatures (0–1000m across 15 depths) from satellite surface fields with interactive React UI.
-            </div>
-            <div class="luminous-tag-cluster">
-              <div class="luminous-tag-row">
-                <span class="luminous-chip">PyTorch</span>
-                <span class="luminous-chip">Transformers</span>
-              </div>
-              <div class="luminous-tag-row">
-                <span class="luminous-chip">FastAPI</span>
-                <span class="luminous-chip">React</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tech Stack Style for V3 -->
-      <div class="section-subtitle">💻 Matching Tech Stack: Modern App-Icon Squircles (SkillIcons)</div>
-      <div class="tech-showcase-box">
-        <div class="skillicons-row">
-          <img src="https://skillicons.dev/icons?i=py,cpp,c,java,js,html,css" />
-          <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
-          <img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,tailwind,nodejs,vite" />
-          <img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,docker,vercel,git,github" />
-        </div>
-      </div>
-
-      <!-- Portfolio Badge for V3 -->
-      <div class="section-subtitle">🌐 Matching Portfolio Badge: Tokyo Night Cyan Luminous</div>
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <div class="portfolio-title">Tokyo Night Delta Badge</div>
-          <img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=vercel&logoColor=38bdf8" />
-          <div class="portfolio-desc">Tokyo Night slate background with electric cyan Vercel logo</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================= -->
-    <!-- VARIATION 4: SYSTEMS ARCHITECTURE BLUEPRINT                              -->
-    <!-- ========================================================================= -->
-    <section id="v4" class="variation-block">
-      <div class="variation-header">
-        <div>
-          <div class="variation-badge">CONCEPT 04 · BLUEPRINT &amp; PIPELINE</div>
-          <div class="variation-title">📐 Systems Architecture Blueprint</div>
-          <div class="variation-desc">
-            Visualizes the concrete dataflow, algorithmic steps, and outputs of your 4 systems. Proves deep architecture competence directly on your profile.
-          </div>
-        </div>
-      </div>
-
-      <!-- Blueprint 1 -->
-      <div class="blueprint-card">
-        <div class="blueprint-header">
-          <div class="blueprint-name">⚖️ TrueCite · Citation Verification Engine</div>
-          <div class="blueprint-meta">DOMAIN: AYURVEDA IP &amp; REGULATORY</div>
-        </div>
-        <p style="font-size: 13.5px; color: #cbd5e1;">Citation-verified RAG assistant ensuring 100% strict ground-truth attribution for complex botanical and legal queries.</p>
-        <div class="flow-diagram">
-          <div class="flow-node">Raw Ayurvedic Corpora</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node core">Dense + BM25 Hybrid Index</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node core">Sentence-Level Citation Check</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node target">Attributed Clinical Response</div>
-        </div>
-      </div>
-
-      <!-- Blueprint 2 -->
-      <div class="blueprint-card">
-        <div class="blueprint-header">
-          <div class="blueprint-name">🚦 UrbanTrace · Multi-Camera Vehicle Re-ID</div>
-          <div class="blueprint-meta">DOMAIN: CITY-SCALE INTELLIGENT TRANSPORT</div>
-        </div>
-        <p style="font-size: 13.5px; color: #cbd5e1;">Fuses noisy optical reads with appearance embeddings and spatiotemporal graph constraints across multi-camera intersections.</p>
-        <div class="flow-diagram">
-          <div class="flow-node">Distributed ANPR Cameras</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node core">YOLOv8 Detection</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node core">Appearance Feature Embedding</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node target">Reconstructed Journey &amp; Alert</div>
-        </div>
-      </div>
-
-      <!-- Blueprint 3 -->
-      <div class="blueprint-card">
-        <div class="blueprint-header">
-          <div class="blueprint-name">🌾 FieldCast · Agro-Meteorological Downscaling</div>
-          <div class="blueprint-meta">DOMAIN: SIH26074 · MOES DISASTER MANAGEMENT</div>
-        </div>
-        <p style="font-size: 13.5px; color: #cbd5e1;">Translates coarse numerical weather models into hyper-local gram panchayat forecasts with honest uncertainty bounds.</p>
-        <div class="flow-diagram">
-          <div class="flow-node">Block-Level NWP Grids</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node core">LightGBM Quantile Regressors</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node core">Calibrated Confidence Bounds</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node target">Gram Panchayat Advisory</div>
-        </div>
-      </div>
-
-      <!-- Blueprint 4 -->
-      <div class="blueprint-card">
-        <div class="blueprint-header">
-          <div class="blueprint-name">🌊 OceanEmbed · Satellite Subsurface Reconstruction</div>
-          <div class="blueprint-meta">DOMAIN: EARTH OBSERVATION &amp; OCEANOGRAPHY</div>
-        </div>
-        <p style="font-size: 13.5px; color: #cbd5e1;">Reconstructs 3D oceanic temperature fields (0-1000m across 15 depths) from 2D satellite surface observations.</p>
-        <div class="flow-diagram">
-          <div class="flow-node">Daily Sea Surface SST/SSH</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node core">PyTorch Spatial Transformer</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node core">Validation vs GLORYS/Argo</div>
-          <div class="flow-connector">➔</div>
-          <div class="flow-node target">FastAPI + React 3D Explorer</div>
-        </div>
-      </div>
-
-      <!-- Tech Stack Style for V4 -->
-      <div class="section-subtitle">💻 Matching Tech Stack: Categorized Architectural Tier Badges</div>
-      <div class="tech-showcase-box">
-        <div class="badge-flex">
-          <img src="https://img.shields.io/badge/Core-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/Systems-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-          <img src="https://img.shields.io/badge/ML-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-          <img src="https://img.shields.io/badge/Vision-YOLOv8-00ffff?style=flat-square&logo=yolo&logoColor=black" />
-          <img src="https://img.shields.io/badge/API-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-          <img src="https://img.shields.io/badge/UI-React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-          <img src="https://img.shields.io/badge/Storage-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-          <img src="https://img.shields.io/badge/Infra-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        </div>
-      </div>
-
-      <!-- Portfolio Badge for V4 -->
-      <div class="section-subtitle">🌐 Matching Portfolio Badge: Blueprint Compass Badge</div>
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <div class="portfolio-title">Blueprint Compass Badge</div>
-          <img src="https://img.shields.io/badge/PORTFOLIO-0284c7?style=flat-square&logo=safari&logoColor=white&label=PRODUCTION&labelColor=0f172a" />
-          <div class="portfolio-desc">Engineering blueprint badge with production deployment tag</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================= -->
-    <!-- VARIATION 5: SWISS EDITORIAL MONOLITH                                     -->
-    <!-- ========================================================================= -->
-    <section id="v5" class="variation-block">
-      <div class="variation-header">
-        <div>
-          <div class="variation-badge">CONCEPT 05 · EDITORIAL / SWISS STYLE</div>
-          <div class="variation-title">🏛️ Swiss Editorial Monolith</div>
-          <div class="variation-desc">
-            Ultra-refined minimalist design inspired by Apple &amp; Stripe. Features oversized index numbers, high-contrast typography, and concise technical summaries.
-          </div>
-        </div>
-      </div>
-
-      <div class="editorial-stack">
-        <!-- 01 -->
-        <div class="editorial-card">
-          <div class="editorial-num">01</div>
+      <!-- PROJECT VARIATION 5 -->
+      <section id="p-v5" class="section-block">
+        <div class="concept-header">
           <div>
-            <div class="editorial-title">TrueCite</div>
-            <div class="editorial-domain">RAG · AI SAFETY · LEGAL</div>
-          </div>
-          <div class="editorial-desc">
-            Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance — verifying every attribution directly against source corpora.
-          </div>
-          <div class="editorial-right">
-            <a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank" class="bento-link">View Repo ↗</a>
+            <div class="concept-pill">VARIATION 5 · SWISS EDITORIAL MONOLITH</div>
+            <div class="concept-title">🏛️ Swiss Editorial Monolith</div>
+            <div class="concept-desc">
+              Stark, high-contrast editorial minimalism with index numbering, official logos, and crisp concise summaries.
+            </div>
           </div>
         </div>
 
-        <!-- 02 -->
-        <div class="editorial-card">
-          <div class="editorial-num">02</div>
+        <div class="editorial-stack">
+          <div class="editorial-card">
+            <div class="editorial-num">01</div>
+            <div class="editorial-logo"><img src="assets/logo_truecite.svg" /></div>
+            <div class="editorial-desc">Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance — verifying every attribution directly against source corpora.</div>
+            <a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank" class="repo-btn">Explore ↗</a>
+          </div>
+          <div class="editorial-card">
+            <div class="editorial-num">02</div>
+            <div class="editorial-logo"><img src="assets/logo_urbantrace.svg" /></div>
+            <div class="editorial-desc">City-wide ANPR network engine fusing noisy plate reads, vehicle appearance embeddings, and travel times to reconstruct vehicle journeys.</div>
+            <a href="https://github.com/SumanthMamidi-MNS/UrbanTrace" target="_blank" class="repo-btn">Explore ↗</a>
+          </div>
+          <div class="editorial-card">
+            <div class="editorial-num">03</div>
+            <div class="editorial-logo"><img src="assets/logo_fieldcast.svg" /></div>
+            <div class="editorial-desc">Hyperlocal weather downscaling for agro-met advisories with calibrated uncertainty quantification for gram panchayat disaster management.</div>
+            <a href="https://github.com/SumanthMamidi-MNS/FieldCast" target="_blank" class="repo-btn">Explore ↗</a>
+          </div>
+          <div class="editorial-card">
+            <div class="editorial-num">04</div>
+            <div class="editorial-logo"><img src="assets/logo_oceanembed.svg" /></div>
+            <div class="editorial-desc">Deep-learning subsurface ocean temperature reconstruction (15 depth tiers, 0–1000m) from satellite fields with interactive React explorer.</div>
+            <a href="https://github.com/SumanthMamidi-MNS/OceanEmbed" target="_blank" class="repo-btn">Explore ↗</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- VIEW 2: UPGRADED TECH STACK SHOWCASE                                       -->
+    <!-- ========================================================================= -->
+    <div id="view-techstack" style="display: none;">
+
+      <!-- TECH STYLE 1 -->
+      <section id="t-v1" class="section-block">
+        <div class="concept-header">
           <div>
-            <div class="editorial-title">UrbanTrace</div>
-            <div class="editorial-domain">COMPUTER VISION · ANPR</div>
-          </div>
-          <div class="editorial-desc">
-            Multi-camera vehicle journey reconstruction and traffic analytics fusing noisy plate reads, appearance features, and graph travel times.
-          </div>
-          <div class="editorial-right">
-            <a href="https://github.com/SumanthMamidi-MNS/UrbanTrace" target="_blank" class="bento-link">View Repo ↗</a>
+            <div class="concept-pill">TECH STYLE 1 · OBSIDIAN LUMINOUS PILLS</div>
+            <div class="concept-title">⚡ Obsidian Luminous Glow Pills (Concept 1 Evolution)</div>
+            <div class="concept-desc">
+              Direct evolution of the Concept 1 style you liked, expanded with your full upgraded toolkit (YOLOv8, Transformers, LightGBM, MapLibre, ChromaDB, etc.) with reactive brand glow.
+            </div>
           </div>
         </div>
 
-        <!-- 03 -->
-        <div class="editorial-card">
-          <div class="editorial-num">03</div>
+        <div class="tech-grid-wrapper">
           <div>
-            <div class="editorial-title">FieldCast</div>
-            <div class="editorial-domain">GEOSPATIAL · SIH26074</div>
+            <div class="tech-cat-title">🤖 AI, Deep Learning &amp; Computer Vision</div>
+            <div class="badge-wrap">
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</div>
+              <div class="pill-glow"><img src="https://img.icons8.com/color/48/yolo.png" onerror="this.src='https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg'" /> YOLOv8</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> OpenCV</div>
+              <div class="pill-glow"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" /> Transformers</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" /> Scikit-Learn</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" /> NumPy</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" /> Pandas</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/plotly/plotly-original.svg" /> Plotly</div>
+            </div>
           </div>
-          <div class="editorial-desc">
-            Hyperlocal weather downscaling for agro-met advisories with calibrated uncertainty quantification for gram panchayat disaster management.
-          </div>
-          <div class="editorial-right">
-            <a href="https://github.com/SumanthMamidi-MNS/FieldCast" target="_blank" class="bento-link">View Repo ↗</a>
-          </div>
-        </div>
 
-        <!-- 04 -->
-        <div class="editorial-card">
-          <div class="editorial-num">04</div>
           <div>
-            <div class="editorial-title">OceanEmbed</div>
-            <div class="editorial-domain">TRANSFORMERS · OCEANOGRAPHY</div>
+            <div class="tech-cat-title">🔍 RAG, Search &amp; Agro-Weather ML</div>
+            <div class="badge-wrap">
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> LightGBM</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> Hybrid RAG</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /> ChromaDB</div>
+              <div class="pill-glow"><img src="https://maplibre.org/img/maplibre-logo-symbol.svg" /> MapLibre GL</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> GeoPandas</div>
+            </div>
           </div>
-          <div class="editorial-desc">
-            3D deep-learning subsurface ocean temperature reconstruction (15 depth tiers, 0–1000m) from satellite fields with interactive React explorer.
-          </div>
-          <div class="editorial-right">
-            <a href="https://github.com/SumanthMamidi-MNS/OceanEmbed" target="_blank" class="bento-link">View Repo ↗</a>
-          </div>
-        </div>
-      </div>
 
-      <!-- Tech Stack Style for V5 -->
-      <div class="section-subtitle">💻 Matching Tech Stack: Authentic Vibrant Brand Badges</div>
-      <div class="tech-showcase-box">
-        <div class="badge-flex">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-          <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+          <div>
+            <div class="tech-cat-title">⚙️ Full-Stack &amp; Cloud Infrastructure</div>
+            <div class="badge-wrap">
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-original.svg" /> Streamlit</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" /> Next.js</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" /> TailwindCSS</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /> PostgreSQL</div>
+              <div class="pill-glow"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" /> Supabase</div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Portfolio Badge for V5 -->
-      <div class="section-subtitle">🌐 Matching Portfolio Badge: Executive Monogram Badge</div>
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <div class="portfolio-title">Executive Delta Badge</div>
-          <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-          <div class="portfolio-desc">Minimalist stark black badge with white Vercel delta</div>
+      <!-- TECH STYLE 2 -->
+      <section id="t-v2" class="section-block">
+        <div class="concept-header">
+          <div>
+            <div class="concept-pill">TECH STYLE 2 · LASER BORDER BEAMS</div>
+            <div class="concept-title">💫 Laser Border Beam Badges</div>
+            <div class="concept-desc">
+              Pill badges with illuminated gradient perimeters that produce an electric high-tech glow on GitHub dark mode.
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+
+        <div class="badge-wrap">
+          <div class="pill-laser"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</div>
+          <div class="pill-laser"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</div>
+          <div class="pill-laser"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> YOLOv8</div>
+          <div class="pill-laser"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</div>
+          <div class="pill-laser"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</div>
+          <div class="pill-laser"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</div>
+          <div class="pill-laser"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /> PostgreSQL</div>
+          <div class="pill-laser"><img src="https://maplibre.org/img/maplibre-logo-symbol.svg" /> MapLibre</div>
+        </div>
+      </section>
+
+      <!-- TECH STYLE 3 -->
+      <section id="t-v3" class="section-block">
+        <div class="concept-header">
+          <div>
+            <div class="concept-pill">TECH STYLE 3 · DUAL-TONE MONOSPACE</div>
+            <div class="concept-title">📟 Dual-Tone Monospace Matrix</div>
+            <div class="concept-desc">
+              High-density split badge system with isolated logo bay and technical version/engine metadata.
+            </div>
+          </div>
+        </div>
+
+        <div class="badge-wrap">
+          <div class="pill-matrix">
+            <div class="matrix-icon-cell"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /></div>
+            <div class="matrix-text-cell">Python <span style="color:var(--cyan);">3.12</span></div>
+          </div>
+          <div class="pill-matrix">
+            <div class="matrix-icon-cell"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /></div>
+            <div class="matrix-text-cell">PyTorch <span style="color:var(--cyan);">CUDA</span></div>
+          </div>
+          <div class="pill-matrix">
+            <div class="matrix-icon-cell"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /></div>
+            <div class="matrix-text-cell">YOLOv8 <span style="color:var(--cyan);">Vision</span></div>
+          </div>
+          <div class="pill-matrix">
+            <div class="matrix-icon-cell"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /></div>
+            <div class="matrix-text-cell">FastAPI <span style="color:var(--cyan);">Async</span></div>
+          </div>
+          <div class="pill-matrix">
+            <div class="matrix-icon-cell"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /></div>
+            <div class="matrix-text-cell">Docker <span style="color:var(--cyan);">Container</span></div>
+          </div>
+          <div class="pill-matrix">
+            <div class="matrix-icon-cell"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /></div>
+            <div class="matrix-text-cell">PostgreSQL <span style="color:var(--cyan);">pgvector</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TECH STYLE 4 -->
+      <section id="t-v4" class="section-block">
+        <div class="concept-header">
+          <div>
+            <div class="concept-pill">TECH STYLE 4 · FROSTED GLASS</div>
+            <div class="concept-title">🔮 Minimal Frosted Glass Pills</div>
+            <div class="concept-desc">
+              Translucent glass pills with specular top highlights and soft brand logo integration.
+            </div>
+          </div>
+        </div>
+
+        <div class="badge-wrap">
+          <div class="pill-glass"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python 3.12</div>
+          <div class="pill-glass"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch 2.3</div>
+          <div class="pill-glass"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI Core</div>
+          <div class="pill-glass"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React 19</div>
+          <div class="pill-glass"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker Engine</div>
+          <div class="pill-glass"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /> PostgreSQL</div>
+        </div>
+      </section>
+
+      <!-- TECH STYLE 5 -->
+      <section id="t-v5" class="section-block">
+        <div class="concept-header">
+          <div>
+            <div class="concept-pill">TECH STYLE 5 · MODULAR BENTO TILES</div>
+            <div class="concept-title">🗂️ Modular Bento Tech Tiles</div>
+            <div class="concept-desc">
+              Compact 3D tiles with category subtitles for a high-density, structured visual overview.
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-tiles-grid">
+          <div class="bento-tech-tile">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+            <div class="name">Python</div>
+            <div class="cat">Core Language</div>
+          </div>
+          <div class="bento-tech-tile">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" />
+            <div class="name">PyTorch</div>
+            <div class="cat">Deep Learning</div>
+          </div>
+          <div class="bento-tech-tile">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" />
+            <div class="name">YOLOv8</div>
+            <div class="cat">Computer Vision</div>
+          </div>
+          <div class="bento-tech-tile">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" />
+            <div class="name">FastAPI</div>
+            <div class="cat">Microservices</div>
+          </div>
+          <div class="bento-tech-tile">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+            <div class="name">React</div>
+            <div class="cat">Frontend UI</div>
+          </div>
+          <div class="bento-tech-tile">
+            <img src="https://maplibre.org/img/maplibre-logo-symbol.svg" />
+            <div class="name">MapLibre</div>
+            <div class="cat">Geospatial GIS</div>
+          </div>
+          <div class="bento-tech-tile">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" />
+            <div class="name">Docker</div>
+            <div class="cat">Containerization</div>
+          </div>
+          <div class="bento-tech-tile">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" />
+            <div class="name">PostgreSQL</div>
+            <div class="cat">pgvector DB</div>
+          </div>
+        </div>
+      </section>
+
+    </div>
 
   </div>
 
   <script>
+    function switchView(tab) {
+      if (tab === 'projects') {
+        document.getElementById('view-projects').style.display = 'block';
+        document.getElementById('view-techstack').style.display = 'none';
+        document.getElementById('projects-subnav').style.display = 'flex';
+        document.getElementById('tech-subnav').style.display = 'none';
+      } else {
+        document.getElementById('view-projects').style.display = 'none';
+        document.getElementById('view-techstack').style.display = 'block';
+        document.getElementById('projects-subnav').style.display = 'none';
+        document.getElementById('tech-subnav').style.display = 'flex';
+      }
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+    }
+
     function jumpTo(id) {
       const el = document.getElementById(id);
       if (el) {
         el.scrollIntoView({ behavior: 'smooth' });
-        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.sub-btn').forEach(b => b.classList.remove('active'));
         event.currentTarget.classList.add('active');
       }
     }
