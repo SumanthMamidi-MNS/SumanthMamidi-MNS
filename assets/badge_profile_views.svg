@@ -1,40 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="36" viewBox="0 0 220 36" fill="none">
-  <!-- Chamfered Aerospace Hex Body -->
-  <path d="M 9 0.5 L 219.5 0.5 L 219.5 26.5 L 210.5 35.5 L 0.5 35.5 L 0.5 9.5 Z" 
-        fill="#16161e" 
-        stroke="#292e42" 
-        stroke-width="1.2"/>
-
-  <!-- Tokyo Night Cyan Accent Left Border (4px) -->
-  <path d="M 0.5 9.5 L 0.5 35.5" 
-        stroke="#38bdf8" 
-        stroke-width="4.0" 
-        stroke-linecap="round"/>
-
-  <!-- Pulsing Radar / Eye Telemetry Icon -->
-  <g transform="translate(14, 9)">
-    <circle cx="9" cy="9" r="8" stroke="#38bdf8" stroke-width="1.2" opacity="0.4"/>
-    <circle cx="9" cy="9" r="5" stroke="#38bdf8" stroke-width="1.4"/>
-    <circle cx="9" cy="9" r="2.5" fill="#38bdf8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="22" role="img" aria-label="PROFILE VIEWS: 640">
+  <title>PROFILE VIEWS: 640</title>
+  <mask id="a-tn">
+    <rect width="126" height="22" rx="4" fill="#fff"/>
+  </mask>
+  <g mask="url(#a-tn)">
+    <rect width="90" height="22" fill="#1f2335"/>
+    <rect x="90" width="36" height="22" fill="#38bdf8"/>
   </g>
-
-  <!-- Label "PROFILE VIEWS" -->
-  <text x="44" y="23" 
-        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
-        font-size="12" 
-        font-weight="600" 
-        fill="#94a3b8" 
-        letter-spacing="0.8">PROFILE VIEWS</text>
-
-  <!-- Divider -->
-  <line x1="156" y1="9" x2="156" y2="27" stroke="#292e42" stroke-width="1"/>
-
-  <!-- Live Counter Value "640+" -->
-  <text x="187" y="23" 
-        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
-        font-size="13" 
-        font-weight="800" 
-        fill="#38bdf8" 
-        text-anchor="middle"
-        letter-spacing="0.5">640+</text>
+  <g font-family="'Fira Code', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="700">
+    <text x="45" y="15" fill="#c0caf5" text-anchor="middle" letter-spacing="0.5">PROFILE VIEWS</text>
+    <text x="108" y="15" fill="#0f172a" text-anchor="middle">640</text>
+  </g>
 </svg>
