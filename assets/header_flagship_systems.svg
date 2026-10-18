@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 36" width="100%" height="36" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 46" width="100%" height="46" fill="none">
   <defs>
     <linearGradient id="line-flagship" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#facc15" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#facc15" stop-opacity="0.35"/>
-      <stop offset="50%" stop-color="#facc15" stop-opacity="0.85"/>
-      <stop offset="75%" stop-color="#facc15" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#facc15" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="30%" stop-color="#facc15"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="70%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#30363d"/>
     </linearGradient>
   </defs>
 
-  <text x="400" y="20" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+  <text x="400" y="22" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">
     ◈ FLAGSHIP AI SYSTEMS &amp; ARCHITECTURES ◈
   </text>
 
-  <!-- Full Division Line Just Below Heading -->
-  <line x1="40" y1="30" x2="760" y2="30" stroke="url(#line-flagship)" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Full-Width Solid Border Line (Matching User Reference Image) -->
+  <line x1="0" y1="38" x2="800" y2="38" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="80" y1="38" x2="720" y2="38" stroke="url(#line-flagship)" stroke-width="1.8"/>
 </svg>

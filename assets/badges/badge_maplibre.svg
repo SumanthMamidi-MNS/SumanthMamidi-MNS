@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="30" viewBox="0 0 110 30" fill="none">
-  <!-- Chamfered Aerospace Hex Body -->
-  <path d="M 7 0.5 L 109.5 0.5 L 109.5 22.5 L 102.5 29.5 L 0.5 29.5 L 0.5 7.5 Z" 
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="36" viewBox="0 0 127 36" fill="none">
+  <!-- Chamfered Aerospace Hex Body (Enlarged 36px Height) -->
+  <path d="M 9 0.5 L 126.5 0.5 L 126.5 26.5 L 117.5 35.5 L 0.5 35.5 L 0.5 8.5 Z" 
         fill="#16161e" 
         stroke="#292e42" 
-        stroke-width="1"/>
+        stroke-width="1.2"/>
   
-  <!-- Tokyo Night Accent Left Border (3.5px) -->
-  <path d="M 0.5 7.5 L 0.5 29.5" 
+  <!-- Tokyo Night Accent Left Border (4px) -->
+  <path d="M 0.5 8.5 L 0.5 35.5" 
         stroke="#9ece6a" 
-        stroke-width="3.5" 
+        stroke-width="4.0" 
         stroke-linecap="round"/>
         
-  <!-- Official Vector Icon -->
-  <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjN0VCQzZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWFwTGlicmU8L3RpdGxlPjxwYXRoIGQ9Ik0xMiAwQTEyIDEyIDAgMCAwIDAgMTJhMTIgMTIgMCAwIDAgMTIgMTIgMTIgMTIgMCAwIDAgMTItMTJBMTIgMTIgMCAwIDAgMTIgMHptMCAzLjE5YzIuOTM3IDAgNS4zNzEgMi4yNjUgNS4zNzEgNS4wMzUgMCA0LjExMS00LjM2NCA3LjYzNS01LjAzNSA4LjEzOC0uMDg0IDAtLjA4NC4wODQtLjA4NC4wODQtLjA4NC4wODQtLjE2OC4wODQtLjE2OC4wODRzLS4xNjggMC0uMTY4LS4wODRsLS4wODQtLjA4NGMtLjg0LS41MDMtNS4yMDMtMy45NDMtNS4yMDMtOC4xMzggMC0yLjc3IDIuNDM0LTUuMDM2IDUuMzcxLTUuMDM2em0wIDIuNjAxYy0xLjQyNyAwLTIuNjAyIDEuMTczLTIuNjAyIDIuNjg0IDAgMS41MSAxLjE3NSAyLjY4NSAyLjYwMiAyLjY4NSAxLjQyNyAwIDIuNjAyLTEuMTc1IDIuNjAyLTIuNjg1UzEzLjQyNyA1Ljc5IDEyIDUuNzl6TTguOTc5IDE3LjI4N2g2LjA0MmEuNjYuNjYgMCAwIDEgLjY3LjY3MnYyLjAxNGEuNjYuNjYgMCAwIDEtLjY3LjY3SDguOThhLjY2LjY2IDAgMCAxLS42Ny0uNjd2LTIuMDE0YS42Ni42NiAwIDAgMSAuNjctLjY3MnptLjc1NSAxLjI1OHYuOTI0aDQuNDQ4di0uOTI0SDkuNzM0eiIvPjwvc3ZnPg==" x="12" y="7" width="16" height="16" />
+  <!-- Official Vector Icon (19x19) -->
+  <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjN0VCQzZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWFwTGlicmU8L3RpdGxlPjxwYXRoIGQ9Ik0xMiAwQTEyIDEyIDAgMCAwIDAgMTJhMTIgMTIgMCAwIDAgMTIgMTIgMTIgMTIgMCAwIDAgMTItMTJBMTIgMTIgMCAwIDAgMTIgMHptMCAzLjE5YzIuOTM3IDAgNS4zNzEgMi4yNjUgNS4zNzEgNS4wMzUgMCA0LjExMS00LjM2NCA3LjYzNS01LjAzNSA4LjEzOC0uMDg0IDAtLjA4NC4wODQtLjA4NC4wODQtLjA4NC4wODQtLjE2OC4wODQtLjE2OC4wODRzLS4xNjggMC0uMTY4LS4wODRsLS4wODQtLjA4NGMtLjg0LS41MDMtNS4yMDMtMy45NDMtNS4yMDMtOC4xMzggMC0yLjc3IDIuNDM0LTUuMDM2IDUuMzcxLTUuMDM2em0wIDIuNjAxYy0xLjQyNyAwLTIuNjAyIDEuMTczLTIuNjAyIDIuNjg0IDAgMS41MSAxLjE3NSAyLjY4NSAyLjYwMiAyLjY4NSAxLjQyNyAwIDIuNjAyLTEuMTc1IDIuNjAyLTIuNjg1UzEzLjQyNyA1Ljc5IDEyIDUuNzl6TTguOTc5IDE3LjI4N2g2LjA0MmEuNjYuNjYgMCAwIDEgLjY3LjY3MnYyLjAxNGEuNjYuNjYgMCAwIDEtLjY3LjY3SDguOThhLjY2LjY2IDAgMCAxLS42Ny0uNjd2LTIuMDE0YS42Ni42NiAwIDAgMSAuNjctLjY3MnptLjc1NSAxLjI1OHYuOTI0aDQuNDQ4di0uOTI0SDkuNzM0eiIvPjwvc3ZnPg==" x="14" y="8.5" width="19" height="19" />
   
-  <!-- Monospace Label -->
-  <text x="35" y="19" 
+  <!-- Monospace Label (13px) -->
+  <text x="42" y="23" 
         font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
-        font-size="11.5" 
+        font-size="13.0" 
         font-weight="600" 
         fill="#c0caf5" 
-        letter-spacing="0.3">MapLibre</text>
+        letter-spacing="0.4">MapLibre</text>
 </svg>

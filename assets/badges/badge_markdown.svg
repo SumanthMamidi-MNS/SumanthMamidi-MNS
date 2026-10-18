@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="30" viewBox="0 0 110 30" fill="none">
-  <!-- Chamfered Aerospace Hex Body -->
-  <path d="M 7 0.5 L 109.5 0.5 L 109.5 22.5 L 102.5 29.5 L 0.5 29.5 L 0.5 7.5 Z" 
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="36" viewBox="0 0 127 36" fill="none">
+  <!-- Chamfered Aerospace Hex Body (Enlarged 36px Height) -->
+  <path d="M 9 0.5 L 126.5 0.5 L 126.5 26.5 L 117.5 35.5 L 0.5 35.5 L 0.5 8.5 Z" 
         fill="#16161e" 
         stroke="#292e42" 
-        stroke-width="1"/>
+        stroke-width="1.2"/>
   
-  <!-- Tokyo Night Accent Left Border (3.5px) -->
-  <path d="M 0.5 7.5 L 0.5 29.5" 
+  <!-- Tokyo Night Accent Left Border (4px) -->
+  <path d="M 0.5 8.5 L 0.5 35.5" 
         stroke="#c0caf5" 
-        stroke-width="3.5" 
+        stroke-width="4.0" 
         stroke-linecap="round"/>
         
-  <!-- Official Vector Icon -->
-  <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWFya2Rvd248L3RpdGxlPjxwYXRoIGQ9Ik0yMi4yNyAxOS4zODVIMS43M0ExLjczIDEuNzMgMCAwMTAgMTcuNjU1VjYuMzQ1YTEuNzMgMS43MyAwIDAxMS43My0xLjczaDIwLjU0QTEuNzMgMS43MyAwIDAxMjQgNi4zNDV2MTEuMzA4YTEuNzMgMS43MyAwIDAxLTEuNzMgMS43MzF6TTUuNzY5IDE1LjkyM3YtNC41bDIuMzA4IDIuODg1IDIuMzA3LTIuODg1djQuNWgyLjMwOFY4LjA3OGgtMi4zMDhsLTIuMzA3IDIuODg1LTIuMzA4LTIuODg1SDMuNDZ2Ny44NDd6TTIxLjIzMiAxMmgtMi4zMDlWOC4wNzdoLTIuMzA3VjEyaC0yLjMwOGwzLjQ2MSA0LjAzOXoiLz48L3N2Zz4=" x="12" y="7" width="16" height="16" />
+  <!-- Official Vector Icon (19x19) -->
+  <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWFya2Rvd248L3RpdGxlPjxwYXRoIGQ9Ik0yMi4yNyAxOS4zODVIMS43M0ExLjczIDEuNzMgMCAwMTAgMTcuNjU1VjYuMzQ1YTEuNzMgMS43MyAwIDAxMS43My0xLjczaDIwLjU0QTEuNzMgMS43MyAwIDAxMjQgNi4zNDV2MTEuMzA4YTEuNzMgMS43MyAwIDAxLTEuNzMgMS43MzF6TTUuNzY5IDE1LjkyM3YtNC41bDIuMzA4IDIuODg1IDIuMzA3LTIuODg1djQuNWgyLjMwOFY4LjA3OGgtMi4zMDhsLTIuMzA3IDIuODg1LTIuMzA4LTIuODg1SDMuNDZ2Ny44NDd6TTIxLjIzMiAxMmgtMi4zMDlWOC4wNzdoLTIuMzA3VjEyaC0yLjMwOGwzLjQ2MSA0LjAzOXoiLz48L3N2Zz4=" x="14" y="8.5" width="19" height="19" />
   
-  <!-- Monospace Label -->
-  <text x="35" y="19" 
+  <!-- Monospace Label (13px) -->
+  <text x="42" y="23" 
         font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
-        font-size="11.5" 
+        font-size="13.0" 
         font-weight="600" 
         fill="#c0caf5" 
-        letter-spacing="0.3">Markdown</text>
+        letter-spacing="0.4">Markdown</text>
 </svg>
