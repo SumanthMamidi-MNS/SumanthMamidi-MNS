@@ -1,28 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 148" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 136" width="100%">
   <defs>
+    <!-- Background Gradient -->
     <linearGradient id="card-bg-ut" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080c16"/>
-      <stop offset="50%" stop-color="#0d1424"/>
-      <stop offset="100%" stop-color="#080c16"/>
+      <stop offset="0%" stop-color="#070a12"/>
+      <stop offset="50%" stop-color="#0c1524"/>
+      <stop offset="100%" stop-color="#070a12"/>
     </linearGradient>
+
+    <!-- Side Light Radiant Cyan Gradient -->
     <linearGradient id="side-light-ut" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#a5f3fc"/>
-      <stop offset="35%" stop-color="#6fdcec"/>
-      <stop offset="70%" stop-color="#3cc4d8"/>
-      <stop offset="100%" stop-color="#1d6f7c"/>
+      <stop offset="35%" stop-color="#38bdf8"/>
+      <stop offset="70%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
     </linearGradient>
+
+    <!-- Ambient Left Glow -->
     <radialGradient id="left-glow-ut" cx="0%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#3cc4d8" stop-opacity="0.35"/>
-      <stop offset="40%" stop-color="#1d6f7c" stop-opacity="0.12"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.32"/>
+      <stop offset="45%" stop-color="#0284c7" stop-opacity="0.10"/>
       <stop offset="100%" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
+
+    <!-- Shimmer Sweep -->
     <linearGradient id="shimmer-ut" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3cc4d8" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#3cc4d8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
+
+    <!-- Exact UrbanTrace Official Logo Gradients -->
+    <linearGradient id="ut-cyan-border" x1="6" y1="6" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A5F3FC"/>
+      <stop offset="35%" stop-color="#6FDCEC"/>
+      <stop offset="70%" stop-color="#3CC4D8"/>
+      <stop offset="100%" stop-color="#1D6F7C"/>
+    </linearGradient>
+
+    <linearGradient id="ut-track-grad" x1="22" y1="66" x2="72" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1D6F7C"/>
+      <stop offset="50%" stop-color="#3CC4D8"/>
+      <stop offset="100%" stop-color="#6FDCEC"/>
+    </linearGradient>
+
+    <radialGradient id="ut-vector-aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CFFAFE" stop-opacity="0.85"/>
+      <stop offset="30%" stop-color="#6FDCEC" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#3CC4D8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1D6F7C" stop-opacity="0"/>
+    </radialGradient>
+
     <clipPath id="clip-ut">
-      <rect x="2" y="2" width="936" height="144" rx="12"/>
+      <rect x="2" y="2" width="936" height="132" rx="12"/>
     </clipPath>
   </defs>
 
@@ -34,82 +63,193 @@
     }
     .shimmer-layer {
       animation: shimmer-sweep 6s infinite cubic-bezier(0.4, 0, 0.2, 1);
-      animation-delay: 1.5s;
       pointer-events: none;
+    }
+    @keyframes auraBreathe {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 0.75; }
+    }
+    .animated-aura {
+      animation: auraBreathe 3.6s ease-in-out infinite;
+    }
+    @keyframes sonarWave1 {
+      0% { opacity: 0; transform: scale(0.65); stroke-width: 2.6px; }
+      15% { opacity: 0.95; stroke: #A5F3FC; }
+      65% { opacity: 0.45; stroke: #3CC4D8; }
+      100% { opacity: 0; transform: scale(2.2); stroke-width: 1.2px; }
+    }
+    @keyframes sonarWave2 {
+      0%, 25% { opacity: 0; transform: scale(0.65); stroke-width: 2.6px; }
+      40% { opacity: 0.9; stroke: #6FDCEC; }
+      80% { opacity: 0.35; stroke: #2A9FB1; }
+      100% { opacity: 0; transform: scale(2.2); stroke-width: 1.2px; }
+    }
+    @keyframes sonarWave3 {
+      0%, 50% { opacity: 0; transform: scale(0.65); stroke-width: 2.6px; }
+      65% { opacity: 0.85; stroke: #3CC4D8; }
+      90% { opacity: 0.25; stroke: #1D6F7C; }
+      100% { opacity: 0; transform: scale(2.2); stroke-width: 1.2px; }
+    }
+    .sonar-1 {
+      transform-origin: 72px 32px;
+      animation: sonarWave1 1.8s ease-out infinite;
+    }
+    .sonar-2 {
+      transform-origin: 72px 32px;
+      animation: sonarWave2 1.8s ease-out infinite;
+    }
+    .sonar-3 {
+      transform-origin: 72px 32px;
+      animation: sonarWave3 1.8s ease-out infinite;
+    }
+    @keyframes sensorBeat {
+      0%, 100% { fill: #6FDCEC; transform: scale(1); }
+      50% { fill: #FFFFFF; transform: scale(1.3); }
+    }
+    .sensor-led {
+      transform-origin: 72px 32px;
+      animation: sensorBeat 1.8s ease-in-out infinite;
+    }
+    @keyframes utPulseDot {
+      0%, 100% { opacity: 0.5; transform: scale(0.85); }
+      50% { opacity: 1.0; transform: scale(1.2); }
+    }
+    .ut-pulse-dot {
+      transform-origin: 14px 14px;
+      animation: utPulseDot 2s ease-in-out infinite;
+    }
+    .ut-wordmark {
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+      font-size: 72px;
+      letter-spacing: -1.2px;
+    }
+    .ut-urban {
+      font-weight: 600;
+      fill: #FFFFFF;
+    }
+    .ut-trace {
+      font-weight: 600;
+      fill: #3CC4D8;
     }
   </style>
 
   <!-- Card Background & Border -->
-  <rect x="2" y="2" width="936" height="144" rx="12" fill="url(#card-bg-ut)" stroke="#1e293b" stroke-width="1.2"/>
-  <rect x="2" y="2" width="220" height="144" rx="12" fill="url(#left-glow-ut)" pointer-events="none"/>
+  <rect x="2" y="2" width="936" height="132" rx="12" fill="url(#card-bg-ut)" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="2" y="2" width="220" height="132" rx="12" fill="url(#left-glow-ut)" pointer-events="none"/>
 
-  <!-- Left Side Lighting Bar (Variation 2 Accent) -->
-  <rect x="2" y="14" width="4.5" height="120" rx="2.25" fill="url(#side-light-ut)"/>
+  <!-- Left Side Lighting Bar (Variation 2 Signature Accent) -->
+  <rect x="2" y="14" width="4.5" height="108" rx="2.25" fill="url(#side-light-ut)"/>
 
-  <!-- Index Number 02 (Variation 5 Editorial Accent) -->
-  <text x="22" y="44" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="34" font-weight="800" fill="#1b2438" letter-spacing="-1">02</text>
+  <!-- Left Column: Exact Official Animated Logo + Domain Pill -->
+  <g transform="translate(20, 16) scale(0.45)">
+    <!-- Smooth Ambient Vector Aura -->
+    <ellipse cx="48" cy="48" rx="54" ry="54" fill="url(#ut-vector-aura)" class="animated-aura"/>
 
-  <!-- Left Column: Official Logo + Domain Pill -->
-  <g transform="translate(76, 22)">
-    <!-- Signal Target Mark -->
-    <rect x="8" y="10" width="44" height="44" rx="10" fill="#0f172a" stroke="url(#side-light-ut)" stroke-width="2.5"/>
-    <circle cx="30" cy="32" r="10" fill="none" stroke="#3cc4d8" stroke-width="2"/>
-    <circle cx="30" cy="32" r="4" fill="#a5f3fc"/>
-    <!-- Sonar ray -->
-    <path d="M22 24 L38 40" stroke="#3cc4d8" stroke-width="2" stroke-linecap="round"/>
+    <!-- Dark-Core Squircle with Radiant Cyan Border -->
+    <rect x="6" y="6" width="84" height="84" rx="20"
+          fill="#070A0E"
+          stroke="url(#ut-cyan-border)"
+          stroke-width="4.5"
+          stroke-linejoin="round"/>
 
-    <!-- Title Text Lockup -->
-    <text x="60" y="32" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Urban<tspan fill="#38bdf8">Trace</tspan></text>
-    <rect x="60" y="42" width="186" height="18" rx="4" fill="#141d2d" stroke="#223049" stroke-width="1"/>
-    <text x="153" y="54.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#38bdf8" text-anchor="middle">CITY ANPR · VEHICLE RE-ID</text>
+    <!-- Inner Subtle Border Highlight -->
+    <rect x="9.5" y="9.5" width="77" height="77" rx="17"
+          fill="none"
+          stroke="#A5F3FC"
+          stroke-width="0.8"
+          stroke-opacity="0.4"/>
+
+    <!-- Crisp Trajectory Track -->
+    <path d="M22 66 L44 36 L72 32"
+          fill="none"
+          stroke="url(#ut-track-grad)"
+          stroke-width="5.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Camera 1 Sighting Node -->
+    <circle cx="22" cy="66" r="6.5" fill="#070A0E" stroke="#2A9FB1" stroke-width="4.5"/>
+
+    <!-- Camera 2 Sighting Node -->
+    <circle cx="44" cy="36" r="6.5" fill="#070A0E" stroke="#3CC4D8" stroke-width="4.5"/>
+
+    <!-- Camera 3 Target Halo -->
+    <circle cx="72" cy="32" r="14" fill="#3CC4D8" opacity="0.2"/>
+
+    <!-- Camera 3 Node Housing -->
+    <circle cx="72" cy="32" r="7.5" fill="#6FDCEC"/>
+
+    <!-- Camera 3 Active Sensor Core LED -->
+    <circle cx="72" cy="32" r="3" fill="#FFFFFF" class="sensor-led"/>
+
+    <!-- Directional Surveillance Sonar Waves (Triple Concentric) -->
+    <path d="M82 22 A14 14 0 0 1 84 42" fill="none" stroke="#6FDCEC" stroke-width="2.2" stroke-linecap="round" class="sonar-1"/>
+    <path d="M82 22 A14 14 0 0 1 84 42" fill="none" stroke="#3CC4D8" stroke-width="2.2" stroke-linecap="round" class="sonar-2"/>
+    <path d="M82 22 A14 14 0 0 1 84 42" fill="none" stroke="#A5F3FC" stroke-width="2.2" stroke-linecap="round" class="sonar-3"/>
+
+    <!-- Wordmark "UrbanTrace" -->
+    <text x="122" y="74" class="ut-wordmark">
+      <tspan class="ut-urban">Urban</tspan><tspan class="ut-trace">Trace</tspan>
+    </text>
   </g>
 
-  <!-- Divider 1 -->
-  <line x1="334" y1="20" x2="334" y2="128" stroke="#1c273c" stroke-width="1"/>
+  <!-- Domain Pill Underneath Logo -->
+  <rect x="20" y="80" width="222" height="22" rx="5" fill="#0d1b26" stroke="#163447" stroke-width="1"/>
+  <text x="131" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#38bdf8" text-anchor="middle" letter-spacing="0.4">CITY-SCALE ANPR · VEHICLE RE-ID</text>
 
-  <!-- Center Column: Recruiter-Oriented Technical Info (Variation 2 Telemetry) -->
-  <g transform="translate(354, 30)">
-    <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#e2e8f0" font-weight="500">
-      <tspan x="0" dy="0">City-wide ANPR network engine fusing noisy plate reads &amp; appearance.</tspan>
-      <tspan x="0" dy="21" fill="#94a3b8" font-size="12.5">Reconstructs full vehicle journeys, spatiotemporal graphs &amp; real-time alerts.</tspan>
+  <!-- Divider 1 -->
+  <line x1="258" y1="18" x2="258" y2="118" stroke="#1c273c" stroke-width="1"/>
+
+  <!-- Center Column: Recruiter-Oriented Technical Info & Architectural Telemetry -->
+  <g transform="translate(278, 20)">
+    <!-- Core Description Lines -->
+    <text x="0" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600" fill="#f8fafc">
+      City-wide ANPR network engine fusing noisy plate reads &amp; appearance
+    </text>
+    <text x="0" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">
+      Reconstructs full vehicle journeys, spatiotemporal graphs &amp; real-time alerts
     </text>
 
-    <!-- Technical Specs & Pipeline Matrix -->
+    <!-- Sleek Architectural Dataflow Pipeline (New Representation replacing grey boxes) -->
     <g transform="translate(0, 56)">
-      <rect x="0" y="0" width="154" height="22" rx="4" fill="#060911" stroke="#1a2538"/>
-      <text x="8" y="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" fill="#94a3b8">DETECTION: <tspan fill="#38bdf8" font-weight="700">YOLOv8</tspan></text>
-
-      <rect x="162" y="0" width="190" height="22" rx="4" fill="#060911" stroke="#1a2538"/>
-      <text x="170" y="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" fill="#94a3b8">TRACKING: <tspan fill="#22c55e" font-weight="700">DeepSORT Multi-Cam</tspan></text>
+      <rect x="0" y="0" width="436" height="28" rx="6" fill="#090e1a" stroke="#1c273c" stroke-width="1"/>
+      
+      <!-- Live Status Beacon -->
+      <circle cx="14" cy="14" r="3.5" fill="#38bdf8" class="ut-pulse-dot"/>
+      
+      <!-- Detection Spec -->
+      <text x="28" y="17.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#94a3b8">DETECTION <tspan fill="#38bdf8" font-weight="700">YOLOv8 (60 FPS)</tspan></text>
+      
+      <!-- Directional Chevron -->
+      <text x="194" y="18" font-family="-apple-system, sans-serif" font-size="12" fill="#475569">──▶</text>
+      
+      <!-- Tracking Spec -->
+      <text x="224" y="17.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#94a3b8">TRACKING <tspan fill="#22c55e" font-weight="700">DeepSORT Multi-Cam Re-ID</tspan></text>
     </g>
   </g>
 
   <!-- Divider 2 -->
-  <line x1="724" y1="20" x2="724" y2="128" stroke="#1c273c" stroke-width="1"/>
+  <line x1="728" y1="18" x2="728" y2="118" stroke="#1c273c" stroke-width="1"/>
 
-  <!-- Right Column: Upgraded Tech Chips + CTA -->
-  <g transform="translate(744, 28)">
-    <rect x="0" y="0" width="78" height="24" rx="5" fill="#111a2c" stroke="#1e2c45"/>
-    <text x="39" y="15.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">Python</text>
+  <!-- Right Column: Clean Tech Stack Matrix (Vertically Centered, No Redundant Button) -->
+  <g transform="translate(746, 36)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="82" height="26" rx="6" fill="#0d1424" stroke="#1e2c45"/>
+    <text x="41" y="16.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">Python</text>
 
-    <rect x="86" y="0" width="84" height="24" rx="5" fill="#111a2c" stroke="#1e2c45"/>
-    <text x="128" y="15.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">YOLOv8</text>
+    <rect x="90" y="0" width="86" height="26" rx="6" fill="#0d1424" stroke="#1e2c45"/>
+    <text x="133" y="16.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">YOLOv8</text>
 
-    <rect x="0" y="32" width="78" height="24" rx="5" fill="#111a2c" stroke="#1e2c45"/>
-    <text x="39" y="47.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">DeepSORT</text>
+    <!-- Row 2 -->
+    <rect x="0" y="34" width="82" height="26" rx="6" fill="#0d1424" stroke="#1e2c45"/>
+    <text x="41" y="50.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">DeepSORT</text>
 
-    <rect x="86" y="32" width="84" height="24" rx="5" fill="#111a2c" stroke="#1e2c45"/>
-    <text x="128" y="47.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">OpenCV</text>
-
-    <!-- View Repo Action -->
-    <g transform="translate(0, 72)">
-      <rect x="0" y="0" width="170" height="22" rx="4" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.3)"/>
-      <text x="85" y="14.5" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">View Repository ↗</text>
-    </g>
+    <rect x="90" y="34" width="86" height="26" rx="6" fill="#0d1424" stroke="#1e2c45"/>
+    <text x="133" y="50.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">OpenCV</text>
   </g>
 
   <!-- Luminous Shimmer Light Sweep -->
   <g clip-path="url(#clip-ut)" pointer-events="none">
-    <rect class="shimmer-layer" x="0" y="0" width="220" height="148" fill="url(#shimmer-ut)"/>
+    <rect class="shimmer-layer" x="0" y="0" width="220" height="136" fill="url(#shimmer-ut)"/>
   </g>
 </svg>
