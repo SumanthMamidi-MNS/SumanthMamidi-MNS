@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="30" viewBox="0 0 96 30" fill="none">
+  <!-- Chamfered Aerospace Hex Body -->
+  <path d="M 7 0.5 L 95.5 0.5 L 95.5 22.5 L 88.5 29.5 L 0.5 29.5 L 0.5 7.5 Z" 
+        fill="#16161e" 
+        stroke="#292e42" 
+        stroke-width="1"/>
+  
+  <!-- Tokyo Night Accent Left Border (3.5px) -->
+  <path d="M 0.5 7.5 L 0.5 29.5" 
+        stroke="#7aa2f7" 
+        stroke-width="3.5" 
+        stroke-linecap="round"/>
+        
+  <!-- Official Vector Icon -->
+  <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTEyLjg3MSA2Ni42MDJjOS4wMDQgNS4yNzcgMTUuMDU1IDE1LjAyNyAxNS4wNzQgMjYuMTkxLjAzMiAxNi44MDUtMTMuNjE3IDMwLjQ1My0zMC40OCAzMC40OC0xNi44NjMuMDMyLTMwLjU1OS0xMy41Ny0zMC41OS0zMC4zNzUtLjAyLTExLjE2NCA1Ljk5Ni0yMC45MzMgMTQuOTg0LTI2LjI0Nmw4Ljc3NCAxNC43NzhjLjIxOS4zNy4wOTQuODQ3LS4yNjIgMS4wOS0zLjMyIDIuMjUtNS40OTYgNi4wNDYtNS40ODggMTAuMzQ3LjAxMiA2Ljg5NSA1LjYzMyAxMi40NzcgMTIuNTUgMTIuNDYxIDYuOTE5LS4wMTIgMTIuNTE2LTUuNjEgMTIuNTA0LTEyLjUwNC0uMDA3LTQuMy0yLjE5NS04LjA5LTUuNTIzLTEwLjMyOC0uMzU1LS4yNDItLjQ4NC0uNzE5LS4yNjYtMS4wOXptMCAwIiBmaWxsPSIjMTI4ZGZmIi8+PHBhdGggZD0iTTQ1LjQ3NyA2Ni40MjJhMzAuNDk1IDMwLjQ5NSAwIDAwLTE0LjkwNy0zLjg2N0MxMy43MDMgNjIuNTU1LjAzNSA3Ni4xOC4wMzUgOTIuOTg1YzAgMTYuODA0IDEzLjY2OCAzMC40MyAzMC41MzUgMzAuNDMgMTYuOTQ2IDAgMzAuOTUtMTQuMzM3IDMwLjUyNC0zMS4yMTJINDMuOTA2Yy0uNDUzIDAtLjgwOC4zODMtLjgxMi44MzItLjA0MyA2LjcyMy01LjY3MiAxMi40MzQtMTIuNTI0IDEyLjQzNC02LjkyMiAwLTEyLjUyNy01LjU5LTEyLjUyNy0xMi40ODUgMC02Ljg5NCA1LjYwNS0xMi40ODQgMTIuNTI3LTEyLjQ4NCAxLjgwOSAwIDMuNTMyLjM4MyA1LjA4NiAxLjA3NC4zODMuMTY4LjgzNi4wNCAxLjA0Ny0uMzE2em0wIDAiIGZpbGw9IiM4YmRhNjciLz48cGF0aCBkPSJNNDcuOTQ1IDYxLjY0OGMtOC45OTItNS4yOTMtMTUuMDI3LTE1LjA1NC0xNS4wMjctMjYuMjE4QzMyLjkxOCAxOC42MjUgNDYuNTkgNSA2My40NTMgNXMzMC41MzUgMTMuNjI1IDMwLjUzNSAzMC40M2MwIDExLjE2NC02LjAzNSAyMC45MjUtMTUuMDI3IDI2LjIxOEw3MC4yMSA0Ni44NmMtLjIxOS0uMzctLjA5NC0uODQ3LjI2Ni0xLjA5IDMuMzItMi4yNDYgNS41MDMtNi4wMzkgNS41MDMtMTAuMzQgMC02Ljg5NC01LjYwOS0xMi40ODQtMTIuNTI3LTEyLjQ4NC02LjkxOCAwLTEyLjUyNyA1LjU5LTEyLjUyNyAxMi40ODUgMCA0LjMgMi4xODMgOC4wOTMgNS41MDQgMTAuMzQuMzYuMjQyLjQ4NC43MTguMjY1IDEuMDl6bTAgMCIgZmlsbD0iI2ZmMmE0NCIvPjwvc3ZnPgo=" x="12" y="7" width="16" height="16" />
+  
+  <!-- Monospace Label -->
+  <text x="35" y="19" 
+        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
+        font-size="11.5" 
+        font-weight="600" 
+        fill="#c0caf5" 
+        letter-spacing="0.3">OpenCV</text>
+</svg>

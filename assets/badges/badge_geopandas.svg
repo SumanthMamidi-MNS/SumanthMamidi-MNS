@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="30" viewBox="0 0 117 30" fill="none">
+  <!-- Chamfered Aerospace Hex Body -->
+  <path d="M 7 0.5 L 116.5 0.5 L 116.5 22.5 L 109.5 29.5 L 0.5 29.5 L 0.5 7.5 Z" 
+        fill="#16161e" 
+        stroke="#292e42" 
+        stroke-width="1"/>
+  
+  <!-- Tokyo Night Accent Left Border (3.5px) -->
+  <path d="M 0.5 7.5 L 0.5 29.5" 
+        stroke="#73daca" 
+        stroke-width="3.5" 
+        stroke-linecap="round"/>
+        
+  <!-- Official Vector Icon -->
+  <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjMTMwNzU0IiBkPSJNNDYuMjM2IDcuNTY3aDEzLjk5djI5LjA0N2gtMTMuOTlabTAgNTkuNjY4aDEzLjk5Vjk2LjI4aC0xMy45OVoiLz48cGF0aCBmaWxsPSIjZmZjYTAwIiBkPSJNNDYuMjM2IDQ1LjA5MmgxMy45OXYxMy43MDVoLTEzLjk5WiIvPjxwYXRoIGZpbGw9IiMxMzA3NTQiIGQ9Ik0yMy43NjMgMzEuNDQ2aDEzLjk4OVYxMjhoLTEzLjk5Wk02OC4yNDUgOTEuMmgxMy45OXYyOS4wNDZoLTEzLjk5Wm0wLTU5LjcyaDEzLjk5djI5LjA0N2gtMTMuOTlaIi8+PHBhdGggZmlsbD0iI2U3MDQ4OCIgZD0iTTY4LjI0NSA2OS4wMTFoMTMuOTl2MTMuNzA1aC0xMy45OVoiLz48cGF0aCBmaWxsPSIjMTMwNzU0IiBkPSJNOTAuMjQ4IDBoMTMuOTl2OTYuNTU0aC0xMy45OVoiLz48L3N2Zz4K" x="12" y="7" width="16" height="16" />
+  
+  <!-- Monospace Label -->
+  <text x="35" y="19" 
+        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
+        font-size="11.5" 
+        font-weight="600" 
+        fill="#c0caf5" 
+        letter-spacing="0.3">GeoPandas</text>
+</svg>
