@@ -1,0 +1,4 @@
+# Private local showcases, previews and scratch files
+*.html
+*.tmp
+.DS_Store

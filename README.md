@@ -177,8 +177,8 @@
     <b>— John Johnson</b>
   </p>
   <p>
-    <a href="https://github.com/SumanthMamidi-MNS" target="_blank">
-      <img src="assets/badge_profile_views.svg" alt="Profile Views" />
+    <a href="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS" target="_blank">
+      <img height="28" src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&color=38bdf8" alt="Profile Views" />
     </a>
   </p>
   <p>

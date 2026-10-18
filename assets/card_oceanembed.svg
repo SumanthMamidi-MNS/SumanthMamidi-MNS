@@ -243,13 +243,13 @@
       <circle cx="13" cy="17" r="3.5" fill="#45c4d6" class="oe-pulse-dot"/>
       
       <!-- Backbone Spec -->
-      <text x="22" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.2" fill="#94a3b8">BACKBONE <tspan fill="#f8fafc" font-weight="700">Spatial Transformer</tspan></text>
+      <text x="20" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.2" fill="#94a3b8">BACKBONE <tspan fill="#f8fafc" font-weight="700">Spatial Transformer</tspan></text>
       
-      <!-- Directional Chevron (Centered with generous clearance and zero collision) -->
-      <text x="216" y="22" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#45c4d6" text-anchor="middle">──▶</text>
+      <!-- Directional Chevron (Bold 14.5px, heavy weight, generous clearance) -->
+      <text x="216" y="22" font-family="-apple-system, sans-serif" font-size="14.5" font-weight="800" fill="#45c4d6" text-anchor="middle">──▶</text>
       
       <!-- Depths Spec -->
-      <text x="242" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.2" fill="#94a3b8">DEPTHS <tspan fill="#45c4d6" font-weight="700">15 Layers / Argo</tspan></text>
+      <text x="244" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.2" fill="#94a3b8">DEPTHS <tspan fill="#45c4d6" font-weight="700">15 Layers / Argo</tspan></text>
     </g>
   </g>
 
