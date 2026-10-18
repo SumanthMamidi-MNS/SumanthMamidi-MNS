@@ -176,13 +176,13 @@
       <circle cx="14" cy="15" r="3.5" fill="#facc15" class="tc-pulse-dot"/>
       
       <!-- Pipeline Spec -->
-      <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">PIPELINE <tspan fill="#38bdf8" font-weight="700">Dense + BM25 Hybrid</tspan></text>
+      <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">PIPELINE <tspan fill="#f8fafc" font-weight="700">Dense + BM25 Hybrid</tspan></text>
       
       <!-- Directional Chevron -->
-      <text x="220" y="19.5" font-family="-apple-system, sans-serif" font-size="12" fill="#475569">──▶</text>
+      <text x="220" y="19.5" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#facc15">──▶</text>
       
       <!-- Grounding Spec -->
-      <text x="248" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">VERIFIER <tspan fill="#34d399" font-weight="700">100% Attribution</tspan></text>
+      <text x="248" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">VERIFIER <tspan fill="#facc15" font-weight="700">100% Attribution</tspan></text>
     </g>
   </g>
 

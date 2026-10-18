@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 136" width="100%">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Background Gradient (Unified Dark Obsidian matching other cards) -->
     <linearGradient id="card-bg-fc" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060e0a"/>
-      <stop offset="50%" stop-color="#0b1a14"/>
-      <stop offset="100%" stop-color="#060e0a"/>
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0c1322"/>
+      <stop offset="100%" stop-color="#070b14"/>
     </linearGradient>
 
     <!-- Side Light Pure Radiant Emerald Gradient (Zero Yellow) -->
@@ -15,10 +15,10 @@
       <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
 
-    <!-- Ambient Left Glow -->
+    <!-- Ambient Left Glow (Subtle accent glow, zero green background wash) -->
     <radialGradient id="left-glow-fc" cx="0%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#10b981" stop-opacity="0.32"/>
-      <stop offset="45%" stop-color="#059669" stop-opacity="0.10"/>
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.18"/>
+      <stop offset="45%" stop-color="#059669" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
 
@@ -143,7 +143,7 @@
   <g transform="translate(20, 16) scale(0.45)">
     <!-- Sleek Dark-Core Squircle Enclosure with Radiant Emerald Border -->
     <rect x="6" y="6" width="84" height="84" rx="20"
-          fill="#07120d"
+          fill="#070b14"
           stroke="url(#side-light-fc)"
           stroke-width="4.5"
           stroke-linejoin="round"/>
@@ -179,7 +179,7 @@
   </g>
 
   <!-- Domain Pill Underneath Logo -->
-  <rect x="20" y="80" width="222" height="22" rx="5" fill="#0c1f19" stroke="#164334" stroke-width="1"/>
+  <rect x="20" y="80" width="222" height="22" rx="5" fill="#0b1720" stroke="#163447" stroke-width="1"/>
   <text x="131" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#34d399" text-anchor="middle" letter-spacing="0.4">AGROMET DOWNSCALING · MOES RES</text>
 
   <!-- Divider 1 -->
@@ -197,7 +197,7 @@
       Calibrated quantile uncertainty estimation · Actionable decision-support
     </text>
 
-    <!-- Sleek Architectural Dataflow Pipeline (Larger, High-Contrast) -->
+    <!-- Sleek Architectural Dataflow Pipeline (Harmonized Colors) -->
     <g transform="translate(0, 60)">
       <rect x="0" y="0" width="436" height="30" rx="6" fill="#090e1a" stroke="#1c273c" stroke-width="1"/>
       
@@ -205,13 +205,13 @@
       <circle cx="14" cy="15" r="3.5" fill="#10b981" class="fc-pulse-dot"/>
       
       <!-- Model Spec -->
-      <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">MODEL <tspan fill="#34d399" font-weight="700">LightGBM Quantile (UQ)</tspan></text>
+      <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">MODEL <tspan fill="#f8fafc" font-weight="700">LightGBM Quantile (UQ)</tspan></text>
       
       <!-- Directional Chevron -->
-      <text x="212" y="19.5" font-family="-apple-system, sans-serif" font-size="12" fill="#475569">──▶</text>
+      <text x="214" y="19.5" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#34d399">──▶</text>
       
       <!-- Geo Engine Spec -->
-      <text x="242" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">GEO ENGINE <tspan fill="#34d399" font-weight="700">MapLibre GL Vector</tspan></text>
+      <text x="242" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">GEO <tspan fill="#34d399" font-weight="700">MapLibre GL Vector</tspan></text>
     </g>
   </g>
 

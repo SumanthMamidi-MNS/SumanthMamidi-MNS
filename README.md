@@ -178,7 +178,7 @@
   </p>
   <p>
     <a href="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS" target="_blank">
-      <img src="assets/badge_views.svg" alt="Profile Views: 640" />
+      <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&style=for-the-badge&color=38bdf8" alt="Profile Views" />
     </a>
   </p>
   <p>
