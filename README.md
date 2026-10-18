@@ -18,7 +18,9 @@
   <a href="https://sumanth-portfolio-delta.vercel.app" target="_blank"><img src="assets/badge_portfolio.svg" alt="Portfolio" /></a>
 </p>
 
-<br/>
+<p align="center">
+  <img src="assets/section_divider.svg" width="70%" />
+</p>
 
 <p align="center">
   <img src="assets/header_about.svg" alt="About Me" width="100%" />
@@ -37,10 +39,12 @@
   </tr>
 </table>
 
-<br/>
+<p align="center">
+  <img src="assets/section_divider.svg" width="70%" />
+</p>
 
 <p align="center">
-  <img src="assets/header_flagship_systems.svg" alt="Flagship AI Systems & Architectures" width="100%" />
+  <img src="assets/header_flagship_systems.svg" alt="Featured AI Systems" width="100%" />
 </p>
 
 <p align="center">
@@ -67,10 +71,12 @@
   </a>
 </p>
 
-<br/>
+<p align="center">
+  <img src="assets/section_divider.svg" width="70%" />
+</p>
 
 <p align="center">
-  <img src="assets/header_tech_stack.svg" alt="Technical Tooling & Ecosystem" width="100%" />
+  <img src="assets/header_tech_stack.svg" alt="Technical Skills & Stack" width="100%" />
 </p>
 
 <h3 align="center">Languages</h3>
@@ -140,10 +146,12 @@
   <img src="https://custom-icon-badges.demolab.com/badge/Arduino-161b22?style=for-the-badge&logo=arduino&logoColor=00979D" alt="Arduino" />
 </p>
 
-<br/>
+<p align="center">
+  <img src="assets/section_divider.svg" width="70%" />
+</p>
 
 <p align="center">
-  <img src="assets/header_telemetry.svg" alt="Engineering Telemetry & Stats" width="100%" />
+  <img src="assets/header_telemetry.svg" alt="Performance &amp; GitHub Stats" width="100%" />
 </p>
 
 <p align="center">
@@ -154,10 +162,12 @@
   <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&background=0d1117&border=30363d&stroke=30363d&border_radius=10&ring=facc15&fire=facc15&currStreakNum=38bdf8&currStreakLabel=facc15&sideNums=ffffff&sideLabels=cbd5e1&dates=38bdf8" alt="GitHub Streak" />
 </p>
 
-<br/>
+<p align="center">
+  <img src="assets/section_divider.svg" width="70%" />
+</p>
 
 <p align="center">
-  <img src="assets/header_contributions.svg" alt="Contribution Matrix & Timeline" width="100%" />
+  <img src="assets/header_contributions.svg" alt="Contribution Activity" width="100%" />
 </p>
 
 <p align="center">
@@ -168,7 +178,9 @@
   <img src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
 </p>
 
-<br/>
+<p align="center">
+  <img src="assets/section_divider.svg" width="70%" />
+</p>
 
 <!-- UNIFIED FOOTER: Always-Working High-End Views Counter -->
 <div align="center">

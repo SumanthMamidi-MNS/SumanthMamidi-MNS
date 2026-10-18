@@ -139,33 +139,19 @@
   <!-- Left Side Lighting Bar (Pure Emerald, Zero Yellow) -->
   <rect x="2" y="14" width="4.5" height="108" rx="2.25" fill="url(#side-light-fc)"/>
 
-  <!-- Left Column: Exact Official Animated Logo + Domain Pill -->
-  <g transform="translate(20, 16) scale(0.45)">
-    <!-- Sleek Dark-Core Squircle Enclosure with Radiant Emerald Border -->
-    <rect x="6" y="6" width="84" height="84" rx="20"
-          fill="#070b14"
-          stroke="url(#side-light-fc)"
-          stroke-width="4.5"
-          stroke-linejoin="round"/>
-
-    <!-- Inner Subtle Border Highlight -->
-    <rect x="9.5" y="9.5" width="77" height="77" rx="17"
-          fill="none"
-          stroke="#6ee7b7"
-          stroke-width="0.8"
-          stroke-opacity="0.35"/>
-
-    <!-- Scaled Mark Container -->
-    <g transform="translate(48, 48) scale(1.28) translate(-48, -48)">
+  <!-- Left Column: Exact Official Animated Logo + Domain Pill (No Box Enclosure) -->
+  <g transform="translate(18, 14) scale(0.46)">
+    <!-- Scaled Mark Container in perfect balanced ratio (scale 1.40x) -->
+    <g transform="translate(48, 48) scale(1.40) translate(-48, -48)">
       <!-- Directional Sonar Wave Arcs -->
       <path d="M 64 34 A 22 22 0 0 1 70 48 A 22 22 0 0 1 64 62" fill="none" stroke="#6EE7B7" stroke-width="2.5" stroke-linecap="round" class="sonar-1"/>
       <path d="M 64 34 A 22 22 0 0 1 70 48 A 22 22 0 0 1 64 62" fill="none" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" class="sonar-2"/>
       <path d="M 64 34 A 22 22 0 0 1 70 48 A 22 22 0 0 1 64 62" fill="none" stroke="#A7F3D0" stroke-width="2.5" stroke-linecap="round" class="sonar-3"/>
 
       <!-- Central Luminous Aperture Geometry with Specular Beacon -->
-      <g transform="translate(48, 48) scale(2.2) translate(-16.5, -16.5)">
-        <path d="M8 8 C12.5 3.5 20.5 3.5 25 8 C29.5 12.5 29.5 20.5 25 25 C20.5 29.5 12.5 29.5 8 25" stroke="url(#fcOuterGrad)" stroke-width="2.8" stroke-linecap="round"/>
-        <path d="M11 11 C14 8 19 8 22 11 C25 14 25 19 22 22" stroke="url(#fcInnerGrad)" stroke-width="2.8" stroke-linecap="round"/>
+      <g transform="translate(48, 48) scale(2.4) translate(-16.5, -16.5)">
+        <path d="M8 8 C12.5 3.5 20.5 3.5 25 8 C29.5 12.5 29.5 20.5 25 25 C20.5 29.5 12.5 29.5 8 25" stroke="url(#fcOuterGrad)" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M11 11 C14 8 19 8 22 11 C25 14 25 19 22 22" stroke="url(#fcInnerGrad)" stroke-width="2.6" stroke-linecap="round"/>
         <circle cx="16.5" cy="16.5" r="5.5" fill="url(#fcBeaconGlow)" class="fc-beacon-glow"/>
         <circle cx="16.5" cy="16.5" r="3" fill="url(#fcBeaconGrad)"/>
         <circle cx="15.4" cy="15.3" r="0.75" fill="#FFFFFF" opacity="0.85"/>
@@ -178,9 +164,9 @@
     </text>
   </g>
 
-  <!-- Domain Pill Underneath Logo -->
-  <rect x="20" y="80" width="222" height="22" rx="5" fill="#0b1720" stroke="#163447" stroke-width="1"/>
-  <text x="131" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#34d399" text-anchor="middle" letter-spacing="0.4">AGROMET DOWNSCALING · MOES RES</text>
+  <!-- Domain Pill Underneath Logo (Mathematically Centered at x=129) -->
+  <rect x="19" y="80" width="220" height="22" rx="5" fill="#0b1720" stroke="#163447" stroke-width="1"/>
+  <text x="129" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#34d399" text-anchor="middle" letter-spacing="0.4">AGROMET DOWNSCALING · MOES RES</text>
 
   <!-- Divider 1 -->
   <line x1="258" y1="18" x2="258" y2="118" stroke="#1c273c" stroke-width="1"/>
@@ -197,7 +183,7 @@
       Calibrated quantile uncertainty estimation · Actionable decision-support
     </text>
 
-    <!-- Sleek Architectural Dataflow Pipeline (Harmonized Colors) -->
+    <!-- Sleek Architectural Dataflow Pipeline (Harmonized Colors & Centered Arrow) -->
     <g transform="translate(0, 60)">
       <rect x="0" y="0" width="436" height="30" rx="6" fill="#090e1a" stroke="#1c273c" stroke-width="1"/>
       
@@ -207,11 +193,11 @@
       <!-- Model Spec -->
       <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">MODEL <tspan fill="#f8fafc" font-weight="700">LightGBM Quantile (UQ)</tspan></text>
       
-      <!-- Directional Chevron -->
-      <text x="214" y="19.5" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#34d399">──▶</text>
+      <!-- Directional Chevron (Centered at x=218) -->
+      <text x="218" y="19" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#34d399" text-anchor="middle">──▶</text>
       
       <!-- Geo Engine Spec -->
-      <text x="242" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">GEO <tspan fill="#34d399" font-weight="700">MapLibre GL Vector</tspan></text>
+      <text x="234" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">GEO <tspan fill="#34d399" font-weight="700">MapLibre GL Vector</tspan></text>
     </g>
   </g>
 

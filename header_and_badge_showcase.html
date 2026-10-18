@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sumanth Mamidi · Design Refinements & New Badge Shapes Showcase</title>
+  <title>Sumanth Mamidi · Executive Tech Stack (Option A vs Option B) & Card Perfection</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
       --border-subtle: #30363d;
       --cyan: #38bdf8;
       --gold: #facc15;
-      --green: #22c55e;
+      --emerald: #34d399;
       --purple: #a855f7;
       --rose: #f43f5e;
       --text: #f0f6fc;
@@ -27,7 +27,7 @@
       background-color: var(--bg);
       color: var(--text);
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      padding: 40px 24px;
+      padding: 40px 20px;
       line-height: 1.6;
     }
 
@@ -61,12 +61,6 @@
       gap: 10px;
     }
 
-    .subtitle {
-      font-size: 14px;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-    }
-
     .callout {
       background: rgba(56, 189, 248, 0.08);
       border-left: 4px solid var(--cyan);
@@ -76,37 +70,54 @@
       margin-bottom: 20px;
     }
 
-    /* BADGE SHAPE STYLES */
     .badge-grid {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       gap: 12px;
-      margin-top: 14px;
+      margin-top: 10px;
+      margin-bottom: 24px;
     }
 
-    /* Shape 1: Laser Perimeter Capsules */
+    .category-title {
+      text-align: center;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: #94a3b8;
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    /* Option A: Laser Perimeter Capsules (rx=999, Brand Glow) */
     .shape-laser-pill {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 7px 16px;
+      gap: 9px;
+      padding: 7px 18px;
       background: #0f1624;
       border: 1.5px solid rgba(56, 189, 248, 0.5);
       border-radius: 999px;
       font-size: 13px;
       font-weight: 600;
-      color: #fff;
-      box-shadow: 0 0 12px rgba(56, 189, 248, 0.2);
+      color: #ffffff;
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.18);
       transition: all 0.2s ease;
+    }
+    .shape-laser-pill:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 18px rgba(56, 189, 248, 0.35);
     }
     .shape-laser-pill img { width: 18px; height: 18px; }
 
-    /* Shape 2: Chamfered Cyber-Hex Badges */
+    /* Option B: Chamfered Cyber-Hex Badges (Angled 45-deg Corners) */
     .shape-cyber-hex {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 7px 16px;
+      gap: 9px;
+      padding: 7px 18px;
       background: #121824;
       border: 1px solid #223049;
       clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
@@ -114,80 +125,67 @@
       font-size: 12.5px;
       font-weight: 600;
       color: #e2e8f0;
-      border-left: 3px solid var(--cyan);
+      border-left: 3.5px solid var(--cyan);
+      transition: all 0.2s ease;
+    }
+    .shape-cyber-hex:hover {
+      transform: translateY(-2px);
+      background: #172033;
+      color: #fff;
     }
     .shape-cyber-hex img { width: 17px; height: 17px; }
 
-    /* Shape 3: Split-Matrix Dual Cells */
-    .shape-dual-matrix {
-      display: inline-flex;
-      align-items: stretch;
-      background: #0c121e;
-      border: 1px solid #1e2c45;
-      border-radius: 6px;
-      overflow: hidden;
-      font-size: 12px;
-    }
-    .dual-icon-box {
-      background: #151f33;
-      padding: 6px 10px;
+    /* Interactive Tab Switcher */
+    .tab-bar {
       display: flex;
-      align-items: center;
-      border-right: 1px solid #1e2c45;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 28px;
     }
-    .dual-icon-box img { width: 16px; height: 16px; }
-    .dual-name-box {
-      padding: 6px 12px;
-      font-weight: 600;
-      color: #f1f5f9;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .dual-tag {
-      font-size: 10px;
-      font-weight: 700;
-      color: var(--cyan);
-      background: rgba(56, 189, 248, 0.12);
-      padding: 2px 5px;
-      border-radius: 3px;
-    }
-
-    /* Shape 4: Glassmorphic Floating Tiles */
-    .shape-glass-tile {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 16px;
-      background: linear-gradient(180deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-top: 1.5px solid rgba(255, 255, 255, 0.25);
+    .tab-btn {
+      padding: 10px 24px;
       border-radius: 8px;
-      font-size: 13px;
-      font-weight: 600;
-      color: #fff;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      border: 1px solid var(--border-subtle);
+      background: #161f30;
+      color: #94a3b8;
+      transition: all 0.2s;
     }
-    .shape-glass-tile img { width: 18px; height: 18px; }
+    .tab-btn.active {
+      background: #0284c7;
+      color: #ffffff;
+      border-color: #38bdf8;
+      box-shadow: 0 0 16px rgba(56, 189, 248, 0.35);
+    }
   </style>
+  <script>
+    function showTab(tabId) {
+      document.getElementById('view-option-a').style.display = (tabId === 'a') ? 'block' : 'none';
+      document.getElementById('view-option-b').style.display = (tabId === 'b') ? 'block' : 'none';
+      document.getElementById('btn-a').className = (tabId === 'a') ? 'tab-btn active' : 'tab-btn';
+      document.getElementById('btn-b').className = (tabId === 'b') ? 'tab-btn active' : 'tab-btn';
+    }
+  </script>
 </head>
 <body>
 
   <div class="container">
     <div class="header-panel">
-      <h1 style="font-size: 28px; font-weight: 800; color: #fff; margin-bottom: 8px;">Executive Refinements &amp; Badge Innovations</h1>
-      <p style="color: var(--text-muted); font-size: 15px;">Visualizing centered project cards, pure emerald FieldCast, custom Space Grotesk headers, and next-gen badge shapes</p>
+      <h1 style="font-size: 28px; font-weight: 800; color: #fff; margin-bottom: 8px;">Executive Portfolio Perfection Showcase</h1>
+      <p style="color: var(--text-muted); font-size: 15px;">Project Cards Refinements · Centered Mathematical Badges · Reduced 15px Space Grotesk Headers · Tech Stack Option A vs Option B</p>
     </div>
 
-    <!-- SECTION 1: FIELDCAST & PROJECT CARDS FIXED -->
+    <!-- SECTION 1: PROJECT CARDS PERFECTION -->
     <div class="section-box">
-      <div class="title">🌿 1. FieldCast &amp; Project Cards Perfection</div>
+      <div class="title">🌿 1. Flagship Project Cards (100% Even &amp; Centered)</div>
       <div class="callout">
-        <b>What Was Perfected:</b>
-        <br/>• <b>Unified Dark Obsidian Canvas:</b> FieldCast's background was reset from the green-tinted gradient back to the exact dark obsidian midnight navy (<code>#070b14</code> → <code>#0c1322</code> → <code>#070b14</code>) matching TrueCite, UrbanTrace, and OceanEmbed. Zero green-wash!
-        <br/>• <b>Harmonized Telemetry Arrow Boxes:</b> Every single arrow box now follows the exact same visual hierarchy: crisp white spec values (<code>#f8fafc</code>), glowing directional arrow marks (<code>──▶</code>) matching each project's brand accent, and accent-colored verification specs.
-        <br/>• <b>Pure Radiant Emerald Sidelight:</b> Zero yellow/amber bleed; 100% vibrant emerald arcs and squircle enclosure.
-        <br/>• <b>Centered Headings &amp; Large Readable Typography:</b> Centered 15px bold headline titles and 12.5px subtitles across all 4 cards with zero zoom required!
+        <b>What Was Perfected in This Pass:</b>
+        <br/>• <b>FieldCast Enclosure Box Removed:</b> The artificial squircle box around the logo mark was completely eliminated. The logo mark and sonar arcs now float freely, identically matching the official TrueCite, UrbanTrace, and OceanEmbed style!
+        <br/>• <b>Domain Badges Mathematically Centered:</b> In TrueCite, UrbanTrace, FieldCast, and OceanEmbed, the domain badge pills under the logos are now positioned with exact <code>19px</code> margins on both left and right (centered at <code>x=129</code> in the 258px column).
+        <br/>• <b>Telemetry Arrow Marks in Exact Center:</b> In all 4 cards, the directional chevron (<code>──▶</code>) is now positioned at the exact mathematical center of the pipeline (<code>x=218</code>, <code>text-anchor="middle"</code>) perfectly balancing Spec 1 and Spec 2.
       </div>
 
       <div style="display: flex; flex-direction: column; gap: 18px;">
@@ -198,105 +196,183 @@
       </div>
     </div>
 
-    <!-- SECTION 2: COMPACT SPACE GROTESK HEADERS WITH SINGLE ANCHOR UNDERLINE -->
+    <!-- SECTION 2: SLEEK 15PX EXECUTIVE HEADERS WITH SECTION DIVIDERS -->
     <div class="section-box">
-      <div class="title">💎 2. Compact Space Grotesk Headers (Single Anchor Underline, Zero Dot Collisions)</div>
+      <div class="title">💎 2. Reduced 15px Executive Section Headers with Subtle Section Dividers</div>
       <div class="callout">
-        <b>Perfection &amp; Evenness Applied:</b>
-        <br/>• <b>Uniform Size:</b> All 5 headers have the identical <code>viewBox="0 0 800 40"</code> and compact 40px height — large 20px bold font, but space-efficient.
-        <br/>• <b>Single Underline Anchor:</b> Replaced side-lines and colliding dots with a single, sleek glowing gradient line directly underneath the title.
-        <br/>• <b>Tight Section Proximity:</b> Positioned to sit immediately above section content without excessive gaps.
+        <b>Recruiter &amp; Hiring Manager Oriented:</b>
+        <br/>• <b>Reduced from "Huge" to Sleek 15px:</b> Headings have been reduced from 20px/22px to a sophisticated <b>15px Space Grotesk</b> bold format (32px compact height).
+        <br/>• <b>Best, Understandable Titles:</b> Replaced academic wording with punchy, universally recognized names:
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code>◈ ABOUT ME ◈</code> &nbsp;|&nbsp; <code>◈ FEATURED AI SYSTEMS ◈</code> &nbsp;|&nbsp; <code>◈ TECHNICAL SKILLS &amp; STACK ◈</code> &nbsp;|&nbsp; <code>◈ PERFORMANCE &amp; GITHUB STATS ◈</code> &nbsp;|&nbsp; <code>◈ CONTRIBUTION ACTIVITY ◈</code>
+        <br/>• <b>Subtle Section Division Line:</b> An elegant 1px gradient divider line (<code>assets/section_divider.svg</code>) is placed <b>just above each heading</b> to clearly delineate sections without visual clutter.
       </div>
 
-      <div style="display: flex; flex-direction: column; gap: 14px; background: #070a12; padding: 20px; border-radius: 8px;">
+      <div style="display: flex; flex-direction: column; gap: 14px; background: #070a12; padding: 24px; border-radius: 8px;">
+        <img src="assets/section_divider.svg" width="70%" style="margin: 0 auto;" />
         <img src="assets/header_about.svg" width="100%" />
+        <img src="assets/section_divider.svg" width="70%" style="margin: 0 auto;" />
         <img src="assets/header_flagship_systems.svg" width="100%" />
+        <img src="assets/section_divider.svg" width="70%" style="margin: 0 auto;" />
         <img src="assets/header_tech_stack.svg" width="100%" />
+        <img src="assets/section_divider.svg" width="70%" style="margin: 0 auto;" />
         <img src="assets/header_telemetry.svg" width="100%" />
+        <img src="assets/section_divider.svg" width="70%" style="margin: 0 auto;" />
         <img src="assets/header_contributions.svg" width="100%" />
       </div>
     </div>
 
-    <!-- SECTION 3: NEW TECH STACK BADGE SHAPES -->
+    <!-- SECTION 3: TECH STACK BADGES: OPTION A VS OPTION B FULL COMPARISON -->
     <div class="section-box">
-      <div class="title">✨ 3. Tech Stack: 4 Exciting New Badge Shapes &amp; Looks</div>
-      <p class="subtitle">You mentioned standard badges look boring. Here are 4 innovative shapes that give your tech stack an elite, futuristic feel:</p>
+      <div class="title">✨ 3. Tech Stack: Option A vs Option B Comparison</div>
+      <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">
+        Here are both of your preferred styles (Option A &amp; Option B) rendered across your entire real tech stack. Click the tabs below to compare how each one looks:
+      </p>
 
-      <!-- Shape Option 1 -->
-      <div style="margin-bottom: 24px; background: #070d19; padding: 18px; border-radius: 8px; border: 1px solid #1a2538;">
-        <div style="font-weight: 700; color: var(--cyan); font-size: 14px; margin-bottom: 4px;">Shape Option A: Laser Perimeter Capsules (Rounded Capsule + 360° Brand Glow)</div>
-        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Full capsule radius (rx=999) with an electric reactive border matching each brand's true color.</div>
-        <div class="badge-grid">
-          <span class="shape-laser-pill"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</span>
-          <span class="shape-laser-pill" style="border-color: rgba(238, 76, 44, 0.6); box-shadow: 0 0 12px rgba(238, 76, 44, 0.2);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</span>
-          <span class="shape-laser-pill" style="border-color: rgba(0, 255, 255, 0.6); box-shadow: 0 0 12px rgba(0, 255, 255, 0.2);"><img src="https://img.icons8.com/color/48/yolo.png" onerror="this.src='https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg'" /> YOLOv8</span>
-          <span class="shape-laser-pill" style="border-color: rgba(0, 150, 136, 0.6); box-shadow: 0 0 12px rgba(0, 150, 136, 0.2);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</span>
-          <span class="shape-laser-pill" style="border-color: rgba(97, 218, 251, 0.6); box-shadow: 0 0 12px rgba(97, 218, 251, 0.2);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</span>
-          <span class="shape-laser-pill" style="border-color: rgba(36, 150, 237, 0.6); box-shadow: 0 0 12px rgba(36, 150, 237, 0.2);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</span>
+      <div class="tab-bar">
+        <button id="btn-a" class="tab-btn active" onclick="showTab('a')">Option A: Laser Perimeter Capsules</button>
+        <button id="btn-b" class="tab-btn" onclick="showTab('b')">Option B: Chamfered Cyber-Hex Badges</button>
+      </div>
+
+      <!-- VIEW: OPTION A -->
+      <div id="view-option-a">
+        <div style="background: #080e1a; padding: 24px; border-radius: 10px; border: 1px solid #1e2c45;">
+          <h4 style="text-align: center; color: var(--cyan); margin-bottom: 16px; font-size: 16px;">Option A — Laser Perimeter Capsules (Rounded Capsule + 360° Neon Glow)</h4>
+          
+          <div class="category-title">Languages</div>
+          <div class="badge-grid">
+            <span class="shape-laser-pill" style="border-color: rgba(55,118,171,0.6); box-shadow: 0 0 12px rgba(55,118,171,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</span>
+            <span class="shape-laser-pill" style="border-color: rgba(0,89,156,0.6); box-shadow: 0 0 12px rgba(0,89,156,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" /> C++</span>
+            <span class="shape-laser-pill" style="border-color: rgba(168,185,204,0.6); box-shadow: 0 0 12px rgba(168,185,204,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" /> C</span>
+            <span class="shape-laser-pill" style="border-color: rgba(237,139,0,0.6); box-shadow: 0 0 12px rgba(237,139,0,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" /> Java</span>
+            <span class="shape-laser-pill" style="border-color: rgba(247,223,30,0.6); box-shadow: 0 0 12px rgba(247,223,30,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /> JavaScript</span>
+            <span class="shape-laser-pill" style="border-color: rgba(227,79,38,0.6); box-shadow: 0 0 12px rgba(227,79,38,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /> HTML5</span>
+            <span class="shape-laser-pill" style="border-color: rgba(21,114,182,0.6); box-shadow: 0 0 12px rgba(21,114,182,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" /> CSS3</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,255,255,0.4); box-shadow: 0 0 12px rgba(255,255,255,0.15);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" /> Markdown</span>
+          </div>
+
+          <div class="category-title">AI, Deep Learning &amp; Computer Vision</div>
+          <div class="badge-grid">
+            <span class="shape-laser-pill" style="border-color: rgba(238,76,44,0.6); box-shadow: 0 0 12px rgba(238,76,44,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</span>
+            <span class="shape-laser-pill" style="border-color: rgba(0,255,255,0.6); box-shadow: 0 0 12px rgba(0,255,255,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> YOLOv8</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,210,30,0.6); box-shadow: 0 0 12px rgba(255,210,30,0.25);"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" /> Transformers</span>
+            <span class="shape-laser-pill" style="border-color: rgba(92,62,232,0.6); box-shadow: 0 0 12px rgba(92,62,232,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> OpenCV</span>
+            <span class="shape-laser-pill" style="border-color: rgba(52,211,153,0.6); box-shadow: 0 0 12px rgba(52,211,153,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> LightGBM</span>
+            <span class="shape-laser-pill" style="border-color: rgba(247,147,30,0.6); box-shadow: 0 0 12px rgba(247,147,30,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" /> Scikit-Learn</span>
+            <span class="shape-laser-pill" style="border-color: rgba(77,171,207,0.6); box-shadow: 0 0 12px rgba(77,171,207,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" /> NumPy</span>
+            <span class="shape-laser-pill" style="border-color: rgba(231,4,136,0.6); box-shadow: 0 0 12px rgba(231,4,136,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" /> Pandas</span>
+          </div>
+
+          <div class="category-title">RAG, Search &amp; Geospatial</div>
+          <div class="badge-grid">
+            <span class="shape-laser-pill" style="border-color: rgba(255,54,33,0.6); box-shadow: 0 0 12px rgba(255,54,33,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/databricks/databricks-original.svg" /> ChromaDB</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,210,30,0.6); box-shadow: 0 0 12px rgba(255,210,30,0.25);"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" /> Sentence-Transformers</span>
+            <span class="shape-laser-pill" style="border-color: rgba(126,188,111,0.6); box-shadow: 0 0 12px rgba(126,188,111,0.25);"><img src="https://maplibre.org/img/maplibre-logo.svg" /> MapLibre</span>
+            <span class="shape-laser-pill" style="border-color: rgba(19,156,90,0.6); box-shadow: 0 0 12px rgba(19,156,90,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" /> GeoPandas</span>
+          </div>
+
+          <div class="category-title">Frameworks &amp; Full-Stack</div>
+          <div class="badge-grid">
+            <span class="shape-laser-pill" style="border-color: rgba(0,150,136,0.6); box-shadow: 0 0 12px rgba(0,150,136,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,75,75,0.6); box-shadow: 0 0 12px rgba(255,75,75,0.25);"><img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" /> Streamlit</span>
+            <span class="shape-laser-pill" style="border-color: rgba(97,218,251,0.6); box-shadow: 0 0 12px rgba(97,218,251,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,255,255,0.4); box-shadow: 0 0 12px rgba(255,255,255,0.15);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" /> Next.js</span>
+            <span class="shape-laser-pill" style="border-color: rgba(6,182,212,0.6); box-shadow: 0 0 12px rgba(6,182,212,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" /> TailwindCSS</span>
+            <span class="shape-laser-pill" style="border-color: rgba(51,153,51,0.6); box-shadow: 0 0 12px rgba(51,153,51,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" /> Node.js</span>
+          </div>
+
+          <div class="category-title">Databases &amp; Cloud</div>
+          <div class="badge-grid">
+            <span class="shape-laser-pill" style="border-color: rgba(65,105,225,0.6); box-shadow: 0 0 12px rgba(65,105,225,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /> PostgreSQL</span>
+            <span class="shape-laser-pill" style="border-color: rgba(71,162,72,0.6); box-shadow: 0 0 12px rgba(71,162,72,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" /> MongoDB</span>
+            <span class="shape-laser-pill" style="border-color: rgba(62,207,142,0.6); box-shadow: 0 0 12px rgba(62,207,142,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" /> Supabase</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,153,0,0.6); box-shadow: 0 0 12px rgba(255,153,0,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /> AWS</span>
+            <span class="shape-laser-pill" style="border-color: rgba(36,150,237,0.6); box-shadow: 0 0 12px rgba(36,150,237,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,255,255,0.4); box-shadow: 0 0 12px rgba(255,255,255,0.15);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" /> Vercel</span>
+          </div>
+
+          <div class="category-title">Tools &amp; Environment</div>
+          <div class="badge-grid">
+            <span class="shape-laser-pill" style="border-color: rgba(240,80,50,0.6); box-shadow: 0 0 12px rgba(240,80,50,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" /> Git</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,255,255,0.4); box-shadow: 0 0 12px rgba(255,255,255,0.15);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" /> GitHub</span>
+            <span class="shape-laser-pill" style="border-color: rgba(255,108,55,0.6); box-shadow: 0 0 12px rgba(255,108,55,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" /> Postman</span>
+            <span class="shape-laser-pill" style="border-color: rgba(252,198,36,0.6); box-shadow: 0 0 12px rgba(252,198,36,0.25);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" /> Linux</span>
+          </div>
         </div>
       </div>
 
-      <!-- Shape Option 2 -->
-      <div style="margin-bottom: 24px; background: #070d19; padding: 18px; border-radius: 8px; border: 1px solid #1a2538;">
-        <div style="font-weight: 700; color: var(--gold); font-size: 14px; margin-bottom: 4px;">Shape Option B: Chamfered Cyber-Hex Badges (Angled Aerospace Geometry)</div>
-        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Precision-cut chamfered 45-degree corners with glowing telemetry accent line on the left.</div>
-        <div class="badge-grid">
-          <span class="shape-cyber-hex"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</span>
-          <span class="shape-cyber-hex" style="border-left-color: #ee4c2c;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</span>
-          <span class="shape-cyber-hex" style="border-left-color: #00ffff;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> YOLOv8</span>
-          <span class="shape-cyber-hex" style="border-left-color: #10b981;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</span>
-          <span class="shape-cyber-hex" style="border-left-color: #38bdf8;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</span>
-          <span class="shape-cyber-hex" style="border-left-color: #2496ed;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</span>
-        </div>
-      </div>
+      <!-- VIEW: OPTION B -->
+      <div id="view-option-b" style="display: none;">
+        <div style="background: #080e1a; padding: 24px; border-radius: 10px; border: 1px solid #1e2c45;">
+          <h4 style="text-align: center; color: var(--gold); margin-bottom: 16px; font-size: 16px;">Option B — Chamfered Cyber-Hex Badges (Angled Aerospace Geometry)</h4>
+          
+          <div class="category-title">Languages</div>
+          <div class="badge-grid">
+            <span class="shape-cyber-hex" style="border-left-color: #3776ab;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</span>
+            <span class="shape-cyber-hex" style="border-left-color: #00599c;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" /> C++</span>
+            <span class="shape-cyber-hex" style="border-left-color: #a8b9cc;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" /> C</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ed8b00;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" /> Java</span>
+            <span class="shape-cyber-hex" style="border-left-color: #f7df1e;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /> JavaScript</span>
+            <span class="shape-cyber-hex" style="border-left-color: #e34f26;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /> HTML5</span>
+            <span class="shape-cyber-hex" style="border-left-color: #1572b6;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" /> CSS3</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ffffff;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" /> Markdown</span>
+          </div>
 
-      <!-- Shape Option 3 -->
-      <div style="margin-bottom: 24px; background: #070d19; padding: 18px; border-radius: 8px; border: 1px solid #1a2538;">
-        <div style="font-weight: 700; color: var(--green); font-size: 14px; margin-bottom: 4px;">Shape Option C: Split-Matrix Dual Cells (Telemetry Data Badges)</div>
-        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Independent icon chamber with name and technical runtime tag. Proves deep stack maturity.</div>
-        <div class="badge-grid">
-          <div class="shape-dual-matrix">
-            <div class="dual-icon-box"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /></div>
-            <div class="dual-name-box">Python <span class="dual-tag">3.12</span></div>
+          <div class="category-title">AI, Deep Learning &amp; Computer Vision</div>
+          <div class="badge-grid">
+            <span class="shape-cyber-hex" style="border-left-color: #ee4c2c;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</span>
+            <span class="shape-cyber-hex" style="border-left-color: #00ffff;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> YOLOv8</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ffd21e;"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" /> Transformers</span>
+            <span class="shape-cyber-hex" style="border-left-color: #5c3ee8;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> OpenCV</span>
+            <span class="shape-cyber-hex" style="border-left-color: #34d399;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> LightGBM</span>
+            <span class="shape-cyber-hex" style="border-left-color: #f7931e;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" /> Scikit-Learn</span>
+            <span class="shape-cyber-hex" style="border-left-color: #4dabcf;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" /> NumPy</span>
+            <span class="shape-cyber-hex" style="border-left-color: #e70488;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" /> Pandas</span>
           </div>
-          <div class="shape-dual-matrix">
-            <div class="dual-icon-box"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /></div>
-            <div class="dual-name-box">PyTorch <span class="dual-tag" style="color:#f97316; background:rgba(249,115,22,0.12)">CUDA</span></div>
-          </div>
-          <div class="shape-dual-matrix">
-            <div class="dual-icon-box"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /></div>
-            <div class="dual-name-box">YOLOv8 <span class="dual-tag" style="color:#00ffff; background:rgba(0,255,255,0.12)">Vision</span></div>
-          </div>
-          <div class="shape-dual-matrix">
-            <div class="dual-icon-box"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /></div>
-            <div class="dual-name-box">FastAPI <span class="dual-tag" style="color:#10b981; background:rgba(16,185,129,0.12)">Async</span></div>
-          </div>
-        </div>
-      </div>
 
-      <!-- Shape Option 4 -->
-      <div style="background: #070d19; padding: 18px; border-radius: 8px; border: 1px solid #1a2538;">
-        <div style="font-weight: 700; color: #a855f7; font-size: 14px; margin-bottom: 4px;">Shape Option D: Glassmorphic Floating Tiles (VisionOS Frost Highlight)</div>
-        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Soft frosted dark glass with specular top highlight edge.</div>
-        <div class="badge-grid">
-          <span class="shape-glass-tile"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</span>
-          <span class="shape-glass-tile"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</span>
-          <span class="shape-glass-tile"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> OpenCV</span>
-          <span class="shape-glass-tile"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</span>
+          <div class="category-title">RAG, Search &amp; Geospatial</div>
+          <div class="badge-grid">
+            <span class="shape-cyber-hex" style="border-left-color: #ff3621;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/databricks/databricks-original.svg" /> ChromaDB</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ffd21e;"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" /> Sentence-Transformers</span>
+            <span class="shape-cyber-hex" style="border-left-color: #7ebc6f;"><img src="https://maplibre.org/img/maplibre-logo.svg" /> MapLibre</span>
+            <span class="shape-cyber-hex" style="border-left-color: #139c5a;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" /> GeoPandas</span>
+          </div>
+
+          <div class="category-title">Frameworks &amp; Full-Stack</div>
+          <div class="badge-grid">
+            <span class="shape-cyber-hex" style="border-left-color: #009688;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ff4b4b;"><img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" /> Streamlit</span>
+            <span class="shape-cyber-hex" style="border-left-color: #61dafb;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ffffff;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" /> Next.js</span>
+            <span class="shape-cyber-hex" style="border-left-color: #06b6d4;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" /> TailwindCSS</span>
+            <span class="shape-cyber-hex" style="border-left-color: #339933;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" /> Node.js</span>
+          </div>
+
+          <div class="category-title">Databases &amp; Cloud</div>
+          <div class="badge-grid">
+            <span class="shape-cyber-hex" style="border-left-color: #4169e1;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /> PostgreSQL</span>
+            <span class="shape-cyber-hex" style="border-left-color: #47a248;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" /> MongoDB</span>
+            <span class="shape-cyber-hex" style="border-left-color: #3ecf8e;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" /> Supabase</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ff9900;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /> AWS</span>
+            <span class="shape-cyber-hex" style="border-left-color: #2496ed;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ffffff;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" /> Vercel</span>
+          </div>
+
+          <div class="category-title">Tools &amp; Environment</div>
+          <div class="badge-grid">
+            <span class="shape-cyber-hex" style="border-left-color: #f05032;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" /> Git</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ffffff;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" /> GitHub</span>
+            <span class="shape-cyber-hex" style="border-left-color: #ff6c37;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" /> Postman</span>
+            <span class="shape-cyber-hex" style="border-left-color: #fcc624;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" /> Linux</span>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- SECTION 4: CONTRIBUTION GRAPH & PROFILE VIEWS -->
+    <!-- SECTION 4: CONTRIBUTION GRAPH & LIVE DYNAMIC VIEWS -->
     <div class="section-box">
-      <div class="title">📊 4. Contribution Graph Scale &amp; Live Updating Profile Views</div>
+      <div class="title">📊 4. Contribution Activity &amp; Live Updating Profile Views</div>
       <div class="callout">
-        <b>Why the Activity Graph shows 60 on the Y-Axis:</b>
-        <br/>The service (<code>activity-graph.vercel.app</code>) dynamically queries your live GitHub contributions. On <b>October 4</b>, you made <b>51 contributions</b>! The charting library automatically rounds the maximum data point up to the nearest 10, which is why it displayed 60.
-        <br/><br/>
-        <b>Medium-Size Fix Applied:</b> Changed width from stretched <code>width="100%"</code> to a clean, centered medium size (<code>width="820"</code>, <code>height="260"</code>)!
-        <br/><br/>
-        <b>Live Dynamic Profile Views Restored:</b> Connected directly to <code>komarev.com/ghpvc/?username=SumanthMamidi-MNS&amp;style=for-the-badge&amp;color=38bdf8</code> so that <b>every time someone visits your profile, the count dynamically increments in real time!</b> Currently at <b>640+ views</b>.
+        <b>Live Dynamic Profile Views Restored:</b> Connected directly to <code>komarev.com/ghpvc/?username=SumanthMamidi-MNS&amp;style=for-the-badge&amp;color=38bdf8</code> so that <b>every single visitor page view dynamically increments the count in real time!</b>
       </div>
       <div style="text-align: center; margin-top: 10px;">
         <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&style=for-the-badge&color=38bdf8" alt="Live Profile Views" />

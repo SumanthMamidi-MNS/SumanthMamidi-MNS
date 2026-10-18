@@ -149,9 +149,9 @@
     </text>
   </g>
 
-  <!-- Domain Pill Underneath Logo -->
-  <rect x="20" y="80" width="222" height="22" rx="5" fill="#121824" stroke="#253247" stroke-width="1"/>
-  <text x="131" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#facc15" text-anchor="middle" letter-spacing="0.4">CITATION-VERIFIED RAG · AYURVEDA</text>
+  <!-- Domain Pill Underneath Logo (Mathematically Centered at x=129) -->
+  <rect x="19" y="80" width="220" height="22" rx="5" fill="#121824" stroke="#253247" stroke-width="1"/>
+  <text x="129" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#facc15" text-anchor="middle" letter-spacing="0.4">CITATION-VERIFIED RAG · AYURVEDA</text>
 
   <!-- Divider 1 -->
   <line x1="258" y1="18" x2="258" y2="118" stroke="#1c273c" stroke-width="1"/>
@@ -168,7 +168,7 @@
       Grounds every claim against verified texts · Zero hallucinated citations
     </text>
 
-    <!-- Sleek Architectural Dataflow Pipeline (Larger, High-Contrast) -->
+    <!-- Sleek Architectural Dataflow Pipeline (Larger, High-Contrast & Centered Arrow) -->
     <g transform="translate(0, 60)">
       <rect x="0" y="0" width="436" height="30" rx="6" fill="#090e1a" stroke="#1c273c" stroke-width="1"/>
       
@@ -178,11 +178,11 @@
       <!-- Pipeline Spec -->
       <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">PIPELINE <tspan fill="#f8fafc" font-weight="700">Dense + BM25 Hybrid</tspan></text>
       
-      <!-- Directional Chevron -->
-      <text x="220" y="19.5" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#facc15">──▶</text>
+      <!-- Directional Chevron (Centered at x=218) -->
+      <text x="218" y="19" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#facc15" text-anchor="middle">──▶</text>
       
       <!-- Grounding Spec -->
-      <text x="248" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">VERIFIER <tspan fill="#facc15" font-weight="700">100% Attribution</tspan></text>
+      <text x="234" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">VERIFIER <tspan fill="#facc15" font-weight="700">100% Attribution</tspan></text>
     </g>
   </g>
 

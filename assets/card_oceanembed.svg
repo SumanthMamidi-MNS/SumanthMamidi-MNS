@@ -216,9 +216,9 @@
     </text>
   </g>
 
-  <!-- Domain Pill Underneath Logo -->
-  <rect x="20" y="80" width="222" height="22" rx="5" fill="#0a1926" stroke="#13364d" stroke-width="1"/>
-  <text x="131" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#45c4d6" text-anchor="middle" letter-spacing="0.4">SATELLITE TRANSFORMERS · 3D OCEAN</text>
+  <!-- Domain Pill Underneath Logo (Mathematically Centered at x=129) -->
+  <rect x="19" y="80" width="220" height="22" rx="5" fill="#0a1926" stroke="#13364d" stroke-width="1"/>
+  <text x="129" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#45c4d6" text-anchor="middle" letter-spacing="0.4">SATELLITE TRANSFORMERS · 3D OCEAN</text>
 
   <!-- Divider 1 -->
   <line x1="258" y1="18" x2="258" y2="118" stroke="#1c273c" stroke-width="1"/>
@@ -235,7 +235,7 @@
       15 depth tiers (0–1000m) from satellite data · Validated vs GLORYS &amp; Argo
     </text>
 
-    <!-- Sleek Architectural Dataflow Pipeline (Larger, High-Contrast) -->
+    <!-- Sleek Architectural Dataflow Pipeline (Larger, High-Contrast & Centered Arrow) -->
     <g transform="translate(0, 60)">
       <rect x="0" y="0" width="436" height="30" rx="6" fill="#090e1a" stroke="#1c273c" stroke-width="1"/>
       
@@ -245,11 +245,11 @@
       <!-- Backbone Spec -->
       <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">BACKBONE <tspan fill="#f8fafc" font-weight="700">Spatial Transformer</tspan></text>
       
-      <!-- Directional Chevron -->
-      <text x="200" y="19.5" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#45c4d6">──▶</text>
+      <!-- Directional Chevron (Centered at x=218) -->
+      <text x="218" y="19" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#45c4d6" text-anchor="middle">──▶</text>
       
       <!-- Depths Spec -->
-      <text x="230" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">DEPTHS <tspan fill="#45c4d6" font-weight="700">15 Layers (0–1000m) / Argo</tspan></text>
+      <text x="234" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">DEPTHS <tspan fill="#45c4d6" font-weight="700">15 Layers / Argo</tspan></text>
     </g>
   </g>
 
