@@ -69,56 +69,69 @@
 
 <h3 align="center">💻 Languages</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-161b22?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
-  <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C" />
-  <img src="https://img.shields.io/badge/Java-161b22?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" /><br/>
-  <img src="https://img.shields.io/badge/HTML5-161b22?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://custom-icon-badges.demolab.com/badge/CSS3-161b22?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Markdown-161b22?style=for-the-badge&logo=markdown&logoColor=ffffff" alt="Markdown" />
+  <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
+  <img src="https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C" />
+  <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" /><br/>
+  <img src="https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
+  <img src="https://custom-icon-badges.demolab.com/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Markdown-0d1117?style=for-the-badge&logo=markdown&logoColor=ffffff" alt="Markdown" />
 </p>
 
-<h3 align="center">🤖 AI / Machine Learning</h3>
+<h3 align="center">🤖 AI, Deep Learning &amp; Computer Vision</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/NumPy-161b22?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-161b22?style=for-the-badge&logo=pandas&logoColor=E70488" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-161b22?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/Plotly-161b22?style=for-the-badge&logo=plotly&logoColor=3F4F75" alt="Plotly" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-161b22?style=for-the-badge&logo=matplotlib&logoColor=11557c" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/YOLOv8-0d1117?style=for-the-badge&logo=yolo&logoColor=00FFFF" alt="YOLOv8" />
+  <img src="https://img.shields.io/badge/Transformers-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Transformers" />
+  <img src="https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/LightGBM-0d1117?style=for-the-badge&logo=python&logoColor=34D399" alt="LightGBM" /><br/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=E70488" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Plotly-0d1117?style=for-the-badge&logo=plotly&logoColor=3F4F75" alt="Plotly" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Matplotlib-0d1117?style=for-the-badge&logo=matplotlib&logoColor=11557c" alt="Matplotlib" />
 </p>
 
-<h3 align="center">⚙️ Frameworks & Libraries</h3>
+<h3 align="center">🔍 RAG, Search &amp; Geospatial</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Streamlit-161b22?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/OpenCV-161b22?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/React-161b22?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-161b22?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js" /><br/>
-  <img src="https://img.shields.io/badge/TailwindCSS-161b22?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Vite-161b22?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
+  <img src="https://img.shields.io/badge/ChromaDB-0d1117?style=for-the-badge&logo=databricks&logoColor=FF3621" alt="ChromaDB" />
+  <img src="https://img.shields.io/badge/Sentence--Transformers-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Sentence-Transformers" />
+  <img src="https://img.shields.io/badge/MapLibre-0d1117?style=for-the-badge&logo=openstreetmap&logoColor=7EBC6F" alt="MapLibre" />
+  <img src="https://img.shields.io/badge/GeoPandas-0d1117?style=for-the-badge&logo=pandas&logoColor=139C5A" alt="GeoPandas" />
 </p>
 
-<h3 align="center">🗄️ Databases & Cloud</h3>
+<h3 align="center">⚙️ Frameworks &amp; Full-Stack</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-161b22?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/SQLite-161b22?style=for-the-badge&logo=sqlite&logoColor=003B57" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Supabase-161b22?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Firebase-161b22?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" /><br/>
-  <img src="https://custom-icon-badges.demolab.com/badge/AWS-161b22?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-161b22?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Vercel-161b22?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Render-161b22?style=for-the-badge&logo=render&logoColor=46E3B7" alt="Render" />
+  <img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Streamlit-0d1117?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js" /><br/>
+  <img src="https://img.shields.io/badge/TailwindCSS-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Vite-0d1117?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
 </p>
 
-<h3 align="center">🛠️ Tools</h3>
+<h3 align="center">🗄️ Databases &amp; Cloud</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Git-161b22?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Postman-161b22?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
-  <img src="https://custom-icon-badges.demolab.com/badge/Arduino-161b22?style=for-the-badge&logo=arduino&logoColor=00979D" alt="Arduino" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/SQLite-0d1117?style=for-the-badge&logo=sqlite&logoColor=003B57" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Supabase-0d1117?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Firebase-0d1117?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" /><br/>
+  <img src="https://custom-icon-badges.demolab.com/badge/AWS-0d1117?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/Vercel-0d1117?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Render-0d1117?style=for-the-badge&logo=render&logoColor=46E3B7" alt="Render" />
+</p>
+
+<h3 align="center">🛠️ Tools &amp; Environment</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Postman-0d1117?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
+  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Arduino-0d1117?style=for-the-badge&logo=arduino&logoColor=00979D" alt="Arduino" />
 </p>
 
 ---

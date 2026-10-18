@@ -1,154 +1,123 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 114" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 148" width="100%">
   <defs>
     <linearGradient id="card-bg-tc" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0c101d"/>
-      <stop offset="60%" stop-color="#111625"/>
-      <stop offset="100%" stop-color="#0c101d"/>
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="50%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#080c16"/>
     </linearGradient>
-    <linearGradient id="border-stream-tc" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
-      <stop offset="35%" stop-color="#30363d" stop-opacity="0.3"/>
-      <stop offset="70%" stop-color="#1f293d" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#facc15" stop-opacity="0.7"/>
+    <linearGradient id="side-light-tc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="35%" stop-color="#facc15"/>
+      <stop offset="70%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
     </linearGradient>
-    <radialGradient id="card-glow-tc" cx="8%" cy="20%" r="45%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15"/>
+    <radialGradient id="left-glow-tc" cx="0%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#eab308" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="shimmer-grad-tc" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.08"/>
-      <stop offset="48%" stop-color="#ffffff" stop-opacity="0.32"/>
-      <stop offset="52%" stop-color="#ffffff" stop-opacity="0.32"/>
-      <stop offset="75%" stop-color="#38bdf8" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    <linearGradient id="shimmer-tc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0"/>
     </linearGradient>
-    <clipPath id="card-clip-tc">
-      <rect x="2" y="2" width="896" height="110" rx="10"/>
+    <clipPath id="clip-tc">
+      <rect x="2" y="2" width="936" height="144" rx="12"/>
     </clipPath>
   </defs>
 
   <style>
-    @keyframes pulse-dot {
-      0% { r: 3.5px; opacity: 1; }
-      50% { r: 5px; opacity: 0.4; }
-      100% { r: 3.5px; opacity: 1; }
-    }
-    .pulse-circle {
-      animation: pulse-dot 2.5s infinite ease-in-out;
-    }
-    .title-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 18px;
-      font-weight: 700;
-      fill: #38bdf8;
-    }
-    .badge-rect {
-      fill: #facc15;
-      fill-opacity: 0.12;
-      stroke: #facc15;
-      stroke-opacity: 0.4;
-      stroke-width: 1px;
-      rx: 3px;
-    }
-    .badge-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 9px;
-      font-weight: 700;
-      fill: #facc15;
-      letter-spacing: 0.6px;
-      text-anchor: middle;
-      dominant-baseline: middle;
-    }
-    .desc-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 12px;
-      fill: #94a3b8;
-    }
-    .tag-box {
-      fill: #1e293b;
-      rx: 4px;
-    }
-    .tag-text {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 10.5px;
-      fill: #e2e8f0;
-      dominant-baseline: middle;
-    }
-    .divider-line {
-      stroke: #21262d;
-      stroke-width: 1px;
-    }
-    .status-text {
-      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-      font-size: 8.5px;
-      font-weight: 600;
-      fill: #22c55e;
-      letter-spacing: 0.5px;
-      dominant-baseline: middle;
-    }
     @keyframes shimmer-sweep {
-      0% {
-        transform: translateX(-420px) skewX(-20deg);
-      }
-      32% {
-        transform: translateX(1150px) skewX(-20deg);
-      }
-      100% {
-        transform: translateX(1150px) skewX(-20deg);
-      }
+      0% { transform: translateX(-400px) skewX(-20deg); }
+      35% { transform: translateX(1200px) skewX(-20deg); }
+      100% { transform: translateX(1200px) skewX(-20deg); }
     }
-    .shimmer-bar {
-      animation: shimmer-sweep 5s infinite cubic-bezier(0.4, 0, 0.2, 1);
+    .shimmer-layer {
+      animation: shimmer-sweep 6s infinite cubic-bezier(0.4, 0, 0.2, 1);
       animation-delay: 0s;
       pointer-events: none;
     }
   </style>
 
-  <!-- Container -->
-  <rect x="2" y="2" width="896" height="110" rx="10" fill="url(#card-bg-tc)" stroke="url(#border-stream-tc)" stroke-width="1.5"/>
-  <rect x="2" y="2" width="896" height="110" rx="10" fill="url(#card-glow-tc)"/>
+  <!-- Card Background & Border -->
+  <rect x="2" y="2" width="936" height="144" rx="12" fill="url(#card-bg-tc)" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="2" y="2" width="220" height="144" rx="12" fill="url(#left-glow-tc)" pointer-events="none"/>
 
-  <!-- Left: Title, Badge & Live Pulse Status -->
-  <g transform="translate(24, 22)">
-    <circle cx="4" cy="4" r="3.5" fill="#22c55e" class="pulse-circle"/>
-    <text x="14" y="5" class="status-text">ACTIVE REPOSITORY</text>
-    <text x="0" y="31" class="title-text">⚖️ TrueCite</text>
-    <rect x="0" y="43" width="168" height="18" class="badge-rect"/>
-    <text x="84" y="53" class="badge-text">CITATION-VERIFIED RAG</text>
+  <!-- Left Side Lighting Bar (Variation 2 Accent) -->
+  <rect x="2" y="14" width="4.5" height="120" rx="2.25" fill="url(#side-light-tc)"/>
+
+  <!-- Index Number 01 (Variation 5 Editorial Accent) -->
+  <text x="22" y="44" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="34" font-weight="800" fill="#1b2438" letter-spacing="-1">01</text>
+
+  <!-- Left Column: Official Logo + Domain Pill -->
+  <!-- Official Shield Logo Mark -->
+  <g transform="translate(76, 22)">
+    <!-- Shield -->
+    <path d="M28 4 L48 14 V38 C48 52 28 60 28 60 C28 60 8 52 8 38 V14 Z"
+          fill="#0f172a"
+          stroke="url(#side-light-tc)"
+          stroke-width="3"
+          stroke-linejoin="round"/>
+    <!-- Checkmark -->
+    <path d="M20 33 L26 39 L38 24"
+          fill="none"
+          stroke="#34d399"
+          stroke-width="3.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <!-- Title Text Lockup -->
+    <text x="60" y="32" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700" fill="#ffffff">True<tspan fill="#facc15">Cite</tspan></text>
+    <rect x="60" y="42" width="186" height="18" rx="4" fill="#141d2d" stroke="#223049" stroke-width="1"/>
+    <text x="153" y="54.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#facc15" text-anchor="middle">CITATION-VERIFIED RAG · LEGAL</text>
   </g>
 
   <!-- Divider 1 -->
-  <line x1="250" y1="16" x2="250" y2="98" class="divider-line"/>
+  <line x1="334" y1="20" x2="334" y2="128" stroke="#1c273c" stroke-width="1"/>
 
-  <!-- Center: High-Contrast Description -->
-  <g transform="translate(270, 42)">
-    <text x="0" y="0" class="desc-text">
+  <!-- Center Column: Recruiter-Oriented Technical Info (Variation 2 Telemetry) -->
+  <g transform="translate(354, 30)">
+    <!-- Core Description -->
+    <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#e2e8f0" font-weight="500">
       <tspan x="0" dy="0">Citation-verified RAG assistant for Ayurveda IP &amp; regulatory guidance.</tspan>
-      <tspan x="0" dy="21">Every citation is verified against ground truth before synthesis &amp; display.</tspan>
+      <tspan x="0" dy="21" fill="#94a3b8" font-size="12.5">Every citation is checked against ground truth before synthesis &amp; display.</tspan>
     </text>
+
+    <!-- Technical Specs & Pipeline Matrix -->
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="168" height="22" rx="4" fill="#060911" stroke="#1a2538"/>
+      <text x="8" y="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" fill="#94a3b8">PIPELINE: <tspan fill="#38bdf8" font-weight="700">Dense + BM25</tspan></text>
+
+      <rect x="176" y="0" width="176" height="22" rx="4" fill="#060911" stroke="#1a2538"/>
+      <text x="184" y="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" fill="#94a3b8">GROUNDING: <tspan fill="#22c55e" font-weight="700">100% Attribution</tspan></text>
+    </g>
   </g>
 
   <!-- Divider 2 -->
-  <line x1="660" y1="16" x2="660" y2="98" class="divider-line"/>
+  <line x1="724" y1="20" x2="724" y2="128" stroke="#1c273c" stroke-width="1"/>
 
-  <!-- Right: 4 Monospace Tech Pills -->
-  <g transform="translate(678, 26)">
-    <rect x="0" y="0" width="76" height="22" class="tag-box"/>
-    <text x="13" y="11" class="tag-text">Python</text>
-    
-    <rect x="84" y="0" width="98" height="22" class="tag-box"/>
-    <text x="92" y="11" class="tag-text">RAG System</text>
+  <!-- Right Column: Upgraded Tech Chips + CTA -->
+  <g transform="translate(744, 28)">
+    <rect x="0" y="0" width="78" height="24" rx="5" fill="#111a2c" stroke="#1e2c45"/>
+    <text x="39" y="15.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">Python</text>
 
-    <rect x="0" y="32" width="84" height="22" class="tag-box"/>
-    <text x="11" y="43" class="tag-text">Legal AI</text>
+    <rect x="86" y="0" width="84" height="24" rx="5" fill="#111a2c" stroke="#1e2c45"/>
+    <text x="128" y="15.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">FastAPI</text>
 
-    <rect x="92" y="32" width="90" height="22" class="tag-box"/>
-    <text x="100" y="43" class="tag-text">AI Safety</text>
+    <rect x="0" y="32" width="78" height="24" rx="5" fill="#111a2c" stroke="#1e2c45"/>
+    <text x="39" y="47.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">PyTorch</text>
+
+    <rect x="86" y="32" width="84" height="24" rx="5" fill="#111a2c" stroke="#1e2c45"/>
+    <text x="128" y="47.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">ChromaDB</text>
+
+    <!-- View Repo Action -->
+    <g transform="translate(0, 72)">
+      <rect x="0" y="0" width="170" height="22" rx="4" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.3)"/>
+      <text x="85" y="14.5" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">View Repository ↗</text>
+    </g>
   </g>
 
-  <!-- Luminous Shimmer Light Sweep Overlay -->
-  <g clip-path="url(#card-clip-tc)" pointer-events="none">
-    <rect class="shimmer-bar" x="0" y="-20" width="240" height="150" fill="url(#shimmer-grad-tc)"/>
+  <!-- Luminous Shimmer Light Sweep -->
+  <g clip-path="url(#clip-tc)" pointer-events="none">
+    <rect class="shimmer-layer" x="0" y="0" width="220" height="148" fill="url(#shimmer-tc)"/>
   </g>
 </svg>
