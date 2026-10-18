@@ -223,31 +223,33 @@
   <!-- Divider 1 -->
   <line x1="258" y1="18" x2="258" y2="118" stroke="#1c273c" stroke-width="1"/>
 
-  <!-- Center Column: Recruiter-Oriented Technical Info & Architectural Telemetry -->
-  <g transform="translate(278, 20)">
-    <!-- Core Description Lines -->
-    <text x="0" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600" fill="#f8fafc">
-      Deep subsurface ocean temperature reconstruction (15 depths, 0–1000m)
+  <!-- Center Column: Centered Heading, Large Readable Typography & Telemetry -->
+  <g transform="translate(278, 16)">
+    <!-- Centered Larger Heading (Zero zoom required) -->
+    <text x="218" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.2px">
+      Deep subsurface ocean temperature reconstruction
     </text>
-    <text x="0" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">
-      Reconstructs 3D fields from satellite surface data · Validated vs GLORYS &amp; Argo
+    
+    <!-- Centered Subtitle -->
+    <text x="218" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle">
+      15 depth tiers (0–1000m) from satellite data · Validated vs GLORYS &amp; Argo
     </text>
 
-    <!-- Sleek Architectural Dataflow Pipeline (New Representation replacing grey boxes) -->
-    <g transform="translate(0, 56)">
-      <rect x="0" y="0" width="436" height="28" rx="6" fill="#090e1a" stroke="#1c273c" stroke-width="1"/>
+    <!-- Sleek Architectural Dataflow Pipeline (Larger, High-Contrast) -->
+    <g transform="translate(0, 60)">
+      <rect x="0" y="0" width="436" height="30" rx="6" fill="#090e1a" stroke="#1c273c" stroke-width="1"/>
       
       <!-- Live Status Beacon -->
-      <circle cx="14" cy="14" r="3.5" fill="#45c4d6" class="oe-pulse-dot"/>
+      <circle cx="14" cy="15" r="3.5" fill="#45c4d6" class="oe-pulse-dot"/>
       
       <!-- Backbone Spec -->
-      <text x="28" y="17.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#94a3b8">BACKBONE <tspan fill="#45c4d6" font-weight="700">Spatial Transformer</tspan></text>
+      <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">BACKBONE <tspan fill="#45c4d6" font-weight="700">Spatial Transformer</tspan></text>
       
       <!-- Directional Chevron -->
-      <text x="200" y="18" font-family="-apple-system, sans-serif" font-size="12" fill="#475569">──▶</text>
+      <text x="200" y="19.5" font-family="-apple-system, sans-serif" font-size="12" fill="#475569">──▶</text>
       
       <!-- Depths Spec -->
-      <text x="230" y="17.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#94a3b8">DEPTHS <tspan fill="#38bdf8" font-weight="700">15 Layers (0–1000m) / Argo</tspan></text>
+      <text x="230" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">DEPTHS <tspan fill="#38bdf8" font-weight="700">15 Layers (0–1000m) / Argo</tspan></text>
     </g>
   </g>
 

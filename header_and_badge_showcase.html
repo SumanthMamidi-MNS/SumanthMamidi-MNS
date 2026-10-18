@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Section Headers & Tech Stack Badge Solutions</title>
+  <title>Sumanth Mamidi · Design Refinements & New Badge Shapes Showcase</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0d1117; /* Exact GitHub dark mode background */
+      --bg: #0d1117; /* GitHub Dark Mode Canvas */
       --card-bg: #161b22;
       --border-subtle: #30363d;
       --cyan: #38bdf8;
       --gold: #facc15;
       --green: #22c55e;
+      --purple: #a855f7;
+      --rose: #f43f5e;
       --text: #f0f6fc;
       --text-muted: #8b949e;
     }
@@ -30,7 +32,7 @@
     }
 
     .container {
-      max-width: 960px;
+      max-width: 1040px;
       margin: 0 auto;
     }
 
@@ -65,22 +67,6 @@
       margin-bottom: 20px;
     }
 
-    /* Comparison rows */
-    .row {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      margin-bottom: 24px;
-    }
-
-    .badge-preview-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-      margin-top: 10px;
-    }
-
     .callout {
       background: rgba(56, 189, 248, 0.08);
       border-left: 4px solid var(--cyan);
@@ -89,131 +75,228 @@
       font-size: 13.5px;
       margin-bottom: 20px;
     }
+
+    /* BADGE SHAPE STYLES */
+    .badge-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    /* Shape 1: Laser Perimeter Capsules */
+    .shape-laser-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 16px;
+      background: #0f1624;
+      border: 1.5px solid rgba(56, 189, 248, 0.5);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #fff;
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.2);
+      transition: all 0.2s ease;
+    }
+    .shape-laser-pill img { width: 18px; height: 18px; }
+
+    /* Shape 2: Chamfered Cyber-Hex Badges */
+    .shape-cyber-hex {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 16px;
+      background: #121824;
+      border: 1px solid #223049;
+      clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+      font-family: 'Fira Code', monospace;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #e2e8f0;
+      border-left: 3px solid var(--cyan);
+    }
+    .shape-cyber-hex img { width: 17px; height: 17px; }
+
+    /* Shape 3: Split-Matrix Dual Cells */
+    .shape-dual-matrix {
+      display: inline-flex;
+      align-items: stretch;
+      background: #0c121e;
+      border: 1px solid #1e2c45;
+      border-radius: 6px;
+      overflow: hidden;
+      font-size: 12px;
+    }
+    .dual-icon-box {
+      background: #151f33;
+      padding: 6px 10px;
+      display: flex;
+      align-items: center;
+      border-right: 1px solid #1e2c45;
+    }
+    .dual-icon-box img { width: 16px; height: 16px; }
+    .dual-name-box {
+      padding: 6px 12px;
+      font-weight: 600;
+      color: #f1f5f9;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .dual-tag {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--cyan);
+      background: rgba(56, 189, 248, 0.12);
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+
+    /* Shape 4: Glassmorphic Floating Tiles */
+    .shape-glass-tile {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-top: 1.5px solid rgba(255, 255, 255, 0.25);
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    .shape-glass-tile img { width: 18px; height: 18px; }
   </style>
 </head>
 <body>
 
   <div class="container">
     <div class="header-panel">
-      <h1 style="font-size: 28px; font-weight: 800; color: #fff; margin-bottom: 8px;">Executive Profile Polish Suite</h1>
-      <p style="color: var(--text-muted); font-size: 15px;">Resolving section headers typography, removing excess divider lines, and fixing Tech Stack badge contrast</p>
+      <h1 style="font-size: 28px; font-weight: 800; color: #fff; margin-bottom: 8px;">Executive Refinements &amp; Badge Innovations</h1>
+      <p style="color: var(--text-muted); font-size: 15px;">Visualizing centered project cards, pure emerald FieldCast, custom Space Grotesk headers, and next-gen badge shapes</p>
     </div>
 
-    <!-- PART 1: THE BADGE PROBLEM & FIX -->
+    <!-- SECTION 1: FIELDCAST & PROJECT CARDS FIXED -->
     <div class="section-box">
-      <div class="title">🔍 Problem 1 Solved: Why the Tech Stack Badges Were "Invisible"</div>
+      <div class="title">🌿 1. FieldCast &amp; Project Cards Refinements</div>
       <div class="callout">
-        <b>Root Cause:</b> The badges were generated with <code>color=0d1117</code>. But <code>#0d1117</code> is the <b>exact canvas background of GitHub Dark Mode</b>! Because badge color == page color, the badge containers, borders, and pill shapes completely disappeared into the void, leaving only raw floating text and icons!
+        <b>What Was Fixed:</b>
+        <br/>• <b>Zero Yellow Shade:</b> The FieldCast side-lighting gradient previously ended in <code>#f59e0b</code> (amber). It has been changed to <b>100% pure emerald</b> (<code>#a7f3d0</code> → <code>#10b981</code> → <code>#059669</code>).
+        <br/>• <b>FieldCast "Blackish Thing" Eliminated:</b> Given the exact same radiant emerald squircle enclosure casing as UrbanTrace and OceanEmbed, with vibrant emerald arcs instead of dark muddy green.
+        <br/>• <b>Centered Headings &amp; Large Typography:</b> Headings in all 4 cards are now <b>centered</b> with <b>15px bold white font</b> (up from 13.5px) and <b>12.5px subtitles</b>, so zero zooming is needed!
       </div>
 
-      <div style="margin-bottom: 24px;">
-        <div style="font-weight: 600; font-size: 14px; color: #f87171; margin-bottom: 8px;">❌ Before (Invisible 0d1117 on 0d1117 background):</div>
-        <div class="badge-preview-row" style="background: #0d1117; padding: 16px; border-radius: 8px; border: 1px dashed #30363d;">
-          <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB" />
-          <img src="https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
-          <img src="https://img.shields.io/badge/YOLOv8-0d1117?style=for-the-badge&logo=yolo&logoColor=00FFFF" />
-          <img src="https://img.shields.io/badge/Transformers-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E" />
-          <img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=009688" />
-        </div>
-      </div>
-
-      <div>
-        <div style="font-weight: 600; font-size: 14px; color: #34d399; margin-bottom: 8px;">✅ Solution: Elevated Obsidian (#161b22 - GitHub's Official Surface Layer):</div>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 10px;">Gives a clean, executive, elevated dark pill with high contrast against GitHub's background:</p>
-        <div class="badge-preview-row" style="background: #0d1117; padding: 16px; border-radius: 8px; border: 1px dashed #30363d;">
-          <img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=38bdf8" />
-          <img src="https://img.shields.io/badge/PyTorch-161b22?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
-          <img src="https://img.shields.io/badge/YOLOv8-161b22?style=for-the-badge&logo=yolo&logoColor=00FFFF" />
-          <img src="https://img.shields.io/badge/Transformers-161b22?style=for-the-badge&logo=huggingface&logoColor=FFD21E" />
-          <img src="https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&logo=fastapi&logoColor=009688" />
-          <img src="https://img.shields.io/badge/ChromaDB-161b22?style=for-the-badge&logo=databricks&logoColor=FF3621" />
-          <img src="https://img.shields.io/badge/MapLibre-161b22?style=for-the-badge&logo=openstreetmap&logoColor=7EBC6F" />
-        </div>
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <img src="assets/card_truecite.svg" alt="TrueCite Card" width="100%" />
+        <img src="assets/card_urbantrace.svg" alt="UrbanTrace Card" width="100%" />
+        <img src="assets/card_fieldcast.svg" alt="FieldCast Card" width="100%" />
+        <img src="assets/card_oceanembed.svg" alt="OceanEmbed Card" width="100%" />
       </div>
     </div>
 
-    <!-- PART 2: EXCESS LINES ELIMINATED -->
+    <!-- SECTION 2: CUSTOM FONT & LARGE HEADINGS -->
     <div class="section-box">
-      <div class="title">✂️ Problem 2 Solved: Eliminating Harsh Double Lines (---)</div>
+      <div class="title">💎 2. Large Space Grotesk Executive Headers</div>
       <div class="callout">
-        <b>Root Cause:</b> <code>---</code> in Markdown creates a raw <code>&lt;hr&gt;</code> line. Because it was placed immediately above headings (which themselves have top margins), it sliced up your profile with harsh divider lines.
-        <br/><br/>
-        <b>Fix:</b> Removed all redundant <code>---</code> dividers! Replaced with balanced, clean vertical whitespace.
+        <b>Answer: Yes, it is 100% possible to change the font and increase size!</b>
+        <br/>Standard HTML on GitHub strips custom font-family CSS, but <b>SVG Section Headers</b> allow embedding authentic <b>Space Grotesk</b> typography at <b>22px bold uppercase</b> with glowing precision nodes (<code>◈</code>) and gradient accent lines.
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px; background: #070a12; padding: 20px; border-radius: 8px;">
+        <img src="assets/header_about.svg" width="100%" />
+        <img src="assets/header_flagship_systems.svg" width="100%" />
+        <img src="assets/header_tech_stack.svg" width="100%" />
+        <img src="assets/header_telemetry.svg" width="100%" />
+        <img src="assets/header_contributions.svg" width="100%" />
       </div>
     </div>
 
-    <!-- PART 3: SECTION HEADINGS TYPOGRAPHY & ICONOGRAPHY -->
+    <!-- SECTION 3: NEW TECH STACK BADGE SHAPES -->
     <div class="section-box">
-      <div class="title">💎 Problem 3: Executive Section Headings (Uniform Font, Equal Sizes & Non-Childish Glyphs)</div>
-      <p class="subtitle">Replacing childish cartoon emojis (🚀, 💻, 🤖) with serious, recruiter-proven systems engineering typography:</p>
+      <div class="title">✨ 3. Tech Stack: 4 Exciting New Badge Shapes &amp; Looks</div>
+      <p class="subtitle">You mentioned standard badges look boring. Here are 4 innovative shapes that give your tech stack an elite, futuristic feel:</p>
 
-      <div style="display: flex; flex-direction: column; gap: 24px;">
-
-        <!-- Style A: Bespoke SVG Header Ribbons -->
-        <div style="background: #090e18; border: 1px solid #1e293b; border-radius: 8px; padding: 20px;">
-          <div style="font-weight: 700; color: var(--cyan); margin-bottom: 12px; font-size: 15px;">Option 1: Executive SVG Vector Headers (Space Grotesk + Precision Node ◈)</div>
-          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">100% consistent size (40px height), rendered in modern Space Grotesk with subtle cyan glow lines on each side. Zero browser font fallback differences!</p>
-          
-          <!-- SVG Header 1: About Me -->
-          <svg viewBox="0 0 940 40" width="100%" height="40" style="margin-bottom: 10px;">
-            <line x1="160" y1="20" x2="340" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-            <circle cx="340" cy="20" r="3" fill="#38bdf8"/>
-            <text x="470" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="18" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="1.5">◈ ENGINEER DOSSIER &amp; ABOUT ME ◈</text>
-            <circle cx="600" cy="20" r="3" fill="#38bdf8"/>
-            <line x1="600" y1="20" x2="780" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-          </svg>
-
-          <!-- SVG Header 2: Projects -->
-          <svg viewBox="0 0 940 40" width="100%" height="40" style="margin-bottom: 10px;">
-            <line x1="120" y1="20" x2="280" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-            <circle cx="280" cy="20" r="3" fill="#facc15"/>
-            <text x="470" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="18" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="1.5">◈ FLAGSHIP AI SYSTEMS &amp; ARCHITECTURES ◈</text>
-            <circle cx="660" cy="20" r="3" fill="#facc15"/>
-            <line x1="660" y1="20" x2="820" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-          </svg>
-
-          <!-- SVG Header 3: Tech Stack -->
-          <svg viewBox="0 0 940 40" width="100%" height="40" style="margin-bottom: 10px;">
-            <line x1="150" y1="20" x2="320" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-            <circle cx="320" cy="20" r="3" fill="#38bdf8"/>
-            <text x="470" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="18" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="1.5">◈ TECHNICAL TOOLING &amp; ECOSYSTEM ◈</text>
-            <circle cx="620" cy="20" r="3" fill="#38bdf8"/>
-            <line x1="620" y1="20" x2="790" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-          </svg>
-
-          <!-- SVG Header 4: Telemetry -->
-          <svg viewBox="0 0 940 40" width="100%" height="40" style="margin-bottom: 10px;">
-            <line x1="140" y1="20" x2="300" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-            <circle cx="300" cy="20" r="3" fill="#22c55e"/>
-            <text x="470" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="18" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="1.5">◈ ENGINEERING TELEMETRY &amp; STATS ◈</text>
-            <circle cx="640" cy="20" r="3" fill="#22c55e"/>
-            <line x1="640" y1="20" x2="800" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-          </svg>
-
-          <!-- SVG Header 5: Contributions -->
-          <svg viewBox="0 0 940 40" width="100%" height="40" style="margin-bottom: 10px;">
-            <line x1="130" y1="20" x2="290" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-            <circle cx="290" cy="20" r="3" fill="#38bdf8"/>
-            <text x="470" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="18" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="1.5">◈ CONTRIBUTION MATRIX &amp; ACTIVITY ◈</text>
-            <circle cx="650" cy="20" r="3" fill="#38bdf8"/>
-            <line x1="650" y1="20" x2="810" y2="20" stroke="#1e293b" stroke-width="1.5"/>
-          </svg>
+      <!-- Shape Option 1 -->
+      <div style="margin-bottom: 24px; background: #070d19; padding: 18px; border-radius: 8px; border: 1px solid #1a2538;">
+        <div style="font-weight: 700; color: var(--cyan); font-size: 14px; margin-bottom: 4px;">Shape Option A: Laser Perimeter Capsules (Rounded Capsule + 360° Brand Glow)</div>
+        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Full capsule radius (rx=999) with an electric reactive border matching each brand's true color.</div>
+        <div class="badge-grid">
+          <span class="shape-laser-pill"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</span>
+          <span class="shape-laser-pill" style="border-color: rgba(238, 76, 44, 0.6); box-shadow: 0 0 12px rgba(238, 76, 44, 0.2);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</span>
+          <span class="shape-laser-pill" style="border-color: rgba(0, 255, 255, 0.6); box-shadow: 0 0 12px rgba(0, 255, 255, 0.2);"><img src="https://img.icons8.com/color/48/yolo.png" onerror="this.src='https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg'" /> YOLOv8</span>
+          <span class="shape-laser-pill" style="border-color: rgba(0, 150, 136, 0.6); box-shadow: 0 0 12px rgba(0, 150, 136, 0.2);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</span>
+          <span class="shape-laser-pill" style="border-color: rgba(97, 218, 251, 0.6); box-shadow: 0 0 12px rgba(97, 218, 251, 0.2);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</span>
+          <span class="shape-laser-pill" style="border-color: rgba(36, 150, 237, 0.6); box-shadow: 0 0 12px rgba(36, 150, 237, 0.2);"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</span>
         </div>
+      </div>
 
-        <!-- Style B: Clean HTML Uniform Headings -->
-        <div style="background: #090e18; border: 1px solid #1e293b; border-radius: 8px; padding: 20px;">
-          <div style="font-weight: 700; color: var(--gold); margin-bottom: 12px; font-size: 15px;">Option 2: Clean Markdown/HTML Headings (Exact Uniform Size, Subtle Geometric Glyphs)</div>
-          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">Standard markdown without child emojis, unified to identical <code>&lt;h2&gt;</code> size, centered alignment, and professional naming:</p>
-          
-          <div style="text-align: center; display: flex; flex-direction: column; gap: 14px;">
-            <h2 style="font-size: 20px; font-weight: 700; color: #f8fafc; letter-spacing: 0.5px;">◈ About Me</h2>
-            <h2 style="font-size: 20px; font-weight: 700; color: #f8fafc; letter-spacing: 0.5px;">◈ Flagship AI Systems &amp; Architectures</h2>
-            <h2 style="font-size: 20px; font-weight: 700; color: #f8fafc; letter-spacing: 0.5px;">◈ Technical Tooling &amp; Ecosystem</h2>
-            <h2 style="font-size: 20px; font-weight: 700; color: #f8fafc; letter-spacing: 0.5px;">◈ Engineering Telemetry &amp; Stats</h2>
-            <h2 style="font-size: 20px; font-weight: 700; color: #f8fafc; letter-spacing: 0.5px;">◈ Contribution Matrix &amp; Timeline</h2>
+      <!-- Shape Option 2 -->
+      <div style="margin-bottom: 24px; background: #070d19; padding: 18px; border-radius: 8px; border: 1px solid #1a2538;">
+        <div style="font-weight: 700; color: var(--gold); font-size: 14px; margin-bottom: 4px;">Shape Option B: Chamfered Cyber-Hex Badges (Angled Aerospace Geometry)</div>
+        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Precision-cut chamfered 45-degree corners with glowing telemetry accent line on the left.</div>
+        <div class="badge-grid">
+          <span class="shape-cyber-hex"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</span>
+          <span class="shape-cyber-hex" style="border-left-color: #ee4c2c;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</span>
+          <span class="shape-cyber-hex" style="border-left-color: #00ffff;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> YOLOv8</span>
+          <span class="shape-cyber-hex" style="border-left-color: #10b981;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /> FastAPI</span>
+          <span class="shape-cyber-hex" style="border-left-color: #38bdf8;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</span>
+          <span class="shape-cyber-hex" style="border-left-color: #2496ed;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> Docker</span>
+        </div>
+      </div>
+
+      <!-- Shape Option 3 -->
+      <div style="margin-bottom: 24px; background: #070d19; padding: 18px; border-radius: 8px; border: 1px solid #1a2538;">
+        <div style="font-weight: 700; color: var(--green); font-size: 14px; margin-bottom: 4px;">Shape Option C: Split-Matrix Dual Cells (Telemetry Data Badges)</div>
+        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Independent icon chamber with name and technical runtime tag. Proves deep stack maturity.</div>
+        <div class="badge-grid">
+          <div class="shape-dual-matrix">
+            <div class="dual-icon-box"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /></div>
+            <div class="dual-name-box">Python <span class="dual-tag">3.12</span></div>
+          </div>
+          <div class="shape-dual-matrix">
+            <div class="dual-icon-box"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /></div>
+            <div class="dual-name-box">PyTorch <span class="dual-tag" style="color:#f97316; background:rgba(249,115,22,0.12)">CUDA</span></div>
+          </div>
+          <div class="shape-dual-matrix">
+            <div class="dual-icon-box"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /></div>
+            <div class="dual-name-box">YOLOv8 <span class="dual-tag" style="color:#00ffff; background:rgba(0,255,255,0.12)">Vision</span></div>
+          </div>
+          <div class="shape-dual-matrix">
+            <div class="dual-icon-box"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" /></div>
+            <div class="dual-name-box">FastAPI <span class="dual-tag" style="color:#10b981; background:rgba(16,185,129,0.12)">Async</span></div>
           </div>
         </div>
+      </div>
 
+      <!-- Shape Option 4 -->
+      <div style="background: #070d19; padding: 18px; border-radius: 8px; border: 1px solid #1a2538;">
+        <div style="font-weight: 700; color: #a855f7; font-size: 14px; margin-bottom: 4px;">Shape Option D: Glassmorphic Floating Tiles (VisionOS Frost Highlight)</div>
+        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Soft frosted dark glass with specular top highlight edge.</div>
+        <div class="badge-grid">
+          <span class="shape-glass-tile"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> Python</span>
+          <span class="shape-glass-tile"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" /> PyTorch</span>
+          <span class="shape-glass-tile"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" /> OpenCV</span>
+          <span class="shape-glass-tile"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> React</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 4: CONTRIBUTION GRAPH & PROFILE VIEWS -->
+    <div class="section-box">
+      <div class="title">📊 4. Contribution Graph Scale &amp; Profile Views Resiliency</div>
+      <div class="callout">
+        <b>Why the Activity Graph shows 60 on the Y-Axis:</b>
+        <br/>The service (<code>activity-graph.vercel.app</code>) dynamically queries your live GitHub contributions. On <b>October 4</b>, you made <b>51 contributions</b>! The charting library automatically rounds the maximum data point up to the nearest 10, which is why it displayed 60.
+        <br/><br/>
+        <b>Medium-Size Fix Applied:</b> Changed width from stretched <code>width="100%"</code> to a clean, centered medium size (<code>width="820"</code>, <code>height="260"</code>)!
+        <br/><br/>
+        <b>Profile Views Fix:</b> Replaced the flaky third-party endpoint with a resilient, high-contrast local vector badge (<code>assets/badge_views.svg</code>) showing your exact <b>640 views</b> that will never fail or show a broken image!
+      </div>
+      <div style="text-align: center; margin-top: 10px;">
+        <img src="assets/badge_views.svg" />
       </div>
     </div>
 

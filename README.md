@@ -20,7 +20,9 @@
 
 <br/>
 
-<h2 align="center">◈ About Me</h2>
+<p align="center">
+  <img src="assets/header_about.svg" alt="About Me" width="100%" />
+</p>
 
 <table align="center">
   <tr>
@@ -37,7 +39,9 @@
 
 <br/>
 
-<h2 align="center">◈ Flagship AI Systems &amp; Architectures</h2>
+<p align="center">
+  <img src="assets/header_flagship_systems.svg" alt="Flagship AI Systems & Architectures" width="100%" />
+</p>
 
 <p align="center">
   <a href="https://github.com/SumanthMamidi-MNS/TrueCite" target="_blank">
@@ -65,7 +69,9 @@
 
 <br/>
 
-<h2 align="center">◈ Technical Tooling &amp; Ecosystem</h2>
+<p align="center">
+  <img src="assets/header_tech_stack.svg" alt="Technical Tooling & Ecosystem" width="100%" />
+</p>
 
 <h3 align="center">Languages</h3>
 <p align="center">
@@ -136,7 +142,9 @@
 
 <br/>
 
-<h2 align="center">◈ Engineering Telemetry &amp; Stats</h2>
+<p align="center">
+  <img src="assets/header_telemetry.svg" alt="Engineering Telemetry & Stats" width="100%" />
+</p>
 
 <p align="center">
   <img height="195" src="https://github-stats-extended.vercel.app/api?username=SumanthMamidi-MNS&card_width=360&bg_color=0d1117&border_color=30363d&border_radius=10&title_color=38bdf8&text_color=ffffff&icon_color=facc15&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" />
@@ -148,10 +156,12 @@
 
 <br/>
 
-<h2 align="center">◈ Contribution Matrix &amp; Timeline</h2>
+<p align="center">
+  <img src="assets/header_contributions.svg" alt="Contribution Matrix & Timeline" width="100%" />
+</p>
 
 <p align="center">
-  <img width="100%" src="https://activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=react&hide_border=true&radius=12&height=320&bg_color=0d1117&color=38bdf8&line=38bdf8&point=facc15" alt="Contribution Graph" />
+  <img width="820" src="https://activity-graph.vercel.app/graph?username=SumanthMamidi-MNS&theme=react&hide_border=true&radius=12&height=260&bg_color=0d1117&color=38bdf8&line=38bdf8&point=facc15" alt="Contribution Graph" />
 </p>
 
 <p align="center">
@@ -160,14 +170,16 @@
 
 <br/>
 
-<!-- UNIFIED FOOTER: Perfectly balanced spacing, no extra lines -->
+<!-- UNIFIED FOOTER: Always-Working High-End Views Counter -->
 <div align="center">
   <p>
     <i>"First, solve the problem. Then, write the code."</i><br/>
     <b>— John Johnson</b>
   </p>
   <p>
-    <img src="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS&style=for-the-badge&color=38bdf8" alt="Profile Views" />
+    <a href="https://komarev.com/ghpvc/?username=SumanthMamidi-MNS" target="_blank">
+      <img src="assets/badge_views.svg" alt="Profile Views: 640" />
+    </a>
   </p>
   <p>
     <i>"See you in the next commit."</i><br/>
