@@ -235,21 +235,21 @@
       15 depth tiers (0–1000m) from satellite data · Validated vs GLORYS &amp; Argo
     </text>
 
-    <!-- Sleek Architectural Dataflow Pipeline (Larger, High-Contrast & Centered Arrow) -->
-    <g transform="translate(0, 60)">
-      <rect x="0" y="0" width="436" height="30" rx="6" fill="#090e1a" stroke="#1c273c" stroke-width="1"/>
+    <!-- Sleek Architectural Dataflow Pipeline (Enlarged & Generous Arrow Gaps) -->
+    <g transform="translate(0, 58)">
+      <rect x="0" y="0" width="436" height="34" rx="7" fill="#090e1a" stroke="#1c273c" stroke-width="1.2"/>
       
       <!-- Live Status Beacon -->
-      <circle cx="14" cy="15" r="3.5" fill="#45c4d6" class="oe-pulse-dot"/>
+      <circle cx="16" cy="17" r="4" fill="#45c4d6" class="oe-pulse-dot"/>
       
       <!-- Backbone Spec -->
-      <text x="28" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">BACKBONE <tspan fill="#f8fafc" font-weight="700">Spatial Transformer</tspan></text>
+      <text x="30" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#94a3b8">BACKBONE <tspan fill="#f8fafc" font-weight="700">Spatial Transformer</tspan></text>
       
-      <!-- Directional Chevron (Centered at x=218) -->
-      <text x="218" y="19" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#45c4d6" text-anchor="middle">──▶</text>
+      <!-- Directional Chevron (Centered with generous 32px clearance) -->
+      <text x="210" y="22" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#45c4d6" text-anchor="middle">──▶</text>
       
       <!-- Depths Spec -->
-      <text x="234" y="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#94a3b8">DEPTHS <tspan fill="#45c4d6" font-weight="700">15 Layers / Argo</tspan></text>
+      <text x="250" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#94a3b8">DEPTHS <tspan fill="#45c4d6" font-weight="700">15 Layers / Argo</tspan></text>
     </g>
   </g>
 

@@ -18,9 +18,7 @@
   <a href="https://sumanth-portfolio-delta.vercel.app" target="_blank"><img src="assets/badge_portfolio.svg" alt="Portfolio" /></a>
 </p>
 
-<p align="center">
-  <img src="assets/section_divider.svg" width="70%" />
-</p>
+<br/>
 
 <p align="center">
   <img src="assets/header_about.svg" alt="About Me" width="100%" />
@@ -39,12 +37,10 @@
   </tr>
 </table>
 
-<p align="center">
-  <img src="assets/section_divider.svg" width="70%" />
-</p>
+<br/>
 
 <p align="center">
-  <img src="assets/header_flagship_systems.svg" alt="Featured AI Systems" width="100%" />
+  <img src="assets/header_flagship_systems.svg" alt="Flagship AI Systems &amp; Architectures" width="100%" />
 </p>
 
 <p align="center">
@@ -71,12 +67,10 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="assets/section_divider.svg" width="70%" />
-</p>
+<br/>
 
 <p align="center">
-  <img src="assets/header_tech_stack.svg" alt="Technical Skills & Stack" width="100%" />
+  <img src="assets/header_tech_stack.svg" alt="Technical Skills &amp; Stack" width="100%" />
 </p>
 
 <h3 align="center">Languages</h3>
@@ -107,7 +101,7 @@
 
 <h3 align="center">RAG, Search &amp; Geospatial</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/ChromaDB-161b22?style=for-the-badge&logo=databricks&logoColor=FF3621" alt="ChromaDB" />
+  <img src="assets/badge_chromadb.svg" alt="ChromaDB" />
   <img src="https://img.shields.io/badge/Sentence--Transformers-161b22?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Sentence-Transformers" />
   <img src="https://img.shields.io/badge/MapLibre-161b22?style=for-the-badge&logo=openstreetmap&logoColor=7EBC6F" alt="MapLibre" />
   <img src="https://img.shields.io/badge/GeoPandas-161b22?style=for-the-badge&logo=pandas&logoColor=139C5A" alt="GeoPandas" />
@@ -146,9 +140,7 @@
   <img src="https://custom-icon-badges.demolab.com/badge/Arduino-161b22?style=for-the-badge&logo=arduino&logoColor=00979D" alt="Arduino" />
 </p>
 
-<p align="center">
-  <img src="assets/section_divider.svg" width="70%" />
-</p>
+<br/>
 
 <p align="center">
   <img src="assets/header_telemetry.svg" alt="Performance &amp; GitHub Stats" width="100%" />
@@ -162,12 +154,10 @@
   <img src="https://streak-stats.demolab.com?user=SumanthMamidi-MNS&background=0d1117&border=30363d&stroke=30363d&border_radius=10&ring=facc15&fire=facc15&currStreakNum=38bdf8&currStreakLabel=facc15&sideNums=ffffff&sideLabels=cbd5e1&dates=38bdf8" alt="GitHub Streak" />
 </p>
 
-<p align="center">
-  <img src="assets/section_divider.svg" width="70%" />
-</p>
+<br/>
 
 <p align="center">
-  <img src="assets/header_contributions.svg" alt="Contribution Activity" width="100%" />
+  <img src="assets/header_contributions.svg" alt="Contribution Timeline &amp; Activity" width="100%" />
 </p>
 
 <p align="center">
@@ -178,9 +168,7 @@
   <img src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
 </p>
 
-<p align="center">
-  <img src="assets/section_divider.svg" width="70%" />
-</p>
+<br/>
 
 <!-- UNIFIED FOOTER: Always-Working High-End Views Counter -->
 <div align="center">
