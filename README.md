@@ -178,9 +178,8 @@
   </p>
   <p>
     <a href="https://github.com/SumanthMamidi-MNS" target="_blank">
-      <img src="assets/badge_profile_views.svg" alt="Profile Views" />
+      <img height="28" src="https://hits.sh/github.com/SumanthMamidi-MNS.svg?style=flat-square&label=PROFILE%20VIEWS&color=38bdf8&labelColor=1f2335&extraCount=615" alt="Profile Views" />
     </a>
-    <img width="1" height="1" src="https://hits.sh/github.com/SumanthMamidi-MNS.svg?extraCount=615" alt="" style="display:none;" />
   </p>
   <p>
     <i>"See you in the next commit."</i><br/>
