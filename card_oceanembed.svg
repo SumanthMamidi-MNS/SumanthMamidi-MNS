@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 136" width="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="card-bg-oe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b14"/>
+      <stop offset="50%" stop-color="#0a1424"/>
+      <stop offset="100%" stop-color="#060b14"/>
+    </linearGradient>
+
+    <!-- Side Light Radiant Oceanic Gradient -->
+    <linearGradient id="side-light-oe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="35%" stop-color="#45c4d6"/>
+      <stop offset="70%" stop-color="#0a5a78"/>
+      <stop offset="100%" stop-color="#06445c"/>
+    </linearGradient>
+
+    <!-- Ambient Left Glow -->
+    <radialGradient id="left-glow-oe" cx="0%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#45c4d6" stop-opacity="0.32"/>
+      <stop offset="45%" stop-color="#0a5a78" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Shimmer Sweep -->
+    <linearGradient id="shimmer-oe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#45c4d6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#45c4d6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Exact OceanEmbed Official Logo Gradients -->
+    <linearGradient id="g1-border" x1="6" y1="6" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#45C4D6"/>
+      <stop offset="40%" stop-color="#0A5A78"/>
+      <stop offset="75%" stop-color="#06445C"/>
+      <stop offset="100%" stop-color="#14212B"/>
+    </linearGradient>
+
+    <linearGradient id="g1-water" x1="48" y1="6" x2="48" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E1728"/>
+      <stop offset="50%" stop-color="#0A1222"/>
+      <stop offset="100%" stop-color="#070D1A"/>
+    </linearGradient>
+
+    <linearGradient id="g1-glint-surface" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="g1-glint-thermo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#45C4D6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#E8F9FC" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#45C4D6" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="g1-glint-abyss" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A5A78" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#45C4D6" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0A5A78" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="g1-aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#45C4D6" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#0A5A78" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#070D1A" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="g1-clip-surface">
+      <rect x="18.5" y="29.5" width="59" height="7" rx="3.5"/>
+    </clipPath>
+    <clipPath id="g1-clip-thermo">
+      <rect x="18.5" y="44.5" width="41" height="7" rx="3.5"/>
+    </clipPath>
+    <clipPath id="g1-clip-abyss">
+      <rect x="18.5" y="59.5" width="23" height="7" rx="3.5"/>
+    </clipPath>
+
+    <clipPath id="clip-oe">
+      <rect x="2" y="2" width="936" height="132" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes shimmer-sweep {
+      0% { transform: translateX(-400px) skewX(-20deg); }
+      35% { transform: translateX(1200px) skewX(-20deg); }
+      100% { transform: translateX(1200px) skewX(-20deg); }
+    }
+    .shimmer-layer {
+      animation: shimmer-sweep 6s infinite cubic-bezier(0.4, 0, 0.2, 1);
+      pointer-events: none;
+    }
+    @keyframes g1AuraPulse {
+      0%, 100% { opacity: 0.35; transform: scale(0.96); }
+      50% { opacity: 0.8; transform: scale(1.06); }
+    }
+    .g1-aura {
+      transform-origin: 48px 48px;
+      animation: g1AuraPulse 3.4s ease-in-out infinite;
+    }
+    @keyframes g1SurfaceSweep {
+      0% { transform: translateX(-30px); opacity: 0; }
+      4% { opacity: 1; }
+      26% { transform: translateX(58px); opacity: 1; }
+      30% { transform: translateX(58px); opacity: 0; }
+      100% { transform: translateX(58px); opacity: 0; }
+    }
+    @keyframes g1SurfaceGlow {
+      0% { filter: none; }
+      5% { filter: drop-shadow(0 0 10px #FFFFFF) drop-shadow(0 0 20px rgba(69, 196, 214, 0.9)); }
+      25% { filter: drop-shadow(0 0 10px #FFFFFF) drop-shadow(0 0 18px rgba(69, 196, 214, 0.7)); }
+      32% { filter: none; }
+      100% { filter: none; }
+    }
+    @keyframes g1ThermoSweep {
+      0%, 30% { transform: translateX(-24px); opacity: 0; }
+      34% { opacity: 1; }
+      56% { transform: translateX(42px); opacity: 1; }
+      60% { transform: translateX(42px); opacity: 0; }
+      100% { transform: translateX(42px); opacity: 0; }
+    }
+    @keyframes g1ThermoGlow {
+      0%, 30% { filter: none; }
+      35% { filter: drop-shadow(0 0 12px #45C4D6) drop-shadow(0 0 22px rgba(69, 196, 214, 0.95)); }
+      55% { filter: drop-shadow(0 0 10px #45C4D6) drop-shadow(0 0 18px rgba(69, 196, 214, 0.7)); }
+      62% { filter: none; }
+      100% { filter: none; }
+    }
+    @keyframes g1AbyssSweep {
+      0%, 60% { transform: translateX(-18px); opacity: 0; }
+      64% { opacity: 1; }
+      84% { transform: translateX(26px); opacity: 1; }
+      88% { transform: translateX(26px); opacity: 0; }
+      100% { transform: translateX(26px); opacity: 0; }
+    }
+    @keyframes g1AbyssGlow {
+      0%, 60% { filter: none; opacity: 0.55; }
+      65% { filter: drop-shadow(0 0 10px #45C4D6) drop-shadow(0 0 18px rgba(10, 90, 120, 0.9)); opacity: 1; }
+      84% { filter: drop-shadow(0 0 8px #45C4D6); opacity: 0.9; }
+      90% { filter: none; opacity: 0.55; }
+      100% { filter: none; opacity: 0.55; }
+    }
+    .g1-surface-light { animation: g1SurfaceSweep 3.4s ease-in-out infinite; }
+    .g1-bar-surface { animation: g1SurfaceGlow 3.4s ease-in-out infinite; }
+    .g1-thermo-light { animation: g1ThermoSweep 3.4s ease-in-out infinite; }
+    .g1-bar-thermo { animation: g1ThermoGlow 3.4s ease-in-out infinite; }
+    .g1-abyss-light { animation: g1AbyssSweep 3.4s ease-in-out infinite; }
+    .g1-bar-abyss { animation: g1AbyssGlow 3.4s ease-in-out infinite; }
+
+    @keyframes oePulseDot {
+      0%, 100% { opacity: 0.5; transform: scale(0.85); }
+      50% { opacity: 1.0; transform: scale(1.2); }
+    }
+    .oe-pulse-dot {
+      transform-origin: 14px 14px;
+      animation: oePulseDot 2s ease-in-out infinite;
+    }
+    .oe-wordmark {
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+      font-size: 72px;
+      letter-spacing: -1.2px;
+    }
+    .oe-ocean { font-weight: 600; fill: #FFFFFF; }
+    .oe-embed { font-weight: 600; fill: #45C4D6; }
+  </style>
+
+  <!-- Card Background & Border -->
+  <rect x="2" y="2" width="936" height="132" rx="12" fill="url(#card-bg-oe)" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="2" y="2" width="220" height="132" rx="12" fill="url(#left-glow-oe)" pointer-events="none"/>
+
+  <!-- Left Side Lighting Bar (Variation 2 Signature Accent) -->
+  <rect x="2" y="14" width="4.5" height="108" rx="2.25" fill="url(#side-light-oe)"/>
+
+  <!-- Left Column: Exact Official Animated Logo + Domain Pill -->
+  <g transform="translate(20, 18) scale(0.42)">
+    <!-- Ambient Oceanic Aura -->
+    <ellipse cx="48" cy="48" rx="54" ry="54" fill="url(#g1-aura)" class="g1-aura"/>
+
+    <!-- Squircle Enclosure -->
+    <rect x="6" y="6" width="84" height="84" rx="22"
+          fill="url(#g1-water)"
+          stroke="url(#g1-border)"
+          stroke-width="4.5"
+          stroke-linejoin="round"/>
+
+    <!-- Inner Subtle Border Highlight -->
+    <rect x="9.5" y="9.5" width="77" height="77" rx="19"
+          fill="none"
+          stroke="#45C4D6"
+          stroke-width="0.8"
+          stroke-opacity="0.35"/>
+
+    <!-- Layer 1: Sea Surface (0m) -->
+    <line x1="22" y1="33" x2="74" y2="33" stroke="#FFFFFF" stroke-width="7.0" stroke-linecap="round" class="g1-bar-surface"/>
+    <g clip-path="url(#g1-clip-surface)">
+      <rect x="22" y="29" width="28" height="8" fill="url(#g1-glint-surface)" class="g1-surface-light"/>
+    </g>
+
+    <!-- Layer 2: Thermocline (50-200m) -->
+    <line x1="22" y1="48" x2="56" y2="48" stroke="#45C4D6" stroke-width="7.0" stroke-linecap="round" class="g1-bar-thermo"/>
+    <g clip-path="url(#g1-clip-thermo)">
+      <rect x="22" y="44" width="22" height="8" fill="url(#g1-glint-thermo)" class="g1-thermo-light"/>
+    </g>
+
+    <!-- Layer 3: Abyss (1000m) -->
+    <line x1="22" y1="63" x2="38" y2="63" stroke="#0A5A78" stroke-width="7.0" stroke-linecap="round" opacity="0.55" class="g1-bar-abyss"/>
+    <g clip-path="url(#g1-clip-abyss)">
+      <rect x="22" y="59" width="16" height="8" fill="url(#g1-glint-abyss)" class="g1-abyss-light"/>
+    </g>
+
+    <!-- Wordmark "OceanEmbed" -->
+    <text x="116" y="74" class="oe-wordmark">
+      <tspan class="oe-ocean">Ocean</tspan><tspan class="oe-embed">Embed</tspan>
+    </text>
+  </g>
+
+  <!-- Domain Pill Underneath Logo (Mathematically Centered at x=129) -->
+  <rect x="19" y="80" width="220" height="22" rx="5" fill="#0a1926" stroke="#13364d" stroke-width="1"/>
+  <text x="129" y="94.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" fill="#45c4d6" text-anchor="middle" letter-spacing="0.4">SATELLITE TRANSFORMERS · 3D OCEAN</text>
+
+  <!-- Divider 1 -->
+  <line x1="258" y1="18" x2="258" y2="118" stroke="#1c273c" stroke-width="1"/>
+
+  <!-- Center Column: Centered Heading, Large Readable Typography & Telemetry -->
+  <g transform="translate(278, 16)">
+    <!-- Centered Larger Heading (Zero zoom required) -->
+    <text x="218" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.2px">
+      Deep subsurface ocean temperature reconstruction
+    </text>
+    
+    <!-- Centered Subtitle -->
+    <text x="218" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle">
+      15 depth tiers (0–1000m) from satellite data · Validated vs GLORYS &amp; Argo
+    </text>
+
+    <!-- Sleek Architectural Dataflow Pipeline (Enlarged & Generous Arrow Gaps) -->
+    <g transform="translate(0, 58)">
+      <rect x="0" y="0" width="436" height="34" rx="7" fill="#090e1a" stroke="#1c273c" stroke-width="1.2"/>
+      
+      <!-- Live Status Beacon -->
+      <circle cx="13" cy="17" r="3.5" fill="#45c4d6" class="oe-pulse-dot"/>
+      
+      <!-- Backbone Spec -->
+      <text x="20" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.2" fill="#94a3b8">BACKBONE <tspan fill="#f8fafc" font-weight="700">Spatial Transformer</tspan></text>
+      
+      <!-- Directional Chevron (Bold 14.5px, heavy weight, generous clearance) -->
+      <text x="216" y="22" font-family="-apple-system, sans-serif" font-size="14.5" font-weight="800" fill="#45c4d6" text-anchor="middle">──▶</text>
+      
+      <!-- Depths Spec -->
+      <text x="244" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.2" fill="#94a3b8">DEPTHS <tspan fill="#45c4d6" font-weight="700">15 Layers / Argo</tspan></text>
+    </g>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="728" y1="18" x2="728" y2="118" stroke="#1c273c" stroke-width="1"/>
+
+  <!-- Right Column: Clean Tech Stack Matrix (Vertically Centered, No Redundant Button) -->
+  <g transform="translate(746, 36)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="82" height="26" rx="6" fill="#0d1424" stroke="#1e2c45"/>
+    <text x="41" y="16.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">PyTorch</text>
+
+    <rect x="90" y="0" width="86" height="26" rx="6" fill="#0d1424" stroke="#1e2c45"/>
+    <text x="133" y="16.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">FastAPI</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="34" width="82" height="26" rx="6" fill="#0d1424" stroke="#1e2c45"/>
+    <text x="41" y="50.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">React</text>
+
+    <rect x="90" y="34" width="86" height="26" rx="6" fill="#0d1424" stroke="#1e2c45"/>
+    <text x="133" y="50.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="600">Copernicus</text>
+  </g>
+
+  <!-- Luminous Shimmer Light Sweep -->
+  <g clip-path="url(#clip-oe)" pointer-events="none">
+    <rect class="shimmer-layer" x="0" y="0" width="220" height="136" fill="url(#shimmer-oe)"/>
+  </g>
+</svg>
