@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="36" viewBox="0 0 111 36" fill="none">
+  <!-- Chamfered Aerospace Hex Body (Enlarged 36px Height) -->
+  <path d="M 9 0.5 L 110.5 0.5 L 110.5 26.5 L 101.5 35.5 L 0.5 35.5 L 0.5 8.5 Z" 
+        fill="#16161e" 
+        stroke="#292e42" 
+        stroke-width="1.2"/>
+  
+  <!-- Tokyo Night Accent Left Border (4px) -->
+  <path d="M 0.5 8.5 L 0.5 35.5" 
+        stroke="#c0caf5" 
+        stroke-width="4.0" 
+        stroke-linecap="round"/>
+        
+  <!-- Official Vector Icon (19x19) -->
+  <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViPC90aXRsZT48cGF0aCBkPSJNMTIgLjI5N2MtNi42MyAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44Mi0uMjU4LjgyLS41NzcgMC0uMjg1LS4wMS0xLjA0LS4wMTUtMi4wNC0zLjMzOC43MjQtNC4wNDItMS42MS00LjA0Mi0xLjYxQzQuNDIyIDE4LjA3IDMuNjMzIDE3LjcgMy42MzMgMTcuN2MtMS4wODctLjc0NC4wODQtLjcyOS4wODQtLjcyOSAxLjIwNS4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NS45OTguMTA4LS43NzYuNDE3LTEuMzA1Ljc2LTEuNjA1LTIuNjY1LS4zLTUuNDY2LTEuMzMyLTUuNDY2LTUuOTMgMC0xLjMxLjQ2NS0yLjM4IDEuMjM1LTMuMjItLjEzNS0uMzAzLS41NC0xLjUyMy4xMDUtMy4xNzYgMCAwIDEuMDA1LS4zMjIgMy4zIDEuMjMuOTYtLjI2NyAxLjk4LS4zOTkgMy0uNDA1IDEuMDIuMDA2IDIuMDQuMTM4IDMgLjQwNSAyLjI4LTEuNTUyIDMuMjg1LTEuMjMgMy4yODUtMS4yMy42NDUgMS42NTMuMjQgMi44NzMuMTIgMy4xNzYuNzY1Ljg0IDEuMjMgMS45MSAxLjIzIDMuMjIgMCA0LjYxLTIuODA1IDUuNjI1LTUuNDc1IDUuOTIuNDIuMzYuODEgMS4wOTYuODEgMi4yMiAwIDEuNjA2LS4wMTUgMi44OTYtLjAxNSAzLjI4NiAwIC4zMTUuMjEuNjkuODI1LjU3QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+" x="14" y="8.5" width="19" height="19" />
+  
+  <!-- Monospace Label (13px) -->
+  <text x="42" y="23" 
+        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
+        font-size="13.0" 
+        font-weight="600" 
+        fill="#c0caf5" 
+        letter-spacing="0.4">GitHub</text>
+</svg>

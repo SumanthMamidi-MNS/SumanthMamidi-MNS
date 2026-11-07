@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="36" viewBox="0 0 103 36" fill="none">
+  <!-- Chamfered Aerospace Hex Body (Enlarged 36px Height) -->
+  <path d="M 9 0.5 L 102.5 0.5 L 102.5 26.5 L 93.5 35.5 L 0.5 35.5 L 0.5 8.5 Z" 
+        fill="#16161e" 
+        stroke="#292e42" 
+        stroke-width="1.2"/>
+  
+  <!-- Tokyo Night Accent Left Border (4px) -->
+  <path d="M 0.5 8.5 L 0.5 35.5" 
+        stroke="#7dcfff" 
+        stroke-width="4.0" 
+        stroke-linecap="round"/>
+        
+  <!-- Official Vector Icon (19x19) -->
+  <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjNERBQkNGIiBkPSJtNTUuMDEyIDI2LjAwNi0yMS4zOC0xMC43ODlMMTAuMTU0IDI2LjkzbDIxLjk2OSAxMS4wMjdabTkuODA4IDQuOTUxTDg3LjI0MSA0Mi4yOCA2My45ODIgNTMuOTU1bC0yMi0xMS4wNDNabTI5Ljk0OC0xNS41ODEgMjMuMDM3IDExLjU1Mkw5Ny4yIDM3LjI3MiA3NC43MzUgMjUuOTM4Wk04NC44NTMgMTAuNCA2NC4xMTMgMCA0My41OTggMTAuMjQgNjQuOTcgMjEuMDE0Wk02OC42NCA5OS43MDJWMTI4bDI1LjEyMi0xMi41MzctLjAyMy0yOC4zMVpNOTMuNzI3IDc3LjI3bC0uMDI4LTI4LjAxMi0yNS4wNiAxMi40NThWODkuNzRabTMwLjE1OC01LjI0NnYyOC40MWwtMjEuNDMgMTAuNjktLjAxNy0yOC4yNzl6bTAtOS45MzVWMzQuMjVsLTIxLjQ3IDEwLjY3My4wMTYgMjguMDY4eiIvPjxwYXRoIGZpbGw9IiM0Yzc1Y2YiIGQ9Im01OS43NyA2MS43MTYtMTYuOTE4LTguNTEyVjg5Ljk3cy0yMC43LTQ0LjAzMy0yMi42MTItNDcuOTljLS4yNDYtLjUxMy0xLjI2My0xLjA3LTEuNTIyLTEuMjA5LTMuNzMxLTEuOTQ3LTE0LjYwMy03LjQ1LTE0LjYwMy03LjQ1djY0Ljk3N2wxNS4wNCA4LjA2M1Y3Mi4zODJzMjAuNDc4IDM5LjM0NiAyMC42ODkgMzkuNzhjLjIxNC40MjkgMi4yNTcgNC41NyA0LjQ1OSA2LjAyOCAyLjkyIDEuOTM5IDE1LjQ1OCA5LjQ3NyAxNS40NTggOS40Nzd6IiAvPjwvc3ZnPgo=" x="14" y="8.5" width="19" height="19" />
+  
+  <!-- Monospace Label (13px) -->
+  <text x="42" y="23" 
+        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
+        font-size="13.0" 
+        font-weight="600" 
+        fill="#c0caf5" 
+        letter-spacing="0.4">NumPy</text>
+</svg>

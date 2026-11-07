@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="36" viewBox="0 0 111 36" fill="none">
+  <!-- Chamfered Aerospace Hex Body (Enlarged 36px Height) -->
+  <path d="M 9 0.5 L 110.5 0.5 L 110.5 26.5 L 101.5 35.5 L 0.5 35.5 L 0.5 8.5 Z" 
+        fill="#16161e" 
+        stroke="#292e42" 
+        stroke-width="1.2"/>
+  
+  <!-- Tokyo Night Accent Left Border (4px) -->
+  <path d="M 0.5 8.5 L 0.5 35.5" 
+        stroke="#73daca" 
+        stroke-width="4.0" 
+        stroke-linecap="round"/>
+        
+  <!-- Official Vector Icon (19x19) -->
+  <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNDZFM0I3IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UmVuZGVyPC90aXRsZT48cGF0aCBkPSJNMTguMjYzLjAwN2MtMy4xMjEtLjE0Ny01Ljc0NCAyLjEwOS02LjE5MiA1LjA4Mi0uMDE4LjEzOC0uMDQ1LjI3Mi0uMDY3LjQwNS0uNjk2IDMuNzAzLTMuOTM2IDYuNTA3LTcuODI3IDYuNTA3LTEuMzg4IDAtMi42OTEtLjM1Ni0zLjgyNS0uOTc5YS4yMDI0LjIwMjQgMCAwIDAtLjMwMi4xNzhWMjRIMTJ2LTguOTk5YzAtMS42NTYgMS4zMzgtMyAyLjk4Ny0zaDIuOTg4YzMuMzgyIDAgNi4xMDMtMi44MTcgNS45Ny02LjI0NC0uMTItMy4wODQtMi42MS01LjYwMy01LjY4Mi01Ljc1Ii8+PC9zdmc+" x="14" y="8.5" width="19" height="19" />
+  
+  <!-- Monospace Label (13px) -->
+  <text x="42" y="23" 
+        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
+        font-size="13.0" 
+        font-weight="600" 
+        fill="#c0caf5" 
+        letter-spacing="0.4">Render</text>
+</svg>

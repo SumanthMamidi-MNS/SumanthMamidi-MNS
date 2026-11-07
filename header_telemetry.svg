@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 46" width="100%" height="46" fill="none">
+  <defs>
+    <linearGradient id="line-telemetry" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="30%" stop-color="#73daca"/>
+      <stop offset="50%" stop-color="#9ece6a"/>
+      <stop offset="70%" stop-color="#73daca"/>
+      <stop offset="100%" stop-color="#30363d"/>
+    </linearGradient>
+  </defs>
+
+  <text x="400" y="22" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+    ◈ PERFORMANCE &amp; GITHUB STATS ◈
+  </text>
+
+  <!-- Full-Width Solid Border Line (Matching User Reference Image) -->
+  <line x1="0" y1="38" x2="800" y2="38" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="100" y1="38" x2="700" y2="38" stroke="url(#line-telemetry)" stroke-width="1.8"/>
+</svg>

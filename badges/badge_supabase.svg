@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="36" viewBox="0 0 127 36" fill="none">
+  <!-- Chamfered Aerospace Hex Body (Enlarged 36px Height) -->
+  <path d="M 9 0.5 L 126.5 0.5 L 126.5 26.5 L 117.5 35.5 L 0.5 35.5 L 0.5 8.5 Z" 
+        fill="#16161e" 
+        stroke="#292e42" 
+        stroke-width="1.2"/>
+  
+  <!-- Tokyo Night Accent Left Border (4px) -->
+  <path d="M 0.5 8.5 L 0.5 35.5" 
+        stroke="#73daca" 
+        stroke-width="4.0" 
+        stroke-linecap="round"/>
+        
+  <!-- Official Vector Icon (19x19) -->
+  <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1My45NzQiIHgyPSI5NC4xNjMiIHkxPSI1NC45NzQiIHkyPSI3MS44MjkiIGdyYWRpZW50VHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjkuMzg3IDYwLjA5Nikgc2NhbGUoMS4xNDM2KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI0OTM2MSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzNlY2Y4ZSIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMzYuMTU2IiB4Mj0iNTQuNDg0IiB5MT0iMzAuNTc4IiB5Mj0iNjUuMDgxIiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDI5LjM4NyA2MC4wOTYpIHNjYWxlKDEuMTQzNikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGZpbGw9InVybCgjYSkiIGQ9Ik0xMDIuMjQgMTg2LjIxYy0zLjI2NyA0LjExNy05LjkwNCAxLjg2Mi05Ljk3Ny0zLjM5N2wtMS4xNTYtNzYuOTA2aDUxLjcxNWM5LjM2NSAwIDE0LjU4NyAxMC44MTcgOC43NjMgMTguMTQ5eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI3LjcyMiAtNjAuMzM4KSIvPjxwYXRoIGZpbGw9InVybCgjYikiIGZpbGwtb3BhY2l0eT0iLjIiIGQ9Ik0xMDIuMjQgMTg2LjIxYy0zLjI2NyA0LjExNy05LjkwNCAxLjg2Mi05Ljk3Ny0zLjM5N2wtMS4xNTYtNzYuOTA2aDUxLjcxNWM5LjM2NSAwIDE0LjU4NyAxMC44MTcgOC43NjMgMTguMTQ5eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI3LjcyMiAtNjAuMzM4KSIvPjxwYXRoIGZpbGw9IiMzZWNmOGUiIGQ9Ik01My40ODQgMi4xMjhjMy4yNjctNC4xMTcgOS45MDUtMS44NjIgOS45NzcgMy4zOTZsLjUwOCA3Ni45MDdIMTIuOTAyYy05LjM2NSAwLTE0LjU4Ny0xMC44MTctOC43NjQtMTguMTQ5eiIvPjwvc3ZnPgo=" x="14" y="8.5" width="19" height="19" />
+  
+  <!-- Monospace Label (13px) -->
+  <text x="42" y="23" 
+        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
+        font-size="13.0" 
+        font-weight="600" 
+        fill="#c0caf5" 
+        letter-spacing="0.4">Supabase</text>
+</svg>

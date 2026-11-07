@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119" height="36" viewBox="0 0 119 36" fill="none">
+  <!-- Chamfered Aerospace Hex Body (Enlarged 36px Height) -->
+  <path d="M 9 0.5 L 118.5 0.5 L 118.5 26.5 L 109.5 35.5 L 0.5 35.5 L 0.5 8.5 Z" 
+        fill="#16161e" 
+        stroke="#292e42" 
+        stroke-width="1.2"/>
+  
+  <!-- Tokyo Night Accent Left Border (4px) -->
+  <path d="M 0.5 8.5 L 0.5 35.5" 
+        stroke="#f7768e" 
+        stroke-width="4.0" 
+        stroke-linecap="round"/>
+        
+  <!-- Official Vector Icon (19x19) -->
+  <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjRUU0QzJDIiBkPSJNMTAwLjEgMzguM2wtOS4yIDkuMmMxNS4xIDE1LjEgMTUuMSAzOS40IDAgNTQuMy0xNS4xIDE1LjEtMzkuNCAxNS4xLTU0LjMgMC0xNS4xLTE1LjEtMTUuMS0zOS40IDAtNTQuM2wyNC0yNCAzLjQtMy40VjJMMjcuOCAzOC4yQzcuNyA1OC4zIDcuNyA5MC44IDI3LjggMTExczUyLjYgMjAuMSA3Mi40IDBjMjAuMS0yMC4yIDIwLjEtNTIuNS0uMS03Mi43eiIvPjxjaXJjbGUgZmlsbD0iI0VFNEMyQyIgdHJhbnNmb3JtPSJyb3RhdGUoLTg4LjkzOSA4Mi4wNjkgMjkuMzk4KSBzY2FsZSguOTk5OTcpIiBjeD0iODIuMSIgY3k9IjI5LjQiIHI9IjYuNyIvPjwvc3ZnPgo=" x="14" y="8.5" width="19" height="19" />
+  
+  <!-- Monospace Label (13px) -->
+  <text x="42" y="23" 
+        font-family="'Fira Code', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" 
+        font-size="13.0" 
+        font-weight="600" 
+        fill="#c0caf5" 
+        letter-spacing="0.4">PyTorch</text>
+</svg>
