@@ -1,19 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 46" width="100%" height="46" fill="none">
   <defs>
+    <style>
+      .hdr-text {
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 17.5px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-anchor: middle;
+        fill: #ffffff;
+      }
+      .base-line {
+        stroke: #30363d;
+        stroke-width: 1.5;
+      }
+      @media (prefers-color-scheme: light) {
+        .hdr-text {
+          fill: #1f2328;
+        }
+        .base-line {
+          stroke: #d0d7de;
+        }
+      }
+    </style>
     <linearGradient id="line-flagship" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#30363d"/>
-      <stop offset="30%" stop-color="#facc15"/>
-      <stop offset="50%" stop-color="#fef08a"/>
-      <stop offset="70%" stop-color="#facc15"/>
-      <stop offset="100%" stop-color="#30363d"/>
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#facc15" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#fef08a" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#facc15" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <text x="400" y="22" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">
-    ◈ FLAGSHIP AI SYSTEMS &amp; ARCHITECTURES ◈
+  <text x="400" y="22" class="hdr-text">
+    <tspan fill="#facc15">◈</tspan> FLAGSHIP AI SYSTEMS &amp; ARCHITECTURES <tspan fill="#facc15">◈</tspan>
   </text>
 
-  <!-- Full-Width Solid Border Line (Matching User Reference Image) -->
-  <line x1="0" y1="38" x2="800" y2="38" stroke="#30363d" stroke-width="1.5"/>
+  <!-- Full-Width Solid Border Line (Dark Mode with Adaptive Fallback) -->
+  <line x1="0" y1="38" x2="800" y2="38" class="base-line"/>
   <line x1="80" y1="38" x2="720" y2="38" stroke="url(#line-flagship)" stroke-width="1.8"/>
 </svg>

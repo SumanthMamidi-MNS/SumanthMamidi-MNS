@@ -21,7 +21,11 @@
 <br/>
 
 <p align="center">
-  <img src="assets/header_about.svg" alt="About Me" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header_about.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header_about_light.svg">
+    <img src="assets/header_about.svg" alt="About Me" width="100%" />
+  </picture>
 </p>
 
 <table align="center">
@@ -40,7 +44,11 @@
 <br/>
 
 <p align="center">
-  <img src="assets/header_flagship_systems.svg" alt="Flagship AI Systems &amp; Architectures" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header_flagship_systems.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header_flagship_systems_light.svg">
+    <img src="assets/header_flagship_systems.svg" alt="Flagship AI Systems &amp; Architectures" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -70,7 +78,11 @@
 <br/>
 
 <p align="center">
-  <img src="assets/header_tech_stack.svg" alt="Technical Skills &amp; Stack" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header_tech_stack.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header_tech_stack_light.svg">
+    <img src="assets/header_tech_stack.svg" alt="Technical Skills &amp; Stack" width="100%" />
+  </picture>
 </p>
 
 <h3 align="center">Languages</h3>
@@ -143,7 +155,11 @@
 <br/>
 
 <p align="center">
-  <img src="assets/header_telemetry.svg" alt="Performance &amp; GitHub Stats" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header_telemetry.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header_telemetry_light.svg">
+    <img src="assets/header_telemetry.svg" alt="Performance &amp; GitHub Stats" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -157,7 +173,11 @@
 <br/>
 
 <p align="center">
-  <img src="assets/header_contributions.svg" alt="Contribution Timeline &amp; Activity" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header_contributions.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header_contributions_light.svg">
+    <img src="assets/header_contributions.svg" alt="Contribution Timeline &amp; Activity" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -165,7 +185,11 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
+  </picture>
 </p>
 
 <br/>
