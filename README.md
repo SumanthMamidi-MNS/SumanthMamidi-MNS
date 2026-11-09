@@ -186,9 +186,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/SumanthMamidi-MNS/SumanthMamidi-MNS/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
+    <img src="assets/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" width="100%">
   </picture>
 </p>
 

@@ -8,6 +8,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "assets/github-contribution-grid-snake*.svg"
 
 jobs:
   generate:
@@ -29,11 +31,15 @@ jobs:
             assets/github-contribution-grid-snake.svg?color_snake=%2373daca&color_dots=%231a1b26,%232e3047,%23434975,%237aa2f7,%237dcfff
             assets/github-contribution-grid-snake-dark.svg?color_snake=%2373daca&color_dots=%2316161e,%232e3047,%23434975,%237aa2f7,%237dcfff
           
-      # Push the content of assets to output branch
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: assets
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Commit and push directly to main branch attributed to Sumanth
+      - name: Push to main branch
+        run: |
+          git config --global user.name "Sumanth"
+          git config --global user.email "mamidinagasaisumanth@gmail.com"
+          git add assets/github-contribution-grid-snake*.svg
+          if git diff --staged --quiet; then
+            echo "No snake changes to commit"
+          else
+            git commit -m "chore(snake): auto-update contribution snake animation [skip ci]"
+            git push origin main
+          fi
