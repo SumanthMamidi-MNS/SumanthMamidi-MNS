@@ -1,4 +1,16 @@
-# Private local showcases, previews and scratch files
+# Private local showcases, previews, test files and scratch tools
+design_showcases/
 *.html
+*.htm
 *.tmp
+*.log
+*.css
+font_*
+build_*
+preview_*
+test_*
+showcase_*
+assets/preview_*
+assets/concept_*
 .DS_Store
+Thumbs.db
