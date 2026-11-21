@@ -2,14 +2,9 @@ name: Generate Snake
 
 on:
   schedule:
-    # Run every 6 hours to keep contribution dots fresh
-    - cron: "0 */6 * * *"
+    # Run every Sunday at 00:00 UTC (weekly interval)
+    - cron: "0 0 * * 0"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "assets/github-contribution-grid-snake*.svg"
 
 jobs:
   generate:
